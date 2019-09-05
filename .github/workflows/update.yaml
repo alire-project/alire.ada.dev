@@ -1,5 +1,5 @@
 
-name: Update gh-pages branch on alire.ada.dev 
+name: Update gh-pages branch on alire.ada.dev test
 on: pull_request
 jobs:
   build:
