@@ -1,0 +1,10 @@
+
+name: Update gh-pages branch on alire.ada.dev 
+on: pull_request
+jobs:
+  build:
+    runs-on: ubuntu-latest    
+    steps:
+    - uses: actions/checkout@master
+    - uses: Fabien-Chouteau/setup-alire@dev
+    - run: bash generate_crate_pages.sh
