@@ -1,0 +1,28 @@
+---
+layout: page
+---
+<h1>{{ page.title }}</h1>
+{% for link in page.websites %}
+  <a href="{{ link }}">Website</a>
+{% endfor %}
+<br>
+<b>Author{% if page.authors.size > 1 %}s{% endif %}: </b>{{ page.authors | join: ", " }}
+<br>
+<b>Maintainer{% if page.maintainers.size > 1 %}s{% endif %}: </b>{{ page.maintainers | join: ", " }}
+<br>
+<b>License{% if page.authors.licenses > 1 %}s{% endif %}: </b>{{ page.licenses | join: ", "}}
+<br>
+<b>Version: </b>{{ page.version }}
+<br>
+<b>Dependencies:</b>
+<ul>
+  {% for dep in page.dependencies %}
+    <li>
+      <a href="{{ site.baseurl }}/crates/{{ dep.crate }}">{{ dep.crate }}</a> {{ dep.version }}
+    </li>
+  {% endfor %}
+</ul>
+<hr>
+<section>
+  {{ content }}
+</section>
