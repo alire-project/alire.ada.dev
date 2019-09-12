@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@master
-    - uses: Fabien-Chouteau/setup-alire@dev
+    - uses: alire-project/setup-alire@dev
     - run: bash -v update-gh-pages.sh
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
