@@ -1,0 +1,13 @@
+name: Update gh-pages branch on alire.ada.dev
+on:
+  schedule:
+    - cron:  '0 0 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - uses: Fabien-Chouteau/setup-alire@dev
+    - run: bash -v update-gh-pages.sh
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

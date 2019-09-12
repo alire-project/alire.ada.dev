@@ -1,0 +1,96 @@
+<header>
+  <style>
+    body:after{
+     content: "beta";
+     position: fixed;
+     width: 180px;
+     height: 25px;
+     background: #EE8E4A;
+     top: 27px;
+     left: -50px;
+     text-align: center;
+     font-size: 20px;
+     font-family: sans-serif;
+     text-transform: uppercase;
+     font-weight: bold;
+     color: #fff;
+     line-height: 27px;
+     -ms-transform:rotate(-45deg);
+     -webkit-transform:rotate(-45deg);
+     transform:rotate(-45deg);
+    }
+  </style>
+    <div class="col-lg-12">
+        <div class="row">
+            <div class="col-md-2 center">
+                <a href="{{ "/" | relative_url }}">
+                    <img src="{{ "/assets/img/" | relative_url }}{{ site.author_logo }}" class="profile-img">
+                </a>
+            </div>
+            <div class="col-md-4">
+                <h1 class="profile-name"> {{ site.title }}</h1>
+                <p class="profile-bio"> {{ site.subtitle }}</p>
+                <p class="profile-links">
+                    {% if site.twitter_username %}
+                    <a class="social-link" href="http://twitter.com/{{ site.twitter_username }}">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    {% endif %}
+                    {% if site.facebook_username %}
+                    <a class="social-link" href="http://facebook.com/{{ site.facebook_username }}">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    {% endif %}
+                    {% if site.instagram_username %}
+                    <a class="social-link" href="http://instagram.com/{{ site.instagram_username }}">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    {% endif %}
+                    {% if site.medium_username %}
+                    <a class="social-link" href="http://medium.com/@{{ site.medium_username }}">
+                        <i class="fab fa-medium-m"></i>
+                    </a>
+                    {% endif %}
+                    {% if site.github_username %}
+                    <a class="social-link" href="http://github.com/{{ site.github_username }}">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    {% endif %}
+                    {% if site.behance_username %}
+                    <a class="social-link" href="http://behance.net/{{ site.behance_username }}">
+                        <i class="fab fa-behance"></i>
+                    </a>
+                    {% endif %}
+                    {% if site.linkedin_username %}
+                    <a class="social-link" href="http://linkedin.com/in/{{ site.linkedin_username }}">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    {% endif %}
+                    {% if site.telegram_username %}
+                    <a class="social-link" href="http://t.me/{{ site.telegram_username }}">
+                        <i class="fab fa-telegram-plane"></i>
+                    </a>
+                    {% endif %}
+                </p>
+
+            </div>
+            <div class="col-md-6 center">
+
+                <ul class="nav justify-content-end" id="navigation">
+                    {%- assign default_paths = site.pages | map: "path" -%} {%- assign page_paths = site.header_pages | default: default_paths-%}
+                    {%- if page_paths -%} {%- for path in page_paths -%} {%- assign my_page = site.pages | where: "path",path
+                    | first -%} {%- if my_page.title -%}
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+                    </li>
+                    {%- endif -%} {%- endfor -%}
+
+                </ul>
+
+                {%- endif -%}
+
+            </div>
+        </div>
+    </div>
+
+</header>
