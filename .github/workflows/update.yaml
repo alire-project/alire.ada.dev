@@ -1,5 +1,6 @@
 name: Update gh-pages branch on alire.ada.dev
 on:
+  push:
   schedule:
     - cron:  '0 0 * * *'
 jobs:
@@ -10,4 +11,4 @@ jobs:
     - uses: alire-project/setup-alire@dev
     - run: bash -v update-gh-pages.sh
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.GH_PAGES_UPDATE }}
