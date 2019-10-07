@@ -10,4 +10,4 @@ jobs:
     - uses: alire-project/setup-alire@dev
     - run: bash -v update-gh-pages.sh
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.GH_PAGES_UPDATE }}
