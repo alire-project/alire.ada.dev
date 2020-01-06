@@ -13,7 +13,7 @@ date >> index.md
 
 # deploy script based on https://github.com/peaceiris/actions-gh-pages
 
-remote_repo="https://${GITHUB_ACTOR}:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+remote_repo="https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
 remote_branch="gh-pages"
 local_dir="${HOME}/$(tr -cd 'a-f0-9' < /dev/urandom | head -c 32)"
 PUBLISH_DIR="."
