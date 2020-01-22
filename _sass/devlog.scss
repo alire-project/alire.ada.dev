@@ -123,15 +123,18 @@ footer {
 
 pre,
 code {
+    padding: .2em .4em;
+    margin: 0;
+    font-size: 85%;
+    background-color: rgba(27,31,35,.05);
+
+    border-radius: 3px;
     overflow: auto;
     white-space: pre-wrap;
     word-wrap: break-word;
     word-break: break-all;
     font-family: Courier, monospace;
-    font-size: 16px;
-    background-color: #F4F6F8;
-    padding: 5px;
-    display: block;
+    color: #24292e;
 }
 
 #newsletter_footer{

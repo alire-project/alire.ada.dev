@@ -9,10 +9,6 @@
   <!-- Site Description -->
   <meta name="description" content="{{ site.description }}">
 
-  <!-- Stylesheets goes here -->
-  <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}" />
-
-
   <!-- Favicon -->
   <link rel="icon" href="{{ "/assets/img/favicon.ico" | relative_url }}" type="image/gif" sizes="16x16">
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -24,6 +20,9 @@
     crossorigin="anonymous">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
     crossorigin="anonymous">
+
+  <!-- Stylesheets goes here -->
+  <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}" />
 
   <!-- Tipue search -->
   {% if page.tipue_search_active or layout.tipue_search_active -%}
