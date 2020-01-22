@@ -11,6 +11,9 @@ done
 echo >> index.md
 date >> index.md
 
+# Download the Alire repository readme that will be included in the front page
+curl --location https://raw.githubusercontent.com/alire-project/alire/master/README.md --output _includes/alire-README.md
+
 # deploy script based on https://github.com/peaceiris/actions-gh-pages
 
 remote_repo="https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
