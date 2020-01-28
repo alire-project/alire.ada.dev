@@ -27,6 +27,9 @@ layout: page
 {% for tag in page.tags %}
   <a class="crate-tag-link" href="{{ site.baseurl }}/search/?q={{ tag }}">{{ tag }}</a>
 {% endfor %}
+<br>
+{% assign badge_url = "https://img.shields.io/endpoint?url="| append: site.url|append: "/crates/"|append: page.crate|append: ".json" %}
+<b>Badge: </b><img src="{{badge_url}}"><br><code>{{ badge_url }}</code>
 <hr>
 <section>
   {{ content }}

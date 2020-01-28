@@ -6,6 +6,14 @@ list=`alr list | cut -f1 -d' ' | grep -v 'Searching...'`
 
 for crate in $list; do
     alr show --jekyll $crate > _crates/$crate.md
+    version=`cat _crates/$crate.md | grep 'version:' | head -1 | cut -d':' -f2`
+    cat > _crates/$crate.json <<EOF
+---
+layout: badge
+crate: "$crate"
+version: $version
+---
+EOF
 done
 
 echo >> index.md
