@@ -28,7 +28,8 @@ layout: page
   <a class="crate-tag-link" href="{{ site.baseurl }}/search/?q={{ tag }}">{{ tag }}</a>
 {% endfor %}
 <br>
-{% assign badge_url = "https://img.shields.io/endpoint?url="| append: site.url|append: "/crates/"|append: page.crate|append: ".json" %}
+{% assign json_url = "https://alire.ada.dev/crates/" | append: page.crate | append: ".json" %}
+{% assign badge_url = "https://img.shields.io/endpoint?url="| append: json_url %}
 <b>Badge: </b><img src="{{badge_url}}"><br><code>{{ badge_url }}</code>
 <hr>
 <section>
