@@ -90,11 +90,11 @@ var tipuesearch = {"pages": [
 {%- for document in index -%}
   {%- assign tags = document.tags | uniq -%}
   {%- assign categories = document.categories | uniq -%}
-  {%- assign taxonomies = tags | concat: categories | uniq -%}
+  {%- assign taxonomies = document.tags | concat: categories | uniq -%}
   {%- assign authors = document.authors | join: " " | append: " "  -%}
   {%- assign maintainers = document.maintainers | join: " " | append: " "  -%}
   {%- assign licenses = document.licenses | join: " " | append: " " -%}
-  {%- assign extra_search_data = authors | append: maintainers | append: licenses -%}
+  {%- assign extra_search_data = " " | authors | append: maintainers | append: licenses -%}
   {
     "title": {{ document.title | smartify | strip_html | normalize_whitespace | jsonify }},
     "text": {{ document.short_description| append: extra_search_data | strip_html | normalize_whitespace | jsonify }},
