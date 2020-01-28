@@ -97,7 +97,7 @@ var tipuesearch = {"pages": [
   {%- assign extra_search_data = authors | append: maintainers | append: licenses -%}
   {
     "title": {{ document.title | smartify | strip_html | normalize_whitespace | jsonify }},
-    "text": {{ document.content | append: extra_search_data | strip_html | normalize_whitespace | jsonify }},
+    "text": {{ document.short_description| append: extra_search_data | strip_html | normalize_whitespace | jsonify }},
     "tags": {{ taxonomies | join: " " | normalize_whitespace | jsonify }},
     "url": {{ document.url | relative_url | jsonify }}
   }{%- unless forloop.last -%},{%- endunless -%}
