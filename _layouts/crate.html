@@ -16,6 +16,7 @@ layout: page
 <b>Version: </b>{{ page.version }}
 <br>
 <b>Dependencies:</b>
+{% if page.dependencies.size > 0 %}
 <ul>
   {% for dep in page.dependencies %}
     <li>
@@ -23,10 +24,17 @@ layout: page
     </li>
   {% endfor %}
 </ul>
+{% else %}
+No dependency.<br>
+{% endif %}
 <b>Tags:</b>
-{% for tag in page.tags %}
+{% if page.tags.size > 0 %}
+  {% for tag in page.tags %}
   <a class="crate-tag-link" href="{{ site.baseurl }}/search/?q={{ tag }}">{{ tag }}</a>
-{% endfor %}
+  {% endfor %}
+{% else %}
+No tags.
+{% endif %}
 <br>
 {% assign json_url = "https://alire.ada.dev/badges/" | append: page.crate | append: ".json" %}
 {% assign badge_url = "https://img.shields.io/endpoint?url="| append: json_url %}
