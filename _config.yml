@@ -36,6 +36,8 @@ exclude:
 collections:
   crates:
     output: true
+  badges:
+    output: true
 
 # Devlopr
 author_logo: profile.png  # your profile image

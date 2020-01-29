@@ -2,20 +2,32 @@
 
 # This script is made to run in a GitHub action.
 
+# First print the list of crates so that it is visible in the logs
+alr list
+
+# Get the list of crates
 list=`alr list | cut -f1 -d' ' | grep -v 'Searching...'`
 
 for crate in $list; do
+
+    # Create a crate page
     alr show --jekyll $crate > _crates/$crate.md
+
+    # Extract the last version of the crate
     version=`cat _crates/$crate.md | grep 'version:' | head -1 | cut -d':' -f2`
-    cat > _crates/$crate.json <<EOF
+
+    # Crate a badge json template for the crate
+    cat > _badges/$crate.json <<EOF
 ---
 layout: badge
 crate: "$crate"
 version: $version
 ---
 EOF
+
 done
 
+# Add the date and time at the end of the front page
 echo >> index.md
 date >> index.md
 
