@@ -2,17 +2,26 @@
 title: Crates
 layout: page
 ---
-<style>
-#crate_item {
-    display: block;
-    width: 33%;
-    float: left;
-}
-</style>
+{% assign sorted_crates = site.crates | sort:'title' %}
+{% assign alphabet= "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z" | split: ' ' %}
+{% for letter in alphabet %}
+     {% capture filtered_crates %}
+         {% for crate in sorted_crates %}
+             {% assign crate_first_letter = crate.title | slice: 0 %}
+             {% if crate_first_letter == letter %}
+             {{ crate.title }}
+             {% endif %}
+         {% endfor %}
+     {% endcapture %}
+    {% assign filtered_list = filtered_crates | split: ' ' %}
+    {% if filtered_list.size > 0 %}
+<b>{{ letter }}</b>
 <ul>
-  {% for crate in site.crates %}
-    <li id="crate_item">
-      <a href="{{ crate.url | relative_url }}">{{ crate.title }}</a>
-    </li>
-  {% endfor %}
+        {% for crate in filtered_list%}
+<li><a href="{{ "crates/" | append: crate | downcase | relative_url }}">{{ crate }}</a></li>
+        {% endfor %}
 </ul>
+    {% endif %}
+
+{% endfor %}
+{{ site.crates.size }} crates.
