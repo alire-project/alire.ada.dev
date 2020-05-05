@@ -31,8 +31,22 @@ done
 echo >> index.md
 date >> index.md
 
-# Download the Alire repository readme that will be included in the front page
-curl --location https://raw.githubusercontent.com/alire-project/alire/master/README.md --output _includes/alire-README.md
+# Download the Alire repository
+git clone --depth=1 --single-branch --branch master https://github.com/alire-project/alire.git
+
+cp alire/README.md _includes/alire-README.md
+cp alire/doc/* _docs/
+
+# Add Jekyll header to all markdown files
+for file in `ls _docs/*.md`; do
+    echo -e "---\nlayout: doc_page\n---\n" > doc.tmp
+    cat $file >> doc.tmp
+    cp doc.tmp $file
+done
+rm -f doc.tmp
+
+# Cleanup alire repo
+rm -rf alire/
 
 # deploy script based on https://github.com/peaceiris/actions-gh-pages
 

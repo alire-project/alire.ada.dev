@@ -38,9 +38,11 @@ collections:
     output: true
   badges:
     output: true
+  docs:
+    output: true
 
 # Devlopr
-author_logo: profile.png  # your profile image
+author_logo: profile.png
 twitter_username: adaprogrammers
 github_username:  alire-project
 
