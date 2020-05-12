@@ -8,6 +8,15 @@ alr list
 # Get the list of crates
 list=`alr list | cut -f1 -d' ' | grep -v 'Searching...'`
 
+if [ -z "$list" ]; then
+    echo "error: The list of crate is empty"
+    exit 1
+fi
+
+echo "List of crates:"
+echo $list
+echo "---------------"
+
 for crate in $list; do
 
     # Create a crate page
