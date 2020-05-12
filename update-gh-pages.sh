@@ -50,6 +50,9 @@ cp alire/doc/* docs/
 # Cleanup alire repo
 rm -rf alire/
 
+# Remove the ignore files to be able to commit crates and badges to the branch
+rm _crates/.gitignore _badges/.gitignore
+
 # deploy script based on https://github.com/peaceiris/actions-gh-pages
 
 remote_repo="https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
