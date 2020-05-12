@@ -55,7 +55,7 @@ of next to each other */
 
   </div>
   <small style="color:#808080">
-    The Alire documentation is maintained this
+    The Alire documentation is maintained in this
     <a href="https://github.com/alire-project/alire/tree/master/doc">
       GitHub repository </a>. Don't hesitate to suggest fix(es) and/or
       improvement(s).
