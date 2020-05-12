@@ -68,15 +68,15 @@ of next to each other */
 
 {% include_relative getting-started.md %}
 
-<hr>
+<br>
 
 {% include_relative publishing.md %}
 
-<hr>
+<br>
 
 {% include_relative catalog-format-spec.md %}
 
-<hr>
+<br>
 
 {% include_relative policies.md %}
 
