@@ -38,8 +38,14 @@ collections:
     output: true
   badges:
     output: true
-  docs:
-    output: true
+
+include:
+    - docs
+
+header_pages:
+  - crates.md
+  - search.html
+  - docs/index.md
 
 # Devlopr
 author_logo: profile.png
@@ -53,3 +59,8 @@ tipue_search:
     pages: true
   exclude:
     files: [index.md, search.html]
+
+# Set Kramdown table-of-content levels. This setting is for the entire site,
+# but so far TOC is only used in the docs.
+kramdown:
+  toc_levels: 1..2

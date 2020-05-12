@@ -34,16 +34,9 @@ date >> index.md
 # Download the Alire repository
 git clone --depth=1 --single-branch --branch master https://github.com/alire-project/alire.git
 
+# Copy the readme and doc content
 cp alire/README.md _includes/alire-README.md
-cp alire/doc/* _docs/
-
-# Add Jekyll header to all markdown files
-for file in `ls _docs/*.md`; do
-    echo -e "---\nlayout: doc_page\n---\n" > doc.tmp
-    cat $file >> doc.tmp
-    cp doc.tmp $file
-done
-rm -f doc.tmp
+cp alire/doc/* docs/
 
 # Cleanup alire repo
 rm -rf alire/
