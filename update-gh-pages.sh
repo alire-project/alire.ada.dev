@@ -45,6 +45,7 @@ git clone --depth=1 --single-branch --branch master https://github.com/alire-pro
 
 # Copy the readme and doc content
 cp alire/README.md _includes/alire-README.md
+sed -i 's/doc\/getting-started.md/docs\/#getting-started/' _includes/alire-README.md
 cp alire/doc/* docs/
 
 # Cleanup alire repo
