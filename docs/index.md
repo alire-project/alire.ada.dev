@@ -78,6 +78,10 @@ of next to each other */
 
 <br>
 
+{% include_relative configuration.md %}
+
+<br>
+
 {% include_relative policies.md %}
 
   </div>

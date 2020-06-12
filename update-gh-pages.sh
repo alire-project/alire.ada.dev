@@ -48,6 +48,9 @@ cp alire/README.md _includes/alire-README.md
 sed -i 's/doc\/getting-started.md/docs\/#getting-started/' _includes/alire-README.md
 cp alire/doc/* docs/
 
+# Append the built-ins config doc generated from the tool
+alr config --builtins-doc >> docs/configuration.md
+
 # Cleanup alire repo
 rm -rf alire/
 
