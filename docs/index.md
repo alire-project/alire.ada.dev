@@ -84,6 +84,10 @@ of next to each other */
 
 {% include_relative policies.md %}
 
+<br>
+
+{% include_relative user-changes.md %}
+
   </div>
  </div>
 </div>
