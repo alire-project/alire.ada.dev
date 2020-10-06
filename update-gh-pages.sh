@@ -43,9 +43,7 @@ date >> index.md
 # Download the Alire repository
 git clone --depth=1 --single-branch --branch master https://github.com/alire-project/alire.git
 
-# Copy the readme and doc content
-cp alire/README.md _includes/alire-README.md
-sed -i 's/doc\/getting-started.md/docs\/#getting-started/' _includes/alire-README.md
+# Copy the doc content
 cp alire/doc/* docs/
 
 # Append the built-ins config doc generated from the tool
