@@ -2,6 +2,10 @@
 
 # This script is made to run in a GitHub action.
 
+if [ "x${DOC_BRANCH:-}" == "x" ]; then
+    DOC_BRANCH="release/0.7-beta"
+fi
+
 # First print the list of crates so that it is visible in the logs
 alr list
 
@@ -40,8 +44,9 @@ done
 echo >> index.md
 date >> index.md
 
+echo "Getting doc from Alire repo branch ${DOC_BRANCH}"
 # Download the Alire repository
-git clone --depth=1 --single-branch --branch master https://github.com/alire-project/alire.git
+git clone --depth=1 --single-branch --branch ${DOC_BRANCH} https://github.com/alire-project/alire.git
 
 # Copy the doc content
 cp alire/doc/* docs/
@@ -53,7 +58,7 @@ alr config --builtins-doc >> docs/configuration.md
 rm -rf alire/
 
 # Remove the ignore files to be able to commit crates and badges to the branch
-rm _crates/.gitignore _badges/.gitignore
+rm -f _crates/.gitignore _badges/.gitignore
 
 # deploy script based on https://github.com/peaceiris/actions-gh-pages
 
