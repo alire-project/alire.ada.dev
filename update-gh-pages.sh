@@ -9,6 +9,13 @@ fi
 # First print the list of crates so that it is visible in the logs
 alr list
 
+alr_version=$(alr version | grep "Alr version" | cut -d: -f2 | tr -d '[:blank:]')
+alire_lib_version=$(alr version | grep "Alire Library version" | cut -d: -f2 | tr -d '[:blank:]')
+index_branch=$(alr version | grep "community index" | cut -d: -f2 | tr -d '[:blank:]')
+echo "From community branch \`${index_branch}\`." | tee -a crates.md
+echo "Alr \`${alr_version}\`." | tee -a crates.md
+echo "Alire Library \`${alire_lib_version}\`." | tee -a crates.md
+
 # Get the list of crates
 list=`alr list | cut -f1 -d' ' | grep -v 'Searching...'`
 
