@@ -7,9 +7,9 @@ layout: page
   <a href="{{ link }}">Website</a>
 {% endfor %}
 <br>
-<b>Author{% if page.authors.size > 1 %}s{% endif %}: </b>{{ page.authors | join: ", " }}
+<b>Author{% if page.authors.size > 1 %}s{% endif %}: </b>{{ page.authors | join: ", " | xml_escape }}
 <br>
-<b>Maintainer{% if page.maintainers.size > 1 %}s{% endif %}: </b>{{ page.maintainers | join: ", " }}
+<b>Maintainer{% if page.maintainers.size > 1 %}s{% endif %}: </b>{{ page.maintainers | join: ", " | xml_escape }}
 <br>
 <b>License{% if page.authors.licenses > 1 %}s{% endif %}: </b>{{ page.licenses | join: ", "}}
 <br>
