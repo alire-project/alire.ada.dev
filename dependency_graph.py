@@ -1,5 +1,6 @@
 import glob
 import json
+import os
 
 from yaml import load, dump
 try:
@@ -37,4 +38,9 @@ for cratefile in glob.glob("_crates/*.md"):
                         if dep['crate'] in nodes:
                             data['links'] += [{'source': crate, 'target': dep['crate'], 'value': 1}]
 
-print(json.dumps(data, indent=4))
+script_dir=os.path.dirname(os.path.realpath(__file__))
+
+with open(os.path.join(script_dir, 'deps_graph_data.json'), 'w') as file:
+    out = json.dumps(data, indent=4)
+    print(out)
+    file.write(out)
