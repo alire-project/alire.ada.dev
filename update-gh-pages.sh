@@ -65,6 +65,7 @@ alr config --builtins-doc >> docs/configuration.md
 rm -rf alire/
 
 # Generate dependency graph data
+python dependency_graph.py
 python dependency_graph.py > deps_graph_data.json
 
 # Remove the ignore files to be able to commit crates and badges to the branch
