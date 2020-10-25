@@ -37,7 +37,7 @@ background-color: #ffffff;
     </div>
 </div>
 
-<script src="https://d3js.org/d3.v6.min.js"></script>
+<script src="https://d3js.org/d3.v4.min.js"></script>
 <script>
 
 var svg = d3.select("#network-svg")
