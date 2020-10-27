@@ -1,5 +1,5 @@
 ---
-title: Alire Network Graph
+title: Network Graph
 layout: default
 ---
 
