@@ -10,14 +10,8 @@ layout: default
   stroke-opacity: 0.6;
 }
 
-.nodes circle {
-  stroke: #fff;
-  stroke-width: 1.5px;
-}
-
 text {
   font-family: sans-serif;
-  font-size: 10px;
   pointer-events: none;
 }
 
@@ -27,9 +21,13 @@ background-color: #ffffff;
 </style>
 
 <div class="card">
+
+Controls: Mouse wheel to zoom in and out, left click to move around or drag a
+node.
+
     <div id="svg-container">
         <svg id="network-svg" width="100%" height="100vh">
-            <marker id="arrow" viewBox="0 0 10 10" refX="29" refY="5" orient="auto">
+            <marker id="arrow" viewBox="0 0 10 10" refX="26.5" refY="5" orient="auto">
               <!-- The black arrow head  -->
               <path d="M 0 0 L 10 5 L 0 10 z" />
             </marker>
@@ -40,9 +38,23 @@ background-color: #ffffff;
 <script src="https://d3js.org/d3.v4.min.js"></script>
 <script>
 
+const default_text_size = 15;
+
 var svg = d3.select("#network-svg")
   .call(d3.zoom().on("zoom", function () {
-       svg.attr("transform", d3.event.transform)
+       svg.attr("transform", d3.event.transform);
+       svg.selectAll("text")
+         .attr("font-size", function(d) {
+                const zoom = d3.event.transform.k
+                const size = (default_text_size / zoom);
+
+                if (zoom < 1.0) {
+                   // Hide text when zoomed out
+                   return "0px";
+                } else {
+                   return size + "px";
+                }
+            });
     }))
   .append("g");
 
@@ -60,18 +72,18 @@ d3.json("deps_graph_data.json", function(error, graph) {
   if (error) throw error;
 
   var link = svg.append("g")
-    .attr("class", "links")
-    .selectAll("line")
-    .data(graph.links)
-    .enter().append("line")
-    .attr("marker-end", "url(#arrow)")
-    .attr("stroke-width", function(d) { return Math.sqrt(d.value); });
+      .attr("class", "links")
+      .selectAll("line")
+      .data(graph.links)
+      .enter().append("line")
+      .attr("marker-end", "url(#arrow)")
+      .attr("stroke-width", function(d) { return Math.sqrt(d.value); });
 
-  var node = svg.append("g")
+ var node = svg.append("g")
       .attr("class", "nodes")
-    .selectAll("g")
-    .data(graph.nodes)
-    .enter().append("g")
+      .selectAll("g")
+      .data(graph.nodes)
+      .enter().append("g")
 
   var circles = node.append("circle")
       .attr("r", 5)
@@ -86,7 +98,8 @@ d3.json("deps_graph_data.json", function(error, graph) {
         return d.id;
       })
       .attr('x', 6)
-      .attr('y', 3);
+      .attr('y', 3)
+      .attr('font-size', default_text_size + 'px');
 
   node.append("title")
       .text(function(d) { return d.id; });
