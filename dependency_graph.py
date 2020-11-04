@@ -13,30 +13,61 @@ data['nodes'] = []
 data['links'] = []
 nodes = []
 
-for cratefile in glob.glob("_crates/*.md"):
-    with open(cratefile, 'r') as fp:
+
+def extract_yaml(filename):
+    print("loading %s" % filename)
+    content = ""
+    start_detected = False
+    with open(filename, 'r') as fp:
         for line in fp.readlines():
-            if line.startswith('crate'):
-                y = load(line, Loader=Loader)
-                crate = y['crate']
-                data['nodes'] += [{'id': crate, 'group':1}]
-                nodes.append(crate)
+            if not start_detected and line.startswith("---"):
+                start_detected = True
+            elif start_detected and line.startswith("---"):
+                break
+            elif start_detected:
+                content += line
+    try:
+        return load(content, Loader=Loader)
+    except Exception as e:
+        print("Error loading '%s': '%s'" % (filename, str(e)))
+        print(content)
+        return None
+
 
 for cratefile in glob.glob("_crates/*.md"):
-    with open(cratefile, 'r') as fp:
-        for line in fp.readlines():
-            if line.startswith('crate'):
-                y = load(line, Loader=Loader)
-                crate = y['crate']
+    ydata = extract_yaml(cratefile)
+    if ydata is None:
+        print("no data for '%s'" % cratefile)
+        continue
 
-            if line.startswith('dependencies'):
-                y = load(line, Loader=Loader)
+    if 'crate' in ydata:
+        color= "#1f77b4" # default color
+        crate = ydata['crate']
 
+        # change group based on tags
+        if 'tags' in ydata and ydata['tags']:
+            if 'spark' in ydata['tags']:
+                color = "purple"
+            elif 'embedded' in ydata['tags']:
+                color = "darkcyan"
 
-                if y['dependencies']:
-                    for dep in y['dependencies']:
-                        if dep['crate'] in nodes:
-                            data['links'] += [{'source': crate, 'target': dep['crate'], 'value': 1}]
+        data['nodes'] += [{'id': crate, 'color': color}]
+        nodes.append(crate)
+
+for cratefile in glob.glob("_crates/*.md"):
+    ydata = extract_yaml(cratefile)
+    if ydata is None:
+        print("no data for '%s'" % cratefile)
+        continue
+
+    if 'crate' in ydata:
+        crate = ydata['crate']
+
+        if 'dependencies' in ydata and ydata['dependencies']:
+            for dep in ydata['dependencies']:
+                if dep['crate'] in nodes:
+                    data['links'] += [{'source': crate, 'target': dep['crate'], 'value': 1}]
+
 
 script_dir=os.path.dirname(os.path.realpath(__file__))
 

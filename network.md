@@ -61,8 +61,6 @@ var svg = d3.select("#network-svg")
 var width = document.getElementById('svg-container').clientWidth;
 var height = document.getElementById('svg-container').clientHeight;;
 
-var color = d3.scaleOrdinal(d3.schemeCategory20);
-
 var simulation = d3.forceSimulation()
     .force("link", d3.forceLink().id(function(d) { return d.id; }))
     .force("charge", d3.forceManyBody())
@@ -87,7 +85,7 @@ d3.json("deps_graph_data.json", function(error, graph) {
 
   var circles = node.append("circle")
       .attr("r", 5)
-      .attr("fill", function(d) { return color(d.group); })
+      .attr("fill", function(d) { return d.color; })
       .call(d3.drag()
           .on("start", dragstarted)
           .on("drag", dragged)
