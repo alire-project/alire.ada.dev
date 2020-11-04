@@ -11,6 +11,7 @@ except ImportError:
 data = {}
 data['nodes'] = []
 data['links'] = []
+data['colors'] = {'default':'#1f77b4', 'SPARK':'purple', 'Embedded':'darkcyan'}
 nodes = []
 
 
@@ -41,7 +42,7 @@ for cratefile in glob.glob("_crates/*.md"):
         continue
 
     if 'crate' in ydata:
-        color= "#1f77b4" # default color
+        color = data['colors']['default']
         crate = ydata['crate']
         desc  = crate
 
@@ -51,9 +52,9 @@ for cratefile in glob.glob("_crates/*.md"):
         # change color based on tags
         if 'tags' in ydata and ydata['tags']:
             if 'spark' in ydata['tags']:
-                color = "purple"
+                color = data['colors']['SPARK']
             elif 'embedded' in ydata['tags']:
-                color = "darkcyan"
+                color = data['colors']['Embedded']
 
         data['nodes'] += [{'id': crate, 'color': color, 'desc': desc}]
         nodes.append(crate)

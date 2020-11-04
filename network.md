@@ -69,6 +69,23 @@ var simulation = d3.forceSimulation()
 d3.json("deps_graph_data.json", function(error, graph) {
   if (error) throw error;
 
+  // Legend
+  root_svg = d3.select("#network-svg")
+  var cy = 20
+  for (var key in graph.colors) {
+      var circle = root_svg.append("circle")
+          .attr("r", 6)
+          .attr('cx', 20)
+          .attr('cy', cy)
+          .attr("fill", graph.colors[key]);
+      var label = root_svg.append("text")
+          .text(key)
+          .attr('x', 30)
+          .attr('y', cy + 5)
+          .attr('font-size', default_text_size + 'px');
+      cy += 25;
+  }
+
   var link = svg.append("g")
       .attr("class", "links")
       .selectAll("line")
@@ -92,7 +109,7 @@ d3.json("deps_graph_data.json", function(error, graph) {
           .on("drag", dragged)
           .on("end", dragended));
 
-  var lables = node.append("text")
+  var labels = node.append("text")
       .text(function(d) {
         return d.id;
       })
