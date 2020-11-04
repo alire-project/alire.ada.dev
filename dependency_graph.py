@@ -43,15 +43,19 @@ for cratefile in glob.glob("_crates/*.md"):
     if 'crate' in ydata:
         color= "#1f77b4" # default color
         crate = ydata['crate']
+        desc  = crate
 
-        # change group based on tags
+        if 'short_description' in ydata and ydata['short_description']:
+            desc = ydata['short_description']
+
+        # change color based on tags
         if 'tags' in ydata and ydata['tags']:
             if 'spark' in ydata['tags']:
                 color = "purple"
             elif 'embedded' in ydata['tags']:
                 color = "darkcyan"
 
-        data['nodes'] += [{'id': crate, 'color': color}]
+        data['nodes'] += [{'id': crate, 'color': color, 'desc': desc}]
         nodes.append(crate)
 
 for cratefile in glob.glob("_crates/*.md"):

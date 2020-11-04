@@ -23,7 +23,7 @@ background-color: #ffffff;
 <div class="card">
 
 Controls: Mouse wheel to zoom in and out, left click to move around or drag a
-node.
+node, double-click to open node page.
 
     <div id="svg-container">
         <svg id="network-svg" width="100%" height="100vh">
@@ -86,6 +86,7 @@ d3.json("deps_graph_data.json", function(error, graph) {
   var circles = node.append("circle")
       .attr("r", 5)
       .attr("fill", function(d) { return d.color; })
+      .on("dblclick", function(d){ location.href = "crates/" + d.id; })
       .call(d3.drag()
           .on("start", dragstarted)
           .on("drag", dragged)
@@ -100,7 +101,7 @@ d3.json("deps_graph_data.json", function(error, graph) {
       .attr('font-size', default_text_size + 'px');
 
   node.append("title")
-      .text(function(d) { return d.id; });
+      .text(function(d) { return d.desc; });
 
   simulation
       .nodes(graph.nodes)
