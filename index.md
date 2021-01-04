@@ -68,3 +68,6 @@ its own project GPR file with their simple name.
 [GNAT Community](https://www.adacore.com/download) or GNAT FSF 7.2 onward. The
 continuous integration checks are run against Debian stable, Ubuntu LTS,
 Windows and MacOS.
+
+{% assign badge_url = "https://img.shields.io/endpoint?url=https://alire.ada.dev/badges/badges/alire-badge.json" %}
+<img src="{{badge_url}}" title="Copy image location: {{badge_url}}">
