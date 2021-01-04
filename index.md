@@ -69,5 +69,5 @@ its own project GPR file with their simple name.
 continuous integration checks are run against Debian stable, Ubuntu LTS,
 Windows and MacOS.
 
-{% assign badge_url = "https://img.shields.io/endpoint?url=https://alire.ada.dev/badges/badges/alire-badge.json" %}
+{% assign badge_url = "https://img.shields.io/endpoint?url=https://alire.ada.dev/badges/alire-badge.json" %}
 <img src="{{badge_url}}" title="Copy image location: {{badge_url}}">
