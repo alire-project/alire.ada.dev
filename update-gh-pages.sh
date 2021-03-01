@@ -7,7 +7,7 @@ if [ "x${DOC_BRANCH:-}" == "x" ]; then
 fi
 
 # First print the list of crates so that it is visible in the logs
-alr list
+alr search --crates
 
 alr_version=$(alr version | grep "Alr version" | cut -d: -f2 | tr -d '[:blank:]')
 alire_lib_version=$(alr version | grep "Alire Library version" | cut -d: -f2 | tr -d '[:blank:]')
@@ -17,7 +17,7 @@ echo "Alr \`${alr_version}\`." | tee -a crates.md
 echo "Alire Library \`${alire_lib_version}\`." | tee -a crates.md
 
 # Get the list of crates
-list=`alr list | cut -f1 -d' ' | grep -v 'Searching...'`
+list=`alr search --crates | cut -f1 -d' ' | grep -v 'Searching...'`
 
 if [ -z "$list" ]; then
     echo "error: The list of crate is empty"
