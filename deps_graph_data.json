@@ -1,0 +1,1566 @@
+{
+    "nodes": [
+        {
+            "id": "utilada",
+            "color": "#1f77b4",
+            "desc": "Utility Library with streams, processes, logs, serialization, encoders"
+        },
+        {
+            "id": "si_units",
+            "color": "#1f77b4",
+            "desc": "Pretty print physical values in properly scaled metric (SI) units."
+        },
+        {
+            "id": "gnatcoll_postgres",
+            "color": "#1f77b4",
+            "desc": "GNAT Components Collection - postgres"
+        },
+        {
+            "id": "matreshka_xml",
+            "color": "#1f77b4",
+            "desc": "Library to manipulate with XML streams and documents"
+        },
+        {
+            "id": "socketcan",
+            "color": "#1f77b4",
+            "desc": "An Ada language binding to SocketCAN for GNU/Linux systems"
+        },
+        {
+            "id": "bbqueue",
+            "color": "purple",
+            "desc": "DMA friendly lock-free BipBuffer"
+        },
+        {
+            "id": "lvgl_ada",
+            "color": "darkcyan",
+            "desc": "Bindings for the LVGL embedded GUI framework"
+        },
+        {
+            "id": "matreshka_league",
+            "color": "#1f77b4",
+            "desc": "League - universal string library. Part of Matreshka framework"
+        },
+        {
+            "id": "matreshka_amf_ocl",
+            "color": "#1f77b4",
+            "desc": "The UML OCL for AMF"
+        },
+        {
+            "id": "hungarian",
+            "color": "#1f77b4",
+            "desc": "Ada wrapper for the fast Stachniss' Hungarian solver"
+        },
+        {
+            "id": "gnatcoll_iconv",
+            "color": "#1f77b4",
+            "desc": "GNAT Components Collection - iconv binding"
+        },
+        {
+            "id": "lvgl_ada_simulator",
+            "color": "#1f77b4",
+            "desc": "SDL simulator for the LVGL embedded GUI framework"
+        },
+        {
+            "id": "xml_ez_out",
+            "color": "#1f77b4",
+            "desc": "Creation of XML-formatted output from Ada programs"
+        },
+        {
+            "id": "axmpp",
+            "color": "#1f77b4",
+            "desc": "XMPP client library in Ada"
+        },
+        {
+            "id": "matreshka_amf_utp",
+            "color": "#1f77b4",
+            "desc": "The UML Testing Profile for AMF"
+        },
+        {
+            "id": "gwindows",
+            "color": "#1f77b4",
+            "desc": "GWindows - Ada Framework for Windows Development"
+        },
+        {
+            "id": "libhello",
+            "color": "#1f77b4",
+            "desc": "\"Hello, world!\" demonstration project support library"
+        },
+        {
+            "id": "gnatcoll_lzma",
+            "color": "#1f77b4",
+            "desc": "GNAT Components Collection - lzma binding"
+        },
+        {
+            "id": "win32ada",
+            "color": "#1f77b4",
+            "desc": "Ada API to the Windows library"
+        },
+        {
+            "id": "ado_sqlite",
+            "color": "#1f77b4",
+            "desc": "Ada Database Objects (SQLite)"
+        },
+        {
+            "id": "gnatcoll_sqlite",
+            "color": "#1f77b4",
+            "desc": "GNAT Components Collection - sqlite"
+        },
+        {
+            "id": "tiny_text",
+            "color": "#1f77b4",
+            "desc": "Low resolution bitmap font with a small memory footprint"
+        },
+        {
+            "id": "semantic_versioning",
+            "color": "#1f77b4",
+            "desc": "Semantic Versioning in Ada"
+        },
+        {
+            "id": "ada_pretty",
+            "color": "#1f77b4",
+            "desc": "Ada Pretty Printer Library"
+        },
+        {
+            "id": "spat",
+            "color": "purple",
+            "desc": "SPAT - SPARK Proof Analysis Tool"
+        },
+        {
+            "id": "gid",
+            "color": "#1f77b4",
+            "desc": "Decoding a broad variety of image formats"
+        },
+        {
+            "id": "basalt",
+            "color": "#1f77b4",
+            "desc": "Collection of formally verified building blocks"
+        },
+        {
+            "id": "webdriver",
+            "color": "#1f77b4",
+            "desc": "Web Browser control API"
+        },
+        {
+            "id": "xmlada",
+            "color": "#1f77b4",
+            "desc": "The XML/Ada toolkit"
+        },
+        {
+            "id": "atomic",
+            "color": "purple",
+            "desc": "Standalone Ada/SPARK bindings to GCC atomic built-ins"
+        },
+        {
+            "id": "gnatcoll_sql",
+            "color": "#1f77b4",
+            "desc": "GNAT Components Collection - sql"
+        },
+        {
+            "id": "bar_codes",
+            "color": "#1f77b4",
+            "desc": "Generate various types of bar codes on different output formats"
+        },
+        {
+            "id": "ansiada",
+            "color": "#1f77b4",
+            "desc": "Comprehensive ANSI control sequences for terminal output"
+        },
+        {
+            "id": "matreshka_amf_uml",
+            "color": "#1f77b4",
+            "desc": "Unified Modeling Language support for AMF"
+        },
+        {
+            "id": "gtkada",
+            "color": "#1f77b4",
+            "desc": "An Ada graphical toolkit based on Gtk+"
+        },
+        {
+            "id": "dotenv",
+            "color": "#1f77b4",
+            "desc": "Loads environment variables from .env for Ada projects."
+        },
+        {
+            "id": "samd51_hal",
+            "color": "darkcyan",
+            "desc": "Drivers and HAL for the SAMD51 micro-controller family"
+        },
+        {
+            "id": "jupyter_kernel",
+            "color": "#1f77b4",
+            "desc": "Jupyter Kernel for Ada"
+        },
+        {
+            "id": "loga",
+            "color": "#1f77b4",
+            "desc": "Simple library for simple logging. Like npm package \"debug\", but for Ada"
+        },
+        {
+            "id": "wikiada",
+            "color": "#1f77b4",
+            "desc": "Wiki Engine with parser and renderer for several wiki syntaxes"
+        },
+        {
+            "id": "utilada_curl",
+            "color": "#1f77b4",
+            "desc": "Utility Library REST support on top of CURL"
+        },
+        {
+            "id": "matreshka_spikedog_awsd",
+            "color": "#1f77b4",
+            "desc": "Web-application server. API library"
+        },
+        {
+            "id": "gnatcoll_syslog",
+            "color": "#1f77b4",
+            "desc": "GNAT Components Collection - syslog binding"
+        },
+        {
+            "id": "microbit_examples",
+            "color": "darkcyan",
+            "desc": "Examples and tutorials for Ada on the BBC micro:bit"
+        },
+        {
+            "id": "ajunitgen",
+            "color": "#1f77b4",
+            "desc": "Generator of JUnit-compatible XML reports"
+        },
+        {
+            "id": "matreshka_amf_mofext",
+            "color": "#1f77b4",
+            "desc": "The UML mofext for AMF"
+        },
+        {
+            "id": "matreshka_sql_postgresql",
+            "color": "#1f77b4",
+            "desc": "PostgreSQL binding for Ada"
+        },
+        {
+            "id": "serverfaces",
+            "color": "#1f77b4",
+            "desc": "Web Server Faces JSR 252, JSR 314 and JSR 344"
+        },
+        {
+            "id": "gnatcoll",
+            "color": "#1f77b4",
+            "desc": "GNAT Components Collection - Core packages"
+        },
+        {
+            "id": "matreshka_amf_dd",
+            "color": "#1f77b4",
+            "desc": "Diagram Definition (DD) specification support for AMF"
+        },
+        {
+            "id": "ado",
+            "color": "#1f77b4",
+            "desc": "Ada Database Objects (Core library)"
+        },
+        {
+            "id": "adayaml",
+            "color": "#1f77b4",
+            "desc": "Experimental YAML 1.3 implementation in Ada"
+        },
+        {
+            "id": "gnatcoll_python",
+            "color": "#1f77b4",
+            "desc": "GNAT Components Collection - python2 binding"
+        },
+        {
+            "id": "hal",
+            "color": "darkcyan",
+            "desc": "Hardware Abstraction Layer (HAL)"
+        },
+        {
+            "id": "gnatcoll_readline",
+            "color": "#1f77b4",
+            "desc": "GNAT Components Collection - readline binding"
+        },
+        {
+            "id": "adl_middleware",
+            "color": "darkcyan",
+            "desc": "Middleware layer of the Ada Drivers Library project"
+        },
+        {
+            "id": "hello",
+            "color": "#1f77b4",
+            "desc": "\"Hello, world!\" demonstration project"
+        },
+        {
+            "id": "sdlada",
+            "color": "#1f77b4",
+            "desc": "Ada 2012 bindings to SDL 2"
+        },
+        {
+            "id": "iterators",
+            "color": "#1f77b4",
+            "desc": "Functional iterators a la Rust"
+        },
+        {
+            "id": "minisamd51_example",
+            "color": "darkcyan",
+            "desc": "Example project for the MiniSAM D51"
+        },
+        {
+            "id": "lvgl_ada_examples",
+            "color": "#1f77b4",
+            "desc": "Examples for the LVGL embedded GUI framework Ada binding"
+        },
+        {
+            "id": "keystoreada",
+            "color": "#1f77b4",
+            "desc": "Ada Keystore"
+        },
+        {
+            "id": "matreshka_soap_wsse",
+            "color": "#1f77b4",
+            "desc": "WS-Security 1.1 implementation for SOAP 1.2"
+        },
+        {
+            "id": "matreshka_amf",
+            "color": "#1f77b4",
+            "desc": "Implementation of OMG's Meta Object Facility (MOF)"
+        },
+        {
+            "id": "servletada",
+            "color": "#1f77b4",
+            "desc": "Web Servlet Library following JSR 154, JSR 315 (Core)"
+        },
+        {
+            "id": "spdx",
+            "color": "#1f77b4",
+            "desc": "SPDX License Expression Validator"
+        },
+        {
+            "id": "ada_voxel_space_demo",
+            "color": "#1f77b4",
+            "desc": "Voxel Space render engine demo in Ada"
+        },
+        {
+            "id": "zipdcf",
+            "color": "#1f77b4",
+            "desc": "Tools that can (un)zip document container files, a Zip-based format"
+        },
+        {
+            "id": "c_strings",
+            "color": "#1f77b4",
+            "desc": "Convenience subprograms to interact with C strings"
+        },
+        {
+            "id": "anagram",
+            "color": "#1f77b4",
+            "desc": "Grammar handling and parser generation Ada library"
+        },
+        {
+            "id": "matreshka_sql",
+            "color": "#1f77b4",
+            "desc": "Common SQL Database API"
+        },
+        {
+            "id": "excel_writer",
+            "color": "#1f77b4",
+            "desc": "Produce Excel spreadsheets"
+        },
+        {
+            "id": "inotify",
+            "color": "#1f77b4",
+            "desc": "Ada 2012 library to monitor filesystem events using Linux' inotify API"
+        },
+        {
+            "id": "uri_ada",
+            "color": "#1f77b4",
+            "desc": "Processing of URI strings"
+        },
+        {
+            "id": "canberra_ada",
+            "color": "#1f77b4",
+            "desc": "Ada 2012 bindings for libcanberra"
+        },
+        {
+            "id": "saatana",
+            "color": "purple",
+            "desc": "SPARK/Ada Algorithms Targeting Advanced Network Applications"
+        },
+        {
+            "id": "littlefs",
+            "color": "darkcyan",
+            "desc": "Ada/SPARK binding for the LittleFS flash embedded filesystem"
+        },
+        {
+            "id": "rclada",
+            "color": "#1f77b4",
+            "desc": "ROS2 Ada Client Library"
+        },
+        {
+            "id": "zeromq_ada",
+            "color": "#1f77b4",
+            "desc": "An Ada-binding the \u00d8MQ library"
+        },
+        {
+            "id": "eagle_lander",
+            "color": "#1f77b4",
+            "desc": "Apollo 11 lunar lander simulator"
+        },
+        {
+            "id": "matreshka_sql_sqlite3",
+            "color": "#1f77b4",
+            "desc": "SQLite binding for Ada"
+        },
+        {
+            "id": "utilada_lzma",
+            "color": "#1f77b4",
+            "desc": "Utility Library streams with LZMA support"
+        },
+        {
+            "id": "matreshka_sql_mysql",
+            "color": "#1f77b4",
+            "desc": "MySQL binding for Ada"
+        },
+        {
+            "id": "startup_gen",
+            "color": "darkcyan",
+            "desc": "Generates startup files (crt0 and linker script)"
+        },
+        {
+            "id": "matreshka_soap",
+            "color": "#1f77b4",
+            "desc": "Framework for work with SOAP 1.2"
+        },
+        {
+            "id": "matreshka_fastcgi",
+            "color": "#1f77b4",
+            "desc": "FastCGI implementation (demo)"
+        },
+        {
+            "id": "langkit_support",
+            "color": "#1f77b4",
+            "desc": "Runtime support library for Langkit-generated libraries"
+        },
+        {
+            "id": "pygamer_bsp",
+            "color": "darkcyan",
+            "desc": "Board Support Package for the AdaFruit PyGamer"
+        },
+        {
+            "id": "ada_fuse",
+            "color": "#1f77b4",
+            "desc": "Ada bindings for Fuse (Filesystem in Userspace)"
+        },
+        {
+            "id": "gnatcoll_zlib",
+            "color": "#1f77b4",
+            "desc": "GNAT Components Collection - zlib binding"
+        },
+        {
+            "id": "embedded_components",
+            "color": "darkcyan",
+            "desc": "Platform agnostic drivers to interface external components"
+        },
+        {
+            "id": "hangman",
+            "color": "#1f77b4",
+            "desc": "Hangman game for the console"
+        },
+        {
+            "id": "spawn_glib",
+            "color": "#1f77b4",
+            "desc": "A simple library to spawn processes and communicate with them."
+        },
+        {
+            "id": "matreshka_spikedog_core",
+            "color": "#1f77b4",
+            "desc": "Web-application server. Implementation library"
+        },
+        {
+            "id": "dcf",
+            "color": "#1f77b4",
+            "desc": "Ada 2012 library for document container files, a Zip-based format"
+        },
+        {
+            "id": "simple_logging",
+            "color": "#1f77b4",
+            "desc": "Simple logging to console"
+        },
+        {
+            "id": "libgpr",
+            "color": "#1f77b4",
+            "desc": "GNAT Project File Library"
+        },
+        {
+            "id": "microbit_bsp",
+            "color": "darkcyan",
+            "desc": "Middleware layer of the Ada Drivers Library project"
+        },
+        {
+            "id": "ada_lua",
+            "color": "#1f77b4",
+            "desc": "An Ada binding for lua"
+        },
+        {
+            "id": "templates_parser",
+            "color": "#1f77b4",
+            "desc": "Templates Parser: File generation from templates in Ada"
+        },
+        {
+            "id": "openglada",
+            "color": "#1f77b4",
+            "desc": "Thick Ada binding for OpenGL and GLFW"
+        },
+        {
+            "id": "rsfile",
+            "color": "#1f77b4",
+            "desc": "Pick a file with probability proportional to its size"
+        },
+        {
+            "id": "gnatcoll_gmp",
+            "color": "#1f77b4",
+            "desc": "GNAT Components Collection - gomp binding"
+        },
+        {
+            "id": "pico_bsp",
+            "color": "darkcyan",
+            "desc": "Board support package for Raspberry Pi Pico"
+        },
+        {
+            "id": "mathpaqs",
+            "color": "#1f77b4",
+            "desc": "A collection of mathematical, 100% portable, packages"
+        },
+        {
+            "id": "zlib_ada",
+            "color": "#1f77b4",
+            "desc": "ZLib for Ada thick binding"
+        },
+        {
+            "id": "sparknacl",
+            "color": "purple",
+            "desc": "Verified SPARK 2014 re-implementation of TweetNaCl cryptographic library"
+        },
+        {
+            "id": "gnatcoll_python3",
+            "color": "#1f77b4",
+            "desc": "GNAT Components Collection - python3 binding"
+        },
+        {
+            "id": "utilada_aws",
+            "color": "#1f77b4",
+            "desc": "Utility Library REST support on top of AWS"
+        },
+        {
+            "id": "shoot_n_loot",
+            "color": "#1f77b4",
+            "desc": "Platform game for the AdaFruit PyGamer console"
+        },
+        {
+            "id": "gnatcoll_xref",
+            "color": "#1f77b4",
+            "desc": "GNAT Components Collection - xref"
+        },
+        {
+            "id": "jwt",
+            "color": "#1f77b4",
+            "desc": "JSON Web Token (JWT) implementation in Ada"
+        },
+        {
+            "id": "lal_highlight",
+            "color": "#1f77b4",
+            "desc": "Simple code highlighters based on Libadalang"
+        },
+        {
+            "id": "virtapu",
+            "color": "#1f77b4",
+            "desc": "A virtual Audio Processing Unit to simulate 8-bit era game sounds"
+        },
+        {
+            "id": "libadalang",
+            "color": "#1f77b4",
+            "desc": "Ada semantic analysis library"
+        },
+        {
+            "id": "asis",
+            "color": "#1f77b4",
+            "desc": "Ada Semantic Interface Specification or ASIS (library part)"
+        },
+        {
+            "id": "spawn",
+            "color": "#1f77b4",
+            "desc": "A simple library to spawn processes and communicate with them."
+        },
+        {
+            "id": "rclada_examples",
+            "color": "#1f77b4",
+            "desc": "ROS2 Ada Client Library - Examples"
+        },
+        {
+            "id": "elada",
+            "color": "#1f77b4",
+            "desc": "Expression Language Library (JSR245)"
+        },
+        {
+            "id": "mandelbrot_ascii",
+            "color": "#1f77b4",
+            "desc": "Mandelbrot renderer using Unicode glyphs"
+        },
+        {
+            "id": "aws",
+            "color": "#1f77b4",
+            "desc": "Ada Web Server"
+        },
+        {
+            "id": "minirest",
+            "color": "#1f77b4",
+            "desc": "Minimalist Ada REST client library"
+        },
+        {
+            "id": "protobuf",
+            "color": "#1f77b4",
+            "desc": "Google Protocol Buffers implementation in Ada"
+        },
+        {
+            "id": "rp2040_hal",
+            "color": "darkcyan",
+            "desc": "Drivers and HAL for the RP2040 micro-controller family"
+        },
+        {
+            "id": "ado_postgresql",
+            "color": "#1f77b4",
+            "desc": "Ada Database Objects (PostgreSQL)"
+        },
+        {
+            "id": "rxada",
+            "color": "#1f77b4",
+            "desc": "RxAda port of the Rx framework"
+        },
+        {
+            "id": "agpl",
+            "color": "#1f77b4",
+            "desc": "Ada General Purpose Library with a robotics flavor"
+        },
+        {
+            "id": "aicwl",
+            "color": "#1f77b4",
+            "desc": "Ada Industrial Control Widgets Library"
+        },
+        {
+            "id": "security",
+            "color": "#1f77b4",
+            "desc": "Security Library for HTTP client and server with OAuth2 support"
+        },
+        {
+            "id": "ada_toml",
+            "color": "#1f77b4",
+            "desc": "TOML parser for Ada "
+        },
+        {
+            "id": "aunit",
+            "color": "#1f77b4",
+            "desc": "Ada unit test framework"
+        },
+        {
+            "id": "lzmada",
+            "color": "#1f77b4",
+            "desc": "Ada LZMA Library Binding"
+        },
+        {
+            "id": "nrf5x_hal",
+            "color": "darkcyan",
+            "desc": "Drivers and HAL for the Nordic nRF5X micro-controller family"
+        },
+        {
+            "id": "minisamd51_bsp",
+            "color": "darkcyan",
+            "desc": "Board Support Package for the MiniSAM D51"
+        },
+        {
+            "id": "servletada_aws",
+            "color": "#1f77b4",
+            "desc": "Web Servlet Library following JSR 154, JSR 315 (AWS)"
+        },
+        {
+            "id": "geste_examples",
+            "color": "#1f77b4",
+            "desc": "Example for the GESTE game engine"
+        },
+        {
+            "id": "zipada",
+            "color": "#1f77b4",
+            "desc": "Manage Zip Archives and raw LZMA streams"
+        },
+        {
+            "id": "cortex_m",
+            "color": "darkcyan",
+            "desc": "Drivers for Cortex-M micro-controllers (NVIC, SysTick, etc.)"
+        },
+        {
+            "id": "matreshka_servlet",
+            "color": "#1f77b4",
+            "desc": "Servlet API"
+        },
+        {
+            "id": "serverfaces_unit",
+            "color": "#1f77b4",
+            "desc": "Web Server Faces JSR 252, JSR 314 and JSR 344 (Testing framework)"
+        },
+        {
+            "id": "matreshka_sql_oracle",
+            "color": "#1f77b4",
+            "desc": "Oracle DB binding for Ada"
+        },
+        {
+            "id": "vss",
+            "color": "#1f77b4",
+            "desc": "Advanced string and text manipulation with Unicode support"
+        },
+        {
+            "id": "matreshka_sql_firebird",
+            "color": "#1f77b4",
+            "desc": "Firebird SQL binding for Ada"
+        },
+        {
+            "id": "servletada_unit",
+            "color": "#1f77b4",
+            "desc": "Web Servlet Library following JSR 154, JSR 315 (Testing framework)"
+        },
+        {
+            "id": "gnatcoll_omp",
+            "color": "#1f77b4",
+            "desc": "GNAT Components Collection - gomp binding"
+        },
+        {
+            "id": "pico_examples",
+            "color": "darkcyan",
+            "desc": "Examples for Ada on the Raspberry Pi Pico"
+        },
+        {
+            "id": "utilada_unit",
+            "color": "#1f77b4",
+            "desc": "Utility Library testing framework with Ahven"
+        },
+        {
+            "id": "matreshka_spikedog_api",
+            "color": "#1f77b4",
+            "desc": "Web-application server. API library"
+        },
+        {
+            "id": "apdf",
+            "color": "#1f77b4",
+            "desc": "Standalone, portable package for producing dynamically PDF documents"
+        },
+        {
+            "id": "geste",
+            "color": "#1f77b4",
+            "desc": "GEneric Sprite and Tile Engine"
+        },
+        {
+            "id": "pygamer_simulator",
+            "color": "#1f77b4",
+            "desc": "SDL simulator of the AdaFruit PyGamer console"
+        },
+        {
+            "id": "uxstrings",
+            "color": "#1f77b4",
+            "desc": "Unicode Extended Strings utilities"
+        },
+        {
+            "id": "utilada_xml",
+            "color": "#1f77b4",
+            "desc": "Utility Library serialization with XML/Ada"
+        },
+        {
+            "id": "simple_components",
+            "color": "#1f77b4",
+            "desc": "Simple Components - A collection of support packages"
+        },
+        {
+            "id": "aaa",
+            "color": "#1f77b4",
+            "desc": "Alex's Ada Assortment (of miscellaneous utilities)"
+        }
+    ],
+    "links": [
+        {
+            "source": "gnatcoll_postgres",
+            "target": "gnatcoll",
+            "value": 1
+        },
+        {
+            "source": "gnatcoll_postgres",
+            "target": "gnatcoll_sql",
+            "value": 1
+        },
+        {
+            "source": "matreshka_xml",
+            "target": "matreshka_league",
+            "value": 1
+        },
+        {
+            "source": "bbqueue",
+            "target": "atomic",
+            "value": 1
+        },
+        {
+            "source": "matreshka_amf_ocl",
+            "target": "matreshka_amf_uml",
+            "value": 1
+        },
+        {
+            "source": "matreshka_amf_ocl",
+            "target": "matreshka_league",
+            "value": 1
+        },
+        {
+            "source": "gnatcoll_iconv",
+            "target": "gnatcoll",
+            "value": 1
+        },
+        {
+            "source": "lvgl_ada_simulator",
+            "target": "lvgl_ada",
+            "value": 1
+        },
+        {
+            "source": "lvgl_ada_simulator",
+            "target": "sdlada",
+            "value": 1
+        },
+        {
+            "source": "axmpp",
+            "target": "matreshka_league",
+            "value": 1
+        },
+        {
+            "source": "matreshka_amf_utp",
+            "target": "matreshka_amf_uml",
+            "value": 1
+        },
+        {
+            "source": "matreshka_amf_utp",
+            "target": "matreshka_league",
+            "value": 1
+        },
+        {
+            "source": "gnatcoll_lzma",
+            "target": "gnatcoll",
+            "value": 1
+        },
+        {
+            "source": "ado_sqlite",
+            "target": "ado",
+            "value": 1
+        },
+        {
+            "source": "gnatcoll_sqlite",
+            "target": "gnatcoll",
+            "value": 1
+        },
+        {
+            "source": "gnatcoll_sqlite",
+            "target": "gnatcoll_sql",
+            "value": 1
+        },
+        {
+            "source": "tiny_text",
+            "target": "hal",
+            "value": 1
+        },
+        {
+            "source": "ada_pretty",
+            "target": "matreshka_league",
+            "value": 1
+        },
+        {
+            "source": "spat",
+            "target": "si_units",
+            "value": 1
+        },
+        {
+            "source": "webdriver",
+            "target": "aws",
+            "value": 1
+        },
+        {
+            "source": "webdriver",
+            "target": "matreshka_league",
+            "value": 1
+        },
+        {
+            "source": "gnatcoll_sql",
+            "target": "gnatcoll",
+            "value": 1
+        },
+        {
+            "source": "matreshka_amf_uml",
+            "target": "matreshka_amf_dd",
+            "value": 1
+        },
+        {
+            "source": "matreshka_amf_uml",
+            "target": "matreshka_league",
+            "value": 1
+        },
+        {
+            "source": "samd51_hal",
+            "target": "cortex_m",
+            "value": 1
+        },
+        {
+            "source": "samd51_hal",
+            "target": "hal",
+            "value": 1
+        },
+        {
+            "source": "jupyter_kernel",
+            "target": "matreshka_league",
+            "value": 1
+        },
+        {
+            "source": "jupyter_kernel",
+            "target": "spawn",
+            "value": 1
+        },
+        {
+            "source": "jupyter_kernel",
+            "target": "zeromq_ada",
+            "value": 1
+        },
+        {
+            "source": "wikiada",
+            "target": "utilada",
+            "value": 1
+        },
+        {
+            "source": "utilada_curl",
+            "target": "utilada",
+            "value": 1
+        },
+        {
+            "source": "matreshka_spikedog_awsd",
+            "target": "aws",
+            "value": 1
+        },
+        {
+            "source": "matreshka_spikedog_awsd",
+            "target": "matreshka_league",
+            "value": 1
+        },
+        {
+            "source": "matreshka_spikedog_awsd",
+            "target": "matreshka_spikedog_core",
+            "value": 1
+        },
+        {
+            "source": "gnatcoll_syslog",
+            "target": "gnatcoll",
+            "value": 1
+        },
+        {
+            "source": "microbit_examples",
+            "target": "microbit_bsp",
+            "value": 1
+        },
+        {
+            "source": "ajunitgen",
+            "target": "xml_ez_out",
+            "value": 1
+        },
+        {
+            "source": "matreshka_amf_mofext",
+            "target": "matreshka_amf_uml",
+            "value": 1
+        },
+        {
+            "source": "matreshka_amf_mofext",
+            "target": "matreshka_league",
+            "value": 1
+        },
+        {
+            "source": "matreshka_sql_postgresql",
+            "target": "matreshka_league",
+            "value": 1
+        },
+        {
+            "source": "serverfaces",
+            "target": "security",
+            "value": 1
+        },
+        {
+            "source": "serverfaces",
+            "target": "servletada",
+            "value": 1
+        },
+        {
+            "source": "serverfaces",
+            "target": "utilada",
+            "value": 1
+        },
+        {
+            "source": "gnatcoll",
+            "target": "libgpr",
+            "value": 1
+        },
+        {
+            "source": "matreshka_amf_dd",
+            "target": "matreshka_amf",
+            "value": 1
+        },
+        {
+            "source": "matreshka_amf_dd",
+            "target": "matreshka_league",
+            "value": 1
+        },
+        {
+            "source": "ado",
+            "target": "utilada",
+            "value": 1
+        },
+        {
+            "source": "ado",
+            "target": "utilada_xml",
+            "value": 1
+        },
+        {
+            "source": "adayaml",
+            "target": "simple_components",
+            "value": 1
+        },
+        {
+            "source": "gnatcoll_python",
+            "target": "gnatcoll",
+            "value": 1
+        },
+        {
+            "source": "gnatcoll_readline",
+            "target": "gnatcoll",
+            "value": 1
+        },
+        {
+            "source": "adl_middleware",
+            "target": "hal",
+            "value": 1
+        },
+        {
+            "source": "hello",
+            "target": "libhello",
+            "value": 1
+        },
+        {
+            "source": "iterators",
+            "target": "aaa",
+            "value": 1
+        },
+        {
+            "source": "minisamd51_example",
+            "target": "minisamd51_bsp",
+            "value": 1
+        },
+        {
+            "source": "lvgl_ada_examples",
+            "target": "lvgl_ada",
+            "value": 1
+        },
+        {
+            "source": "lvgl_ada_examples",
+            "target": "lvgl_ada_simulator",
+            "value": 1
+        },
+        {
+            "source": "keystoreada",
+            "target": "utilada",
+            "value": 1
+        },
+        {
+            "source": "matreshka_soap_wsse",
+            "target": "matreshka_league",
+            "value": 1
+        },
+        {
+            "source": "matreshka_soap_wsse",
+            "target": "matreshka_soap",
+            "value": 1
+        },
+        {
+            "source": "matreshka_amf",
+            "target": "matreshka_league",
+            "value": 1
+        },
+        {
+            "source": "matreshka_amf",
+            "target": "matreshka_xml",
+            "value": 1
+        },
+        {
+            "source": "servletada",
+            "target": "security",
+            "value": 1
+        },
+        {
+            "source": "servletada",
+            "target": "utilada",
+            "value": 1
+        },
+        {
+            "source": "ada_voxel_space_demo",
+            "target": "sdlada",
+            "value": 1
+        },
+        {
+            "source": "zipdcf",
+            "target": "dcf",
+            "value": 1
+        },
+        {
+            "source": "anagram",
+            "target": "matreshka_league",
+            "value": 1
+        },
+        {
+            "source": "matreshka_sql",
+            "target": "matreshka_league",
+            "value": 1
+        },
+        {
+            "source": "eagle_lander",
+            "target": "gtkada",
+            "value": 1
+        },
+        {
+            "source": "matreshka_sql_sqlite3",
+            "target": "matreshka_league",
+            "value": 1
+        },
+        {
+            "source": "utilada_lzma",
+            "target": "lzmada",
+            "value": 1
+        },
+        {
+            "source": "utilada_lzma",
+            "target": "utilada",
+            "value": 1
+        },
+        {
+            "source": "matreshka_sql_mysql",
+            "target": "matreshka_league",
+            "value": 1
+        },
+        {
+            "source": "matreshka_sql_mysql",
+            "target": "matreshka_sql",
+            "value": 1
+        },
+        {
+            "source": "startup_gen",
+            "target": "gnatcoll",
+            "value": 1
+        },
+        {
+            "source": "startup_gen",
+            "target": "libgpr",
+            "value": 1
+        },
+        {
+            "source": "startup_gen",
+            "target": "templates_parser",
+            "value": 1
+        },
+        {
+            "source": "matreshka_soap",
+            "target": "matreshka_league",
+            "value": 1
+        },
+        {
+            "source": "matreshka_soap",
+            "target": "matreshka_xml",
+            "value": 1
+        },
+        {
+            "source": "matreshka_fastcgi",
+            "target": "matreshka_league",
+            "value": 1
+        },
+        {
+            "source": "langkit_support",
+            "target": "gnatcoll",
+            "value": 1
+        },
+        {
+            "source": "langkit_support",
+            "target": "gnatcoll_iconv",
+            "value": 1
+        },
+        {
+            "source": "pygamer_bsp",
+            "target": "cortex_m",
+            "value": 1
+        },
+        {
+            "source": "pygamer_bsp",
+            "target": "samd51_hal",
+            "value": 1
+        },
+        {
+            "source": "gnatcoll_zlib",
+            "target": "gnatcoll",
+            "value": 1
+        },
+        {
+            "source": "embedded_components",
+            "target": "adl_middleware",
+            "value": 1
+        },
+        {
+            "source": "embedded_components",
+            "target": "hal",
+            "value": 1
+        },
+        {
+            "source": "spawn_glib",
+            "target": "gtkada",
+            "value": 1
+        },
+        {
+            "source": "matreshka_spikedog_core",
+            "target": "matreshka_league",
+            "value": 1
+        },
+        {
+            "source": "matreshka_spikedog_core",
+            "target": "matreshka_spikedog_api",
+            "value": 1
+        },
+        {
+            "source": "libgpr",
+            "target": "xmlada",
+            "value": 1
+        },
+        {
+            "source": "microbit_bsp",
+            "target": "embedded_components",
+            "value": 1
+        },
+        {
+            "source": "microbit_bsp",
+            "target": "hal",
+            "value": 1
+        },
+        {
+            "source": "microbit_bsp",
+            "target": "nrf5x_hal",
+            "value": 1
+        },
+        {
+            "source": "templates_parser",
+            "target": "xmlada",
+            "value": 1
+        },
+        {
+            "source": "gnatcoll_gmp",
+            "target": "gnatcoll",
+            "value": 1
+        },
+        {
+            "source": "pico_bsp",
+            "target": "hal",
+            "value": 1
+        },
+        {
+            "source": "pico_bsp",
+            "target": "rp2040_hal",
+            "value": 1
+        },
+        {
+            "source": "gnatcoll_python3",
+            "target": "gnatcoll",
+            "value": 1
+        },
+        {
+            "source": "utilada_aws",
+            "target": "utilada",
+            "value": 1
+        },
+        {
+            "source": "shoot_n_loot",
+            "target": "geste",
+            "value": 1
+        },
+        {
+            "source": "shoot_n_loot",
+            "target": "pygamer_simulator",
+            "value": 1
+        },
+        {
+            "source": "shoot_n_loot",
+            "target": "virtapu",
+            "value": 1
+        },
+        {
+            "source": "gnatcoll_xref",
+            "target": "gnatcoll",
+            "value": 1
+        },
+        {
+            "source": "gnatcoll_xref",
+            "target": "gnatcoll_iconv",
+            "value": 1
+        },
+        {
+            "source": "gnatcoll_xref",
+            "target": "gnatcoll_sql",
+            "value": 1
+        },
+        {
+            "source": "gnatcoll_xref",
+            "target": "gnatcoll_sqlite",
+            "value": 1
+        },
+        {
+            "source": "jwt",
+            "target": "matreshka_league",
+            "value": 1
+        },
+        {
+            "source": "lal_highlight",
+            "target": "gnatcoll_iconv",
+            "value": 1
+        },
+        {
+            "source": "lal_highlight",
+            "target": "libadalang",
+            "value": 1
+        },
+        {
+            "source": "libadalang",
+            "target": "gnatcoll",
+            "value": 1
+        },
+        {
+            "source": "libadalang",
+            "target": "gnatcoll_gmp",
+            "value": 1
+        },
+        {
+            "source": "libadalang",
+            "target": "gnatcoll_iconv",
+            "value": 1
+        },
+        {
+            "source": "libadalang",
+            "target": "langkit_support",
+            "value": 1
+        },
+        {
+            "source": "rclada_examples",
+            "target": "rclada",
+            "value": 1
+        },
+        {
+            "source": "elada",
+            "target": "utilada",
+            "value": 1
+        },
+        {
+            "source": "aws",
+            "target": "xmlada",
+            "value": 1
+        },
+        {
+            "source": "minirest",
+            "target": "aaa",
+            "value": 1
+        },
+        {
+            "source": "protobuf",
+            "target": "ada_pretty",
+            "value": 1
+        },
+        {
+            "source": "protobuf",
+            "target": "matreshka_league",
+            "value": 1
+        },
+        {
+            "source": "rp2040_hal",
+            "target": "cortex_m",
+            "value": 1
+        },
+        {
+            "source": "rp2040_hal",
+            "target": "hal",
+            "value": 1
+        },
+        {
+            "source": "ado_postgresql",
+            "target": "ado",
+            "value": 1
+        },
+        {
+            "source": "aicwl",
+            "target": "gtkada",
+            "value": 1
+        },
+        {
+            "source": "security",
+            "target": "utilada",
+            "value": 1
+        },
+        {
+            "source": "security",
+            "target": "utilada_xml",
+            "value": 1
+        },
+        {
+            "source": "nrf5x_hal",
+            "target": "cortex_m",
+            "value": 1
+        },
+        {
+            "source": "nrf5x_hal",
+            "target": "hal",
+            "value": 1
+        },
+        {
+            "source": "minisamd51_bsp",
+            "target": "hal",
+            "value": 1
+        },
+        {
+            "source": "minisamd51_bsp",
+            "target": "samd51_hal",
+            "value": 1
+        },
+        {
+            "source": "servletada_aws",
+            "target": "servletada",
+            "value": 1
+        },
+        {
+            "source": "servletada_aws",
+            "target": "utilada_aws",
+            "value": 1
+        },
+        {
+            "source": "geste_examples",
+            "target": "geste",
+            "value": 1
+        },
+        {
+            "source": "geste_examples",
+            "target": "sdlada",
+            "value": 1
+        },
+        {
+            "source": "cortex_m",
+            "target": "hal",
+            "value": 1
+        },
+        {
+            "source": "matreshka_servlet",
+            "target": "matreshka_league",
+            "value": 1
+        },
+        {
+            "source": "serverfaces_unit",
+            "target": "security",
+            "value": 1
+        },
+        {
+            "source": "serverfaces_unit",
+            "target": "serverfaces",
+            "value": 1
+        },
+        {
+            "source": "serverfaces_unit",
+            "target": "servletada",
+            "value": 1
+        },
+        {
+            "source": "serverfaces_unit",
+            "target": "utilada",
+            "value": 1
+        },
+        {
+            "source": "matreshka_sql_oracle",
+            "target": "matreshka_league",
+            "value": 1
+        },
+        {
+            "source": "matreshka_sql_oracle",
+            "target": "matreshka_sql",
+            "value": 1
+        },
+        {
+            "source": "matreshka_sql_firebird",
+            "target": "matreshka_league",
+            "value": 1
+        },
+        {
+            "source": "matreshka_sql_firebird",
+            "target": "matreshka_sql",
+            "value": 1
+        },
+        {
+            "source": "servletada_unit",
+            "target": "servletada",
+            "value": 1
+        },
+        {
+            "source": "servletada_unit",
+            "target": "utilada",
+            "value": 1
+        },
+        {
+            "source": "servletada_unit",
+            "target": "utilada_unit",
+            "value": 1
+        },
+        {
+            "source": "gnatcoll_omp",
+            "target": "gnatcoll",
+            "value": 1
+        },
+        {
+            "source": "pico_examples",
+            "target": "pico_bsp",
+            "value": 1
+        },
+        {
+            "source": "utilada_unit",
+            "target": "utilada",
+            "value": 1
+        },
+        {
+            "source": "matreshka_spikedog_api",
+            "target": "matreshka_league",
+            "value": 1
+        },
+        {
+            "source": "matreshka_spikedog_api",
+            "target": "matreshka_servlet",
+            "value": 1
+        },
+        {
+            "source": "pygamer_simulator",
+            "target": "hal",
+            "value": 1
+        },
+        {
+            "source": "pygamer_simulator",
+            "target": "sdlada",
+            "value": 1
+        },
+        {
+            "source": "utilada_xml",
+            "target": "utilada",
+            "value": 1
+        },
+        {
+            "source": "utilada_xml",
+            "target": "xmlada",
+            "value": 1
+        }
+    ],
+    "colors": {
+        "default": "#1f77b4",
+        "SPARK": "purple",
+        "Embedded": "darkcyan"
+    }
+}
