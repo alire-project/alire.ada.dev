@@ -69,6 +69,8 @@ for cratefile in glob.glob("_crates/*.md"):
         crate = ydata['crate']
 
         if 'dependencies' in ydata and ydata['dependencies']:
+            if type(ydata['dependencies']) is dict:
+                ydata['dependencies'] = [ydata['dependencies']]
             for dep in ydata['dependencies']:
                 if dep['crate'] in nodes:
                     data['links'] += [{'source': crate, 'target': dep['crate'], 'value': 1}]
