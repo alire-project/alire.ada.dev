@@ -3,21 +3,21 @@
 # This script is made to run in a GitHub action.
 
 if [ "x${DOC_BRANCH:-}" == "x" ]; then
-    DOC_BRANCH="release/1.0"
+    DOC_BRANCH="release/1.1"
 fi
 
 # First print the list of crates so that it is visible in the logs
-alr search --crates
+alr --no-tty search --crates
 
-alr_version=$(alr version | grep "Alr version" | cut -d: -f2 | tr -d '[:blank:]')
-alire_lib_version=$(alr version | grep "Alire Library version" | cut -d: -f2 | tr -d '[:blank:]')
-index_branch=$(alr version | grep "community index" | cut -d: -f2 | tr -d '[:blank:]')
+alr_version=$(alr --no-tty version | grep "Alr version" | cut -d: -f2 | tr -d '[:blank:]')
+alire_lib_version=$(alr --no-tty version | grep "Alire Library version" | cut -d: -f2 | tr -d '[:blank:]')
+index_branch=$(alr --no-tty version | grep "community index" | cut -d: -f2 | tr -d '[:blank:]')
 echo "From community branch \`${index_branch}\`." | tee -a crates.md
 echo "Alr \`${alr_version}\`." | tee -a crates.md
 echo "Alire Library \`${alire_lib_version}\`." | tee -a crates.md
 
 # Get the list of crates
-list=`alr search --crates | cut -f1 -d' ' | grep -v 'Searching...'`
+list=`alr --no-tty search --crates | cut -f1 -d' ' | grep -v 'Searching...'`
 
 if [ -z "$list" ]; then
     echo "error: The list of crate is empty"
@@ -31,7 +31,7 @@ echo "---------------"
 for crate in $list; do
 
     # Create a crate page
-    alr show --jekyll $crate > _crates/$crate.md
+    alr --no-tty show --jekyll $crate > _crates/$crate.md
 
     # Extract the last version of the crate
     version=`cat _crates/$crate.md | grep 'version:' | head -1 | cut -d':' -f2`
@@ -59,7 +59,7 @@ git clone --depth=1 --single-branch --branch ${DOC_BRANCH} https://github.com/al
 cp alire/doc/* docs/
 
 # Append the built-ins config doc generated from the tool
-alr config --builtins-doc >> docs/configuration.md
+alr --no-tty config --builtins-doc >> docs/configuration.md
 
 # Cleanup alire repo
 rm -rf alire/
