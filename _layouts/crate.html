@@ -18,11 +18,31 @@ layout: page
 <b>Dependencies:</b>
 {% if page.dependencies.size > 0 %}
 <ul>
-  {% for dep in page.dependencies %}
+
+  <!-- The if statement below is to handle the case where there is only one
+       dependency. Alire 1.0 and 1.1 generate a single YAML hash:
+         dependencies: {crate: "gnat", version: ">=11.2.1"}
+       instead of an array with one hash:
+         dependencies: [{crate: "gnat", version: ">=11.2.1"}]
+
+      If page.dependencies.crate is true, it means that we have a hash and not
+      an array.
+  -->
+  {% if page.dependencies.crate %}
+
+    <!-- page.dependencies is a hash  -->
+    {% assign dep = page.dependencies %}
     <li>
       <a href="{{ site.baseurl }}/crates/{{ dep.crate }}">{{ dep.crate }}</a> {{ dep.version }}
     </li>
-  {% endfor %}
+  {% else %}
+    <!-- page.dependencies is an array  -->
+    {% for dep in page.dependencies %}
+      <li>
+        <a href="{{ site.baseurl }}/crates/{{ dep.crate }}">{{ dep.crate }}</a> {{ dep.version }}
+      </li>
+      {% endfor %}
+  {% endif %}
 </ul>
 {% else %}
 No dependency.<br>
