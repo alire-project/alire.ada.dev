@@ -70,6 +70,10 @@ of next to each other */
 
 <br>
 
+{% include_relative toolchains.md %}
+
+<br>
+
 {% include_relative publishing.md %}
 
 <br>
