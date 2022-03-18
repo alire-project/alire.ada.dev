@@ -44,6 +44,7 @@ include:
 
 header_pages:
   - crates.md
+  - tags.html
   - search.html
   - docs/index.md
 
