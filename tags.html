@@ -1,6 +1,7 @@
 ---
 title: Tags
 layout: page
+popular: 3
 ---
 
 <h1>{{ page.title }}</h1>
@@ -8,7 +9,7 @@ layout: page
 <h4>Popular</h5>
 {% capture popular_tags %}
     {% for tag in site.data.tags %}
-        {% if tag.crates.size >= 3 %}
+        {% if tag.crates.size >= page.popular %}
             {{ tag.name }}
         {% endif %}
     {% endfor %}
