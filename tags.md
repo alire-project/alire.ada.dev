@@ -1,12 +1,13 @@
 ---
 title: Tags
+description: "Index of crate tags"
 layout: page
 popular: 3
 ---
 
-<h1>{{ page.title }}</h1>
+## {{ page.title }}
 
-<h4>Popular</h5>
+### Popular
 {% capture popular_tags %}
     {% for tag in site.data.tags %}
         {% if tag.crates.size >= page.popular %}
@@ -16,9 +17,7 @@ popular: 3
 {% endcapture %}
 {% assign filtered_pop_list = popular_tags | split: ' ' | sort %}
 {% for tag in filtered_pop_list %}
-<a class="crate-tag-link" href="{{ site.baseurl }}/search/?q={{ tag }}">{{ tag }}</a>
-{% endfor %}
-<br><br>
+[{{ tag }}]({{ site.baseurl }}/search/?q={{ tag }}){:.crate-tag-link}{% endfor %}
 
 {% assign alphabet= "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z 0 1 2 3 4 5 6 7 8 9" | split: ' ' %}
 {% for letter in alphabet %}
@@ -33,13 +32,10 @@ popular: 3
     {% assign filtered_list = filtered_tags | split: ' ' | sort %}
 
     {% if filtered_list.size > 0 %}
-<h4>{{ letter }}</h5>
+### {{ letter }}
         {% for tag in filtered_list %}
-<a class="crate-tag-link" href="{{ site.baseurl }}/search/?q={{ tag }}">{{ tag }}</a>
-        {% endfor %}
-<br><br>
+[{{ tag }}]({{ site.baseurl }}/search/?q={{ tag }}){:.crate-tag-link}{% endfor %}
     {% endif %}
 {% endfor %}
 
-<br>
 {{ site.data.tags.size }} unique tags.
