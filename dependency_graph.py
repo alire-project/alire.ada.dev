@@ -88,13 +88,13 @@ with open(os.path.join(script_dir, 'deps_graph_data.json'), 'w') as file:
 ##
 
 terse = {}
-# { tag_name_1: [ crate_1, crate_2 ],
-#   tag_name_2: [ crate_3, crate_4 ],
+# { tag_name_1: [ crate_1, crate_2, ... ],
+#   tag_name_2: [ crate_3, crate_4, ... ],
 #   ... }
 
 tags = []
-# [ { name: tag_name_1, crates: [ crate_1, crate_2 ] },
-#   { name: tag_name_2, crates: [ crate_2, crate_3 ] },
+# [ { name: tag_name_1, crates: [ crate_1, crate_2, ... ] },
+#   { name: tag_name_2, crates: [ crate_3, crate_4, ... ] },
 #   ...} ]
 
 for cratefile in glob.glob("_crates/*.md"):
