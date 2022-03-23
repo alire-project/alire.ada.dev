@@ -67,9 +67,6 @@ rm -rf alire/
 # Generate dependency graph data
 python dependency_graph.py
 
-# Generate tags data
-python generate_tags_data.py
-
 # Remove the ignore files to be able to commit crates and badges to the branch
 rm -f _crates/.gitignore _badges/.gitignore
 
