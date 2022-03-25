@@ -3,9 +3,11 @@ title: Crates
 layout: page
 ---
 
-[Alire Network Graph](network)
-
-[Tags](/tags/)
+<ul class="nav justify-content-start">
+<li class="nav-item"><a class="nav-link" href="/network/">Network Graph</a></li>
+<li class="nav-item"><a class="nav-link" href="/tags/">Tags</a></li>
+</ul>
+<br>
 
 {% assign alphabet= "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z" | split: ' ' %}
 {% for letter in alphabet %}
