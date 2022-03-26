@@ -4,7 +4,7 @@ layout: page
 ---
 
 <ul class="nav justify-content-start">
-<li class="nav-item"><a class="nav-link" href="/network/">Network Graph</a></li>
+<li class="nav-item"><a class="nav-link" href="/network">Network Graph</a></li>
 <li class="nav-item"><a class="nav-link" href="/tags/">Tags</a></li>
 </ul>
 <br>
