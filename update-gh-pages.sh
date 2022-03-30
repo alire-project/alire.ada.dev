@@ -71,6 +71,9 @@ rm -rf alire/
 # Generate dependency graph data
 python dependency_graph.py
 
+# Stop if not running in GHA workflow
+[ "${CI:-unset}" = "unset" ] && { echo Not running in GHA, exiting...; exit 0; }
+
 # Remove the ignore files to be able to commit crates and badges to the branch
 rm -f _crates/.gitignore _badges/.gitignore
 
