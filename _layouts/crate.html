@@ -59,6 +59,10 @@ No tags.
 {% assign json_url = "https://alire.ada.dev/badges/" | append: page.crate | append: ".json" %}
 {% assign badge_url = "https://img.shields.io/endpoint?url="| append: json_url %}
 <b>Badge: </b><img src="{{badge_url}}" title="Copy image location: {{badge_url}}"><br>
+{% assign ci_badge_url = "https://img.shields.io/endpoint?url="
+          | append: "https://alire-crates-ci.ada.dev/badges/"
+          | append: page.crate | append: ".json" %}
+<b>Alire CI: </b><img src="{{ci_badge_url}}" title="CI badge: {{ci_badge_url}}"><br>
 <hr>
 <section>
   {{ content }}
