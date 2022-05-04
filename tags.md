@@ -57,7 +57,7 @@ function filter_ul(ul_id, li_id) {
 {% assign tagitems = tag | split: '#' %}
 {% assign name = tagitems[1] %}
 {% assign count = tagitems[2] %}
-<a class="crate-tag-link" onclick="filter_ul('section-Popular','tag-{{ name }}')">{{name}}({{count}})</a>{% endfor %}
+<a class="crate-tag-link" href="javascript:null" onclick="javascript:filter_ul('section-Popular','tag-{{ name }}')">{{name}}({{count}})</a>{% endfor %}
 </div>
 
 <ul id="section-Popular" class="crate_list">
@@ -86,8 +86,10 @@ function filter_ul(ul_id, li_id) {
 
     {% if filtered_list.size > 0 %}
 <b>{{ letter }}</b>
+<div style="white-space: nowrap;">
 {% for tag in filtered_list %}
-<a class="crate-tag-link" href="#{{ letter | downcase }}" onclick="filter_ul('section-{{ letter }}','tag-{{ tag }}')">{{ tag }}</a>{% endfor %}
+<a class="crate-tag-link" href="javascript:null" onclick="javascript:filter_ul('section-{{ letter }}','tag-{{ tag }}')">{{ tag }}</a>{% endfor %}
+</div>
 
 <ul id="section-{{ letter }}" class="crate_list">
         {% for tag in filtered_list %}
