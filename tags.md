@@ -9,35 +9,25 @@ popular_count: 10
 <script>
 var ul_last;
 
-function filter_ul(ul_id, li_id) {
-    var ul, li;
+function filter_ul(ul_id) {
+    var ul;
 
     // Hide list items in last unordered list
     if (ul_last != null) {
        ul = document.getElementById(ul_last);
-       li = ul.getElementsByTagName("li");
-       for (i = 0; i < li.length; i++) {
-           li[i].style.display = "none";
-       }
+       ul.style.display = "none";
     }
 
-    // Show list items in li_id in unordered list ul_id
+    // Show unordered list ul_id
     ul = document.getElementById(ul_id);
-    li = ul.getElementsByTagName("li");
-    for (i = 0; i < li.length; i++) {
-        if (li[i].id == li_id) {
-            li[i].style.display = "list-item";
-        } else {
-            li[i].style.display = "none";
-        }
-    }
+    ul.style.display = "block";
 
     ul_last = ul_id;
 }
 </script>
 
 <style>
-.crate_list li {
+ul {
     display: none;
 }
 </style>
@@ -57,18 +47,19 @@ function filter_ul(ul_id, li_id) {
 {% assign tagitems = tag | split: '#' %}
 {% assign name = tagitems[1] %}
 {% assign count = tagitems[2] %}
-<a class="crate-tag-link" href="javascript:null" onclick="javascript:filter_ul('section-Popular','tag-{{ name }}')">{{name}}({{count}})</a>{% endfor %}
+<a class="crate-tag-link" href="javascript:null" onclick="javascript:filter_ul('tag-top-{{ name }}')">{{name}}({{count}})</a>{% endfor %}
 </div>
 
-<ul id="section-Popular" class="crate_list">
 {% for tag in top_popular_tags %}
     {% assign tagitems = tag | split: '#' %}
     {% assign name = tagitems[1] %}
+<ul id="tag-top-{{ name }}" class="crate_list">
     {%- for crate in site.crates -%}
-        {%- if crate.tags contains name-%}
-<li id="tag-{{ name }}"><a href="{{ base_url }}/crates/{{ crate.crate }}">{{ crate.title }}</a> - {{ crate.short_description }}</li>
-{% endif %}{% endfor %}{% endfor %}
+        {%- if crate.tags contains name %}
+<li><a href="{{ base_url }}/crates/{{ crate.crate }}">{{ crate.title }}</a> - {{ crate.short_description }}</li>
+{%- endif %}{%- endfor %}
 </ul>
+{% endfor %}
 
 <br>
 ### All Tags
@@ -88,16 +79,18 @@ function filter_ul(ul_id, li_id) {
 <b>{{ letter }}</b>
 <div style="white-space: nowrap;">
 {% for tag in filtered_list %}
-<a class="crate-tag-link" href="javascript:null" onclick="javascript:filter_ul('section-{{ letter }}','tag-{{ tag }}')">{{ tag }}</a>{% endfor %}
+<a class="crate-tag-link" href="javascript:null" onclick="javascript:filter_ul('tag-{{ tag }}')">{{ tag }}</a>{% endfor %}
 </div>
 
-<ul id="section-{{ letter }}" class="crate_list">
         {% for tag in filtered_list %}
+<ul id="tag-{{ tag }}" class="crate_list">
             {%- for crate in site.crates -%}
-                {%- if crate.tags contains tag -%}
-<li id="tag-{{ tag }}"><a href="{{ "crates/" | append: crate.crate | downcase | relative_url }}">{{ crate.title }}</a>: {{ crate.short_description }}</li>
-{% endif %}{% endfor %}{% endfor %}
+                {%- if crate.tags contains tag %}
+<li><a href="{{ "crates/" | append: crate.crate | downcase | relative_url }}">{{ crate.title }}</a>: {{ crate.short_description }}</li>
+{%- endif %}{%- endfor %}
 </ul>
+{% endfor %}
+<p></p>
     {% endif %}
 {% endfor %}
 
