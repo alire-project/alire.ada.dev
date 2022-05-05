@@ -24,7 +24,7 @@
         <div class="row">
             <div class="col-md-3 center">
                 <a href="{{ "/" | relative_url }}">
-                    <img src="{{ "/assets/img/" | relative_url }}{{ site.author_logo }}" class="profile-img">
+                    <img src="{{ "/assets/img/" | relative_url }}{{ site.author_logo }}" class="profile-img" alt="ALR logo">
                 </a>
             </div>
             <div class="col-md-5">
@@ -73,7 +73,7 @@
                     {% endif %}
                     {% if site.gitter_room %}
                     <a class="social-link" href="https://gitter.im/{{ site.gitter_room }}">
-                        <img src="https://badges.gitter.im/gitterHQ/gitter.png">
+                        <img src="https://badges.gitter.im/gitterHQ/gitter.png" alt="Gitter badge">
                         <!-- <i class="fab fa-gitter"></i> -->
                     </a>
                     {% endif %}
