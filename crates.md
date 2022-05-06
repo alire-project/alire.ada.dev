@@ -36,3 +36,6 @@ layout: page
 
 {% endfor %}
 {{ site.crates.size }} crates.
+From community branch `{{ site.data.update.index_branch }}`.
+Alr `{{ site.data.update.alr_version }}`.
+Alire Library `{{ site.data.update.alire_lib_version }}`.
