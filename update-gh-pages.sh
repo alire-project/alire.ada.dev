@@ -12,9 +12,9 @@ alr --no-tty search --crates
 alr_version=$(alr --no-tty version | grep "Alr version" | cut -d: -f2 | tr -d '[:blank:]')
 alire_lib_version=$(alr --no-tty version | grep "Alire Library version" | cut -d: -f2 | tr -d '[:blank:]')
 index_branch=$(alr --no-tty version | grep "community index" | cut -d: -f2 | tr -d '[:blank:]')
-echo "From community branch \`${index_branch}\`." | tee -a crates.md
-echo "Alr \`${alr_version}\`." | tee -a crates.md
-echo "Alire Library \`${alire_lib_version}\`." | tee -a crates.md
+echo "From community branch \`${index_branch}\`."
+echo "Alr \`${alr_version}\`."
+echo "Alire Library \`${alire_lib_version}\`."
 
 # Get the list of crates
 list=`alr --no-tty search --crates | cut -f1 -d' ' | grep -v 'Searching...'`
@@ -47,9 +47,13 @@ EOF
 
 done
 
-# Add the date and time at the end of the front page
-echo >> index.md
-date >> index.md
+# Create update.yml with data for index.md and crates.md
+cat >_data/update.yml <<EOF-update
+index_branch:      "${index_branch}"
+alr_version:       "${alr_version}"
+alire_lib_version: "${alire_lib_version}"
+date:              "$(date)"
+EOF-update
 
 echo "Getting doc from Alire repo branch ${DOC_BRANCH}"
 # Download the Alire repository
