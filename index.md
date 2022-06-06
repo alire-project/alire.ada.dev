@@ -57,17 +57,19 @@ file exists locally for working copies of projects, and the [Alire community
 index](https://github.com/alire-project/alire-index) stores the files
 corresponding to its projects.
 
-The complete build environment is set up by setting the `GPR_PROJECT_PATH`
-environment variable before running `gprbuild`, thus freeing the user from
-concerns about installation paths. The user simply adds the used projects to
-its own project GPR file with their simple name.
+The complete build environment is automatically set up by Alire, thus freeing
+the user from concerns about installation paths. The user simply adds
+dependencies to the `alire.toml` manifest, either from the command-line
+(`alr with`) or a text editor, Alire handles the rest.
 
 ### Supported platforms
 
-`Alire` requires a recent Ada 2012 compiler. In practice, this currently means
-[GNAT Community](https://www.adacore.com/download) or GNAT FSF 7.2 onward. The
-continuous integration checks are run against Debian stable, Ubuntu LTS,
-Windows and MacOS.
+`Alire` builds are available for Linux x86-64, Windows x86-64 and macOS x86-64.
+For all those platforms, recent Ada compiler (GNAT FSF) are provided including
+cross compilers for ARM, RISC-V and AVR.
+
+For other platforms, Alire can be built from sources using a GNAT FSF compiler
+version 9.2 onward.
 
 <a href="https://github.com/AdaCore/Ada-SPARK-Crate-Of-The-Year">
   <img src="coty_banner.jpg" width="100%"/>
