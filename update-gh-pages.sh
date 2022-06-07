@@ -9,9 +9,9 @@ fi
 # First print the list of crates so that it is visible in the logs
 alr --no-tty search --crates
 
-alr_version=$(alr --no-tty version | grep "Alr version" | cut -d: -f2 | tr -d '[:blank:]')
-alire_lib_version=$(alr --no-tty version | grep "Alire Library version" | cut -d: -f2 | tr -d '[:blank:]')
-index_branch=$(alr --no-tty version | grep "community index" | cut -d: -f2 | tr -d '[:blank:]')
+alr_version=$(alr --no-tty version | grep "alr version" | cut -d: -f2 | tr -d '[:blank:]')
+alire_lib_version=$(alr --no-tty version | grep "libalire version" | cut -d: -f2 | tr -d '[:blank:]')
+index_branch=$(alr --no-tty version | grep "community index branch" | cut -d: -f2 | tr -d '[:blank:]')
 echo "From community branch \`${index_branch}\`."
 echo "Alr \`${alr_version}\`."
 echo "Alire Library \`${alire_lib_version}\`."
