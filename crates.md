@@ -22,7 +22,7 @@ layout: page
     {% assign filtered_list = filtered_crates | split: ' ' %}
     {% if filtered_list.size > 0 %}
 <b>{{ letter }}</b>
-<ul>
+<ul class="crate-list">
         {% for crate in filtered_list %}
             {% for item in site.crates %}
                 {% if item.title == crate %}

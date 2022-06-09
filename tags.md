@@ -53,7 +53,7 @@ ul {
 {% for tag in top_popular_tags %}
     {% assign tagitems = tag | split: '#' %}
     {% assign name = tagitems[1] %}
-<ul id="tag-top-{{ name }}" class="crate_list">
+<ul id="tag-top-{{ name }}" class="crate-list">
     {%- for crate in site.crates -%}
         {%- if crate.tags contains name %}
 <li><a class="crate-link" href="{{ base_url }}/crates/{{ crate.crate }}">{{ crate.title }}</a> {{ crate.short_description }}</li>
@@ -83,7 +83,7 @@ ul {
 </div>
 
         {% for tag in filtered_list %}
-<ul id="tag-{{ tag }}" class="crate_list">
+<ul id="tag-{{ tag }}" class="crate-list">
             {%- for crate in site.crates -%}
                 {%- if crate.tags contains tag %}
 <li><a class="crate-link" href="{{ "crates/" | append: crate.crate | downcase | relative_url }}">{{ crate.title }}</a> {{ crate.short_description }}</li>
