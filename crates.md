@@ -29,7 +29,7 @@ layout: page
                     {% assign short_description = item.short_description %}
                 {% endif %}
             {% endfor %}
-<li><a href="{{ "crates/" | append: crate | downcase | relative_url }}">{{ crate }}</a>: {{ short_description }}</li>
+<li><a class="crate-link" href="{{ "crates/" | append: crate | downcase | relative_url }}">{{ crate }}</a> {{ short_description }}</li>
         {% endfor %}
 </ul>
     {% endif %}

@@ -28,6 +28,20 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 16px;
 }
 
+.crate-link {
+    padding: .2em .4em;
+    margin: 0;
+    font-size: 85%;
+    border-radius: 3px;
+    overflow: auto;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    font-family: Courier, monospace;
+
+    background-color: rgba(220,180,245,.9);
+    color: rgba(0,0,0,255);
+}
+
 .crate-tag-link {
     padding: .2em .4em;
     margin: 0;

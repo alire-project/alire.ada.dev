@@ -56,7 +56,7 @@ ul {
 <ul id="tag-top-{{ name }}" class="crate_list">
     {%- for crate in site.crates -%}
         {%- if crate.tags contains name %}
-<li><a href="{{ base_url }}/crates/{{ crate.crate }}">{{ crate.title }}</a> - {{ crate.short_description }}</li>
+<li><a class="crate-link" href="{{ base_url }}/crates/{{ crate.crate }}">{{ crate.title }}</a> {{ crate.short_description }}</li>
 {%- endif %}{%- endfor %}
 </ul>
 {% endfor %}
@@ -86,7 +86,7 @@ ul {
 <ul id="tag-{{ tag }}" class="crate_list">
             {%- for crate in site.crates -%}
                 {%- if crate.tags contains tag %}
-<li><a href="{{ "crates/" | append: crate.crate | downcase | relative_url }}">{{ crate.title }}</a>: {{ crate.short_description }}</li>
+<li><a class="crate-link" href="{{ "crates/" | append: crate.crate | downcase | relative_url }}">{{ crate.title }}</a> {{ crate.short_description }}</li>
 {%- endif %}{%- endfor %}
 </ul>
 {% endfor %}
