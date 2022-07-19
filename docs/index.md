@@ -66,6 +66,10 @@ of next to each other */
  <!-- All the empty lines below, as well as the absence of indentation, seem to
    be required for a correct parsing of the markdown files -->
 
+{% include_relative introduction.md %}
+
+<br>
+
 {% include_relative getting-started.md %}
 
 <br>
