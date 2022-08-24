@@ -104,9 +104,19 @@ Other than manual installation of the components, the main drawback of this
 solution is that you do not have access to all the libraries of the Alire
 ecosystem.
 
-### Compiler and debugger
+### How to install
 
-Builds of GNAT FSF and GDB are available in the Alire GNAT-FSF-builds
+Extract all the archives listed below under the same root directory.
+
+If you only want to use the tools from GNAT Studio, you should just have to run 
+GNAT Studio executable from `bin/` directory.
+
+If you want to use the command line, add the `bin/` directory from your root
+installation to the PATH environment variable.
+
+### Compiler, GPRbuild, and debugger
+
+Builds of GNAT FSF, GPRbuild, and GDB are available in the Alire GNAT-FSF-builds
 repository: https://github.com/alire-project/GNAT-FSF-builds/releases
 
 ### IDE
