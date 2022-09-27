@@ -11,7 +11,7 @@ layout: page
   text-decoration: none;
   display: inline-block;
   margin: 4px 2px;
-  transition-duration: 0.4s;
+  transition-duration: 0.2s;
   background-color: black;
   text-color: white;
   border-radius: 20px;
@@ -20,7 +20,7 @@ layout: page
   background-color: #EE8E4A;
   color: white;
 }
-.button > h3 {
+.button > h3, h5 {
     padding: 0em;
     margin: 0px;
     font-weight: bold;
@@ -29,11 +29,52 @@ layout: page
 
 <table style="width:100%; text-align: center">
  <tr>
-  <th><a href="docs/#installation" class="button"><h3>Install Alire</h3></a></th>
-  <th><a href="docs/#first-steps" class="button"><h3>Getting Started</h3></a></th>
+  <td>
+   <a class="button" id="alr_download_button">
+   <h3>Download Alire</h3>
+   <h5 id="alr_dl_subtitle"></h5></a>
+  </td>
+  <td>
+   <a href="docs/#first-steps" class="button"><h3>Getting Started</h3>
+   <h5>Tutorial</h5>
+   </a>
+  </td>
  </tr>
 </table>
 <br>
+
+<script>
+// Set download link depending on the platform.
+// Based on https://github.com/ada-lang-io/ada-lang-io
+
+const platform = navigator?.userAgent?.platform || navigator?.platform || 'unknown';
+
+const currentAlireVersion = '{{site.data.update.alr_version}}'
+const alireReleaseDir = 'https://github.com/alire-project/alire/releases/download/v' + currentAlireVersion + '/';
+const installTargets = new Map([
+  ['Windows', alireReleaseDir + 'alr-' + currentAlireVersion + '-installer-x86_64-windows.exe'],
+  ['Mac', alireReleaseDir + 'alr-' + currentAlireVersion + '-bin-x86_64-macos.zip'],
+  ['Linux', alireReleaseDir + 'alr-' + currentAlireVersion + '-bin-x86_64-linux.zip'],
+  ['Unknown', 'https://github.com/alire-project/alire/releases'],
+]);
+
+const dlSubTitle= new Map([
+  ['Windows', 'for Windows'],
+  ['Mac', 'for macOS'],
+  ['Linux', 'for Linux'],
+  ['Unknown', ''],
+]);
+
+function platformTarget() {
+  if (platform.indexOf('Win') === 0) { return 'Windows'; }
+  if (platform.indexOf('Linux') === 0) { return 'Linux'; }
+  if (platform.indexOf('Mac') === 0) { return 'Mac'; }
+  return 'Unknown';
+}
+
+document.getElementById("alr_download_button").href = installTargets.get(platformTarget());
+document.getElementById("alr_dl_subtitle").innerHTML = dlSubTitle.get(platformTarget());
+</script>
 
 ## ALIRE: Ada LIbrary REpository
 
