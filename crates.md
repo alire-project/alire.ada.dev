@@ -20,7 +20,7 @@ layout: page
          {% endfor %}
      {% endcapture %}
     {% assign filtered_list = filtered_crates | split: ' ' %}
-    {% if filtered_list.size > 0 %}
+    {% if filtered_list != empty %}
 <b>{{ letter }}</b>
 <ul>
         {% for crate in filtered_list %}
