@@ -56,9 +56,9 @@ default choices, Alire will provide the latest GNAT FSF available.
 
 As of today Alire doesn't install GNAT Studio automatically, but you can get a
 release for Windows x64-64 or Linux x86-64 from the repository:
-https://github.com/AdaCore/gnatstudio/releases Once GNAT Studio is installed
-and in the PATH, you only have to use the command `$ alr edit` in your crate to
-start it.
+[GNAT Studio on GitHub](https://github.com/AdaCore/gnatstudio/releases) Once 
+GNAT Studio is installed and in the PATH, you only have to use the command 
+`$ alr edit` in your crate to start it.
 
 ### SPARK
 
