@@ -40,6 +40,13 @@ layout: page
    </a>
   </td>
  </tr>
+ <tr>
+  <td colspan="2">
+   <div id="other_downloads">
+    Download for
+   </div>
+  </td>
+ </tr>
 </table>
 <br>
 
@@ -55,6 +62,7 @@ const installTargets = new Map([
   ['Windows', alireReleaseDir + 'alr-' + currentAlireVersion + '-installer-x86_64-windows.exe'],
   ['Mac', alireReleaseDir + 'alr-' + currentAlireVersion + '-bin-x86_64-macos.zip'],
   ['Linux', alireReleaseDir + 'alr-' + currentAlireVersion + '-bin-x86_64-linux.zip'],
+  ['AppImage', alireReleaseDir + 'alr-' + currentAlireVersion + '-x86_64.AppImage'],
   ['Unknown', 'https://github.com/alire-project/alire/releases'],
 ]);
 
@@ -74,6 +82,25 @@ function platformTarget() {
 
 document.getElementById("alr_download_button").href = installTargets.get(platformTarget());
 document.getElementById("alr_dl_subtitle").innerHTML = dlSubTitle.get(platformTarget());
+
+var first = true;
+for (const [key, value] of installTargets) {
+  var content = '';
+
+  if (key != 'Unknown') {
+    if (first) {
+        first = false;
+    } else {
+        content += ',';
+    }
+    content += ' <a href="' + value + '">' + key + '</a>';
+  } else {
+    content += '.';
+  }
+
+  document.getElementById("other_downloads").innerHTML += content;
+}
+
 </script>
 
 ## ALIRE: Ada LIbrary REpository
