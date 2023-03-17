@@ -59,6 +59,26 @@ No tags.
 {% assign json_url = "https://alire.ada.dev/badges/" | append: page.crate | append: ".json" %}
 {% assign badge_url = "https://img.shields.io/endpoint?url="| append: json_url %}
 <b>Badge: </b><img src="{{badge_url}}" title="Copy image location: {{badge_url}}"><br>
+
+<b>Reverse dependencies:</b>
+{% capture rdeps %}
+ {% for crate in site.crates %}
+  {% for rdep in crate.dependencies %}
+   {% if rdep.crate == page.crate %}
+    {{ crate.crate }}
+   {% endif %}
+  {% endfor %}
+ {% endfor %}
+{% endcapture %}
+{% assign rdeps = rdeps | split:' ' %}
+{% if rdeps.size > 0 %}
+  {% for rdep in rdeps %}
+  <a href="{{ site.baseurl }}/crates/{{ rdep }}">{{ rdep }}</a>
+  {%- endfor %}
+{% else %}
+No reverse dependencies.
+{% endif %}
+
 {% assign ci_badge_url = "https://img.shields.io/endpoint?url="
           | append: site.data.meta.ci_site | append: "/badges/"
           | append: page.crate | append: ".json" %}
