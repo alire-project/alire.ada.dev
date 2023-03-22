@@ -47,7 +47,7 @@ ul {
 {% assign tagitems = tag | split: '#' %}
 {% assign name = tagitems[1] %}
 {% assign count = tagitems[2] %}
-<a class="crate-tag-link" href="javascript:void(0)" onclick="javascript:filter_ul('tag-top-{{ name }}')">{{name}}({{count}})</a>{% endfor %}
+<a class="crate-tag-link" href="javascript:void(0)" onclick="javascript:filter_ul('tag-top-{{ name }}')">#{{name}}({{count}})</a>{% endfor %}
 </div>
 
 {% for tag in top_popular_tags %}
@@ -79,7 +79,7 @@ ul {
 <b>{{ letter }}</b>
 <div style="white-space: nowrap;">
 {% for tag in filtered_list %}
-<a class="crate-tag-link" href="javascript:void(0)" onclick="javascript:filter_ul('tag-{{ tag }}')">{{ tag }}</a>{% endfor %}
+<a class="crate-tag-link" href="javascript:void(0)" onclick="javascript:filter_ul('tag-{{ tag }}')">#{{ tag }}</a>{% endfor %}
 </div>
 
         {% for tag in filtered_list %}
