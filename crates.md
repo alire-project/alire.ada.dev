@@ -22,14 +22,14 @@ layout: page
     {% assign filtered_list = filtered_crates | split: ' ' %}
     {% if filtered_list != empty %}
 <b>{{ letter }}</b>
-<ul>
+<ul class="crate-list">
         {% for crate in filtered_list %}
             {% for item in site.crates %}
                 {% if item.title == crate %}
                     {% assign short_description = item.short_description %}
                 {% endif %}
             {% endfor %}
-<li><a href="{{ "crates/" | append: crate | downcase | relative_url }}">{{ crate }}</a>: {{ short_description }}</li>
+<li><a class="crate-link" href="{{ "crates/" | append: crate | downcase | relative_url }}">{{ crate }}</a> {{ short_description | xml_escape }}</li>
         {% endfor %}
 </ul>
     {% endif %}

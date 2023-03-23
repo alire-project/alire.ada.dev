@@ -27,27 +27,28 @@ layout: page
 }
 </style>
 
-<table style="width:100%; text-align: center">
- <tr>
-  <td>
-   <a class="button" id="alr_download_button">
-   <h3>Download Alire</h3>
-   <h5 id="alr_dl_subtitle"></h5></a>
-  </td>
-  <td>
-   <a href="docs/#first-steps" class="button"><h3>Getting Started</h3>
-   <h5>Tutorial</h5>
-   </a>
-  </td>
- </tr>
- <tr>
-  <td colspan="2">
-   <div id="other_downloads">
-    Download for
-   </div>
-  </td>
- </tr>
-</table>
+<!-- Bootstrap Grid system: https://getbootstrap.com/docs/4.0/layout/grid/ -->
+<div class="container">
+  <div class="row text-center">
+    <div class="col">
+      <a class="button" id="alr_download_button">
+        <h3>Download Alire</h3>
+      <h5 id="alr_dl_subtitle"></h5></a>
+    </div>
+    <div class="col">
+      <a href="docs/#first-steps" class="button">
+        <h3>Getting Started</h3>
+        <h5>Tutorial</h5>
+      </a>
+    </div>
+  </div>
+  <div class="row text-center">
+    <div id="other_downloads" class="col" style="text-align: center;">
+      Download for
+    </div>
+  </div>
+</div>
+
 <br>
 
 <script>
