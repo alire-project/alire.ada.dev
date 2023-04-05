@@ -54,8 +54,13 @@ default choices, Alire will provide the latest GNAT FSF available.
 
 ### IDE
 
-As of today Alire doesn't install GNAT Studio automatically, but you can get a
-release for Windows x64-64 or Linux x86-64 from the repository:
+For IDEs, one option is [Visual Studio Code](https://code.visualstudio.com/) 
+with the
+[Ada extension](https://marketplace.visualstudio.com/items?itemName=AdaCore.ada).
+
+Another one is GNAT Studio. As of today Alire doesn't install GNAT Studio
+automatically, but you can get a release for Windows x64-64 or Linux x86-64
+from the repository:
 [GNAT Studio on GitHub](https://github.com/AdaCore/gnatstudio/releases) Once 
 GNAT Studio is installed and in the PATH, you only have to use the command 
 `$ alr edit` in your crate to start it.
@@ -117,23 +122,23 @@ installation to the PATH environment variable.
 ### Compiler, GPRbuild, and debugger
 
 Builds of GNAT FSF, GPRbuild, and GDB are available in the Alire GNAT-FSF-builds
-repository: https://github.com/alire-project/GNAT-FSF-builds/releases
+repository: [github.com/alire-project/GNAT-FSF-builds/releases](https://github.com/alire-project/GNAT-FSF-builds/releases)
 
 ### IDE
 
 For GNAT Studio, you can download a binary public release from the repository:
-https://github.com/AdaCore/gnatstudio/releases. You can also consider using
-Visual Studio Code with the Ada extension.
+[github.com/AdaCore/gnatstudio/releases](github.com/AdaCore/gnatstudio/releases). You can also consider using
+[Visual Studio Code](https://code.visualstudio.com/) with the [Ada extension](https://marketplace.visualstudio.com/items?itemName=AdaCore.ada).
 
 ### SPARK
 
 Builds of GNATprove for SPARK are also available from the Alire GNAT-FSF-builds
-repository: https://github.com/alire-project/GNAT-FSF-builds/releases
+repository: [github.com/alire-project/GNAT-FSF-builds/releases](https://github.com/alire-project/GNAT-FSF-builds/releases)
 
 ### Libraries
 
 With this solution, you have to build libraries from sources in dedicated
-AdaCore GitHub repositories: https://github.com/AdaCore/
+AdaCore GitHub repositories: [github.com/AdaCore/](https://github.com/AdaCore/)
 
 # Using distribution package managers
 
