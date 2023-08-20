@@ -42,7 +42,7 @@ ul {
 {% assign top_popular_tags = sorted_popular_tags | slice: 0, page.popular_count %}
 
 ### Top {{ page.popular_count }} Tags
-<div style="white-space: nowrap;">
+<div>
 {% for tag in top_popular_tags %}
 {% assign tagitems = tag | split: '#' %}
 {% assign name = tagitems[1] %}
@@ -77,7 +77,7 @@ ul {
 
     {% if filtered_list.size > 0 %}
 <b>{{ letter }}</b>
-<div style="white-space: nowrap;">
+<div>
 {% for tag in filtered_list %}
 <a class="crate-tag-link" href="javascript:void(0)" onclick="javascript:filter_ul('tag-{{ tag }}')">#{{ tag }}</a>{% endfor %}
 </div>
