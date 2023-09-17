@@ -21,17 +21,25 @@ layout: page
      {% endcapture %}
     {% assign filtered_list = filtered_crates | split: ' ' %}
     {% if filtered_list != empty %}
-<b>{{ letter }}</b>
-<ul class="crate-list">
+<h2>{{ letter }}</h2>
+<div class="crate-list">
         {% for crate in filtered_list %}
             {% for item in site.crates %}
                 {% if item.title == crate %}
                     {% assign short_description = item.short_description %}
+                    {% assign version = item.version %}
+                    {% assign website = item.websites %}
+                    {% assign crate_link = '/crates/' | append: crate  | downcase | relative_url %}
                 {% endif %}
             {% endfor %}
-<li><a class="crate-link" href="{{ "crates/" | append: crate | downcase | relative_url }}">{{ crate }}</a> {{ short_description | xml_escape }}</li>
+<div class="crate-box">
+{%- include crate_badge.html name=crate link=crate_link version=version -%}
+<div>{{ short_description | xml_escape }}
+{% if website != empty %} &mdash; <a href="{{website}}">website</a>{% endif %}
+</div>
+</div>
         {% endfor %}
-</ul>
+</div>
     {% endif %}
 
 {% endfor %}

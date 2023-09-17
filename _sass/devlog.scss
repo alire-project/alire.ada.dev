@@ -88,6 +88,19 @@ h1, h2, h3, h4, h5 {
     color: rgba(0,0,0,255);
 }
 
+.crate-box {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #F5F5F5;
+    border-radius: 0.25em;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+.crate-box > * {
+    margin-right: 10px;
+}
+
 .markdown {
     img {
         max-width: 100%;
