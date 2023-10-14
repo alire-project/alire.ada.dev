@@ -46,6 +46,7 @@ header_pages:
   - crates.md
   - search.html
   - docs/index.md
+  - docs/index-alr.md
 
 # Devlopr
 author_logo: profile.png
