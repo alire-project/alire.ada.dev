@@ -3,7 +3,7 @@
 # This script is made to run in a GitHub action.
 
 if [ "x${DOC_BRANCH:-}" == "x" ]; then
-    DOC_BRANCH="release/1.2"
+    DOC_BRANCH="release/2.0"
 fi
 
 # First print the list of crates so that it is visible in the logs
@@ -12,6 +12,13 @@ alr --no-tty search --crates
 alr_version=$(alr --no-tty version | grep "alr version" | cut -d: -f2 | tr -d '[:blank:]')
 alire_lib_version=$(alr --no-tty version | grep "libalire version" | cut -d: -f2 | tr -d '[:blank:]')
 index_branch=$(alr --no-tty version | grep "community index branch" | cut -d: -f2 | tr -d '[:blank:]')
+
+# Fix version for alr 2.0.0 that is not using a full semver format
+if [ "x$alr_version" = "x2.0" ]; then
+    alr_version="2.0.0"
+    alire_lib_version="2.0.0"
+fi
+
 echo "From community branch \`${index_branch}\`."
 echo "Alr \`${alr_version}\`."
 echo "Alire Library \`${alire_lib_version}\`."
@@ -62,8 +69,8 @@ git clone --depth=1 --single-branch --branch ${DOC_BRANCH} https://github.com/al
 # Copy the doc content
 cp alire/doc/* docs/
 
-# Append the built-ins config doc generated from the tool
-alr --no-tty config --builtins-doc >> docs/configuration.md
+# Append the built-ins settings doc generated from the tool
+alr --no-tty settings --builtins-doc >> docs/settings.md
 
 # Cleanup alire repo
 rm -rf alire/
