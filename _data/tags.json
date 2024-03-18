@@ -1,0 +1,4590 @@
+[
+    {
+        "name": "miscellanea",
+        "crates": [
+            "aaa",
+            "wl_lib"
+        ]
+    },
+    {
+        "name": "utility",
+        "crates": [
+            "aaa",
+            "brackelib",
+            "uri_ada",
+            "alr2appimage",
+            "simple_logging",
+            "wl_lib"
+        ]
+    },
+    {
+        "name": "soap",
+        "crates": [
+            "matreshka_soap_wsse",
+            "aws",
+            "matreshka_soap"
+        ]
+    },
+    {
+        "name": "wsse",
+        "crates": [
+            "matreshka_soap_wsse"
+        ]
+    },
+    {
+        "name": "web",
+        "crates": [
+            "matreshka_soap_wsse",
+            "serverfaces_unit",
+            "gnoga",
+            "aws",
+            "servletada",
+            "servletada_aws",
+            "jwt",
+            "matreshka_servlet",
+            "elada",
+            "matreshka_soap",
+            "matreshka_spikedog_awsd",
+            "servletada_ews",
+            "matreshka_spikedog_core",
+            "utilada_curl",
+            "matreshka_spikedog_api",
+            "utilada_aws",
+            "serverfaces",
+            "openai",
+            "servletada_unit",
+            "awa",
+            "awa_unit",
+            "openapi_server",
+            "openapi",
+            "ews",
+            "matreshka_fastcgi",
+            "webdriver"
+        ]
+    },
+    {
+        "name": "database",
+        "crates": [
+            "ado",
+            "lmdb_ada",
+            "matreshka_sql_mysql",
+            "gnatcoll_sqlite",
+            "ado_sqlite",
+            "matreshka_sql_oracle",
+            "ado_mysql",
+            "ado_postgresql",
+            "matreshka_sql",
+            "gnatcoll_sql",
+            "gnatcoll_xref",
+            "matreshka_sql_postgresql",
+            "matreshka_sql_firebird",
+            "dynamo",
+            "matreshka_sql_sqlite3",
+            "gnatcoll_postgres",
+            "ado_all"
+        ]
+    },
+    {
+        "name": "uml",
+        "crates": [
+            "ado",
+            "matreshka_amf_uml",
+            "matreshka_amf_mofext",
+            "ado_sqlite",
+            "ado_mysql",
+            "matreshka_amf_dd",
+            "ado_postgresql",
+            "matreshka_amf_ocl",
+            "dynamo",
+            "matreshka_amf",
+            "matreshka_amf_utp",
+            "ado_all"
+        ]
+    },
+    {
+        "name": "sql",
+        "crates": [
+            "ado",
+            "matreshka_sql_mysql",
+            "gnatcoll_sqlite",
+            "ado_sqlite",
+            "matreshka_sql_oracle",
+            "ado_mysql",
+            "ado_postgresql",
+            "matreshka_sql",
+            "gnatcoll_sql",
+            "matreshka_sql_postgresql",
+            "matreshka_sql_firebird",
+            "matreshka_sql_sqlite3",
+            "ado_all"
+        ]
+    },
+    {
+        "name": "indent",
+        "crates": [
+            "emacs_gpr_mode",
+            "emacs_wisitoken_grammar_mode",
+            "emacs_wisi"
+        ]
+    },
+    {
+        "name": "highlight",
+        "crates": [
+            "emacs_gpr_mode",
+            "emacs_wisitoken_grammar_mode"
+        ]
+    },
+    {
+        "name": "parser",
+        "crates": [
+            "emacs_gpr_mode",
+            "elada",
+            "ayacc",
+            "emacs_wisitoken_grammar_mode",
+            "wisitoken",
+            "wikiada",
+            "aflex"
+        ]
+    },
+    {
+        "name": "gpr",
+        "crates": [
+            "emacs_gpr_mode",
+            "gnatcoll"
+        ]
+    },
+    {
+        "name": "emacs",
+        "crates": [
+            "emacs_gpr_mode",
+            "emacs_gpr_query",
+            "emacs_wisitoken_grammar_mode",
+            "emacs_wisi",
+            "emacs_ada_mode"
+        ]
+    },
+    {
+        "name": "spdx",
+        "crates": [
+            "spdx"
+        ]
+    },
+    {
+        "name": "license",
+        "crates": [
+            "spdx"
+        ]
+    },
+    {
+        "name": "process",
+        "crates": [
+            "spawn_glib",
+            "ashell",
+            "spoon",
+            "spawn"
+        ]
+    },
+    {
+        "name": "launch",
+        "crates": [
+            "spawn_glib",
+            "spawn"
+        ]
+    },
+    {
+        "name": "pipe",
+        "crates": [
+            "spawn_glib",
+            "spawn"
+        ]
+    },
+    {
+        "name": "glib",
+        "crates": [
+            "spawn_glib"
+        ]
+    },
+    {
+        "name": "windows",
+        "crates": [
+            "win32ada",
+            "gwindows",
+            "orka_awt"
+        ]
+    },
+    {
+        "name": "api",
+        "crates": [
+            "win32ada",
+            "openai",
+            "openapi_server",
+            "openapi"
+        ]
+    },
+    {
+        "name": "gnatcoll",
+        "crates": [
+            "gnatcoll_omp",
+            "gnatcoll_sqlite",
+            "gnatcoll_gmp",
+            "gnatcoll_python3",
+            "gnatcoll_syslog",
+            "gnatcoll_zlib",
+            "gnatcoll_lzma",
+            "gnatcoll_sql",
+            "gnatcoll_xref",
+            "gnatcoll_iconv",
+            "gnatcoll",
+            "gnatcoll_readline",
+            "gnatcoll_python",
+            "gnatcoll_postgres"
+        ]
+    },
+    {
+        "name": "bindings",
+        "crates": [
+            "gnatcoll_omp",
+            "florist_blady",
+            "gnatcoll_gmp",
+            "gnatcoll_python3",
+            "gnatcoll_syslog",
+            "admpfr",
+            "gnatcoll_zlib",
+            "gnatcoll_lzma",
+            "gnatcoll_iconv",
+            "intl",
+            "magicada",
+            "secretada",
+            "gnatcoll_readline",
+            "gnatcoll_python"
+        ]
+    },
+    {
+        "name": "openmp",
+        "crates": [
+            "gnatcoll_omp"
+        ]
+    },
+    {
+        "name": "libgomp",
+        "crates": [
+            "gnatcoll_omp"
+        ]
+    },
+    {
+        "name": "manipulation",
+        "crates": [
+            "rewriters",
+            "rejuvenation"
+        ]
+    },
+    {
+        "name": "transformation",
+        "crates": [
+            "rewriters",
+            "rejuvenation"
+        ]
+    },
+    {
+        "name": "geste",
+        "crates": [
+            "tiled_code_gen"
+        ]
+    },
+    {
+        "name": "gamedev",
+        "crates": [
+            "tiled_code_gen",
+            "sdlada"
+        ]
+    },
+    {
+        "name": "game",
+        "crates": [
+            "tiled_code_gen",
+            "shoot_n_loot",
+            "wordlelib",
+            "orka",
+            "eagle_lander",
+            "wordle",
+            "mage_hat",
+            "bingada",
+            "virtapu",
+            "mage",
+            "honki_tonks_zivilisationen",
+            "play_2048",
+            "pygamer_simulator",
+            "geste",
+            "pygamer_bsp"
+        ]
+    },
+    {
+        "name": "tiled",
+        "crates": [
+            "tiled_code_gen"
+        ]
+    },
+    {
+        "name": "opengl",
+        "crates": [
+            "openglada_images",
+            "orka_egl",
+            "orka_tools",
+            "openglada_text",
+            "orka",
+            "orka_awt",
+            "asfml",
+            "orka_opengl",
+            "openglada",
+            "openglada_glfw"
+        ]
+    },
+    {
+        "name": "rendering",
+        "crates": [
+            "openglada_images",
+            "openglada_text",
+            "freetypeada",
+            "orka",
+            "orka_opengl",
+            "openglada",
+            "geste"
+        ]
+    },
+    {
+        "name": "graphics",
+        "crates": [
+            "openglada_images",
+            "labs_solar_system",
+            "aicwl",
+            "orka",
+            "orka_awt",
+            "asfml",
+            "orka_opengl",
+            "openglada"
+        ]
+    },
+    {
+        "name": "arguments",
+        "crates": [
+            "getopt"
+        ]
+    },
+    {
+        "name": "options",
+        "crates": [
+            "getopt"
+        ]
+    },
+    {
+        "name": "flags",
+        "crates": [
+            "getopt"
+        ]
+    },
+    {
+        "name": "getopt",
+        "crates": [
+            "getopt"
+        ]
+    },
+    {
+        "name": "hello",
+        "crates": [
+            "hello",
+            "libhello"
+        ]
+    },
+    {
+        "name": "demo",
+        "crates": [
+            "hello",
+            "avrada_examples",
+            "mage_hat",
+            "libhello"
+        ]
+    },
+    {
+        "name": "optional",
+        "crates": [
+            "optional"
+        ]
+    },
+    {
+        "name": "functional",
+        "crates": [
+            "optional",
+            "iterators"
+        ]
+    },
+    {
+        "name": "orka",
+        "crates": [
+            "orka_tensors_cpu",
+            "orka_egl",
+            "orka_transforms",
+            "orka_tools",
+            "orka_plugin_gltf",
+            "orka_types",
+            "orka",
+            "orka_numerics",
+            "orka_simd",
+            "orka_plugin_atmosphere",
+            "orka_plugin_terrain",
+            "orka_tensors_gpu",
+            "orka_opengl",
+            "orka_plugin_archives"
+        ]
+    },
+    {
+        "name": "math",
+        "crates": [
+            "orka_tensors_cpu",
+            "orka_transforms",
+            "orka_numerics",
+            "orka_tensors_gpu"
+        ]
+    },
+    {
+        "name": "vector",
+        "crates": [
+            "orka_tensors_cpu",
+            "orka_transforms",
+            "orka_numerics",
+            "orka_tensors_gpu"
+        ]
+    },
+    {
+        "name": "matrix",
+        "crates": [
+            "orka_tensors_cpu",
+            "orka_transforms",
+            "orka_numerics",
+            "mathpaqs",
+            "orka_tensors_gpu"
+        ]
+    },
+    {
+        "name": "ndarray",
+        "crates": [
+            "orka_tensors_cpu",
+            "orka_numerics",
+            "orka_tensors_gpu"
+        ]
+    },
+    {
+        "name": "tensor",
+        "crates": [
+            "orka_tensors_cpu",
+            "orka_numerics",
+            "orka_tensors_gpu"
+        ]
+    },
+    {
+        "name": "numpy",
+        "crates": [
+            "orka_tensors_cpu",
+            "orka_numerics",
+            "orka_tensors_gpu"
+        ]
+    },
+    {
+        "name": "random",
+        "crates": [
+            "orka_tensors_cpu",
+            "system_random",
+            "orka_numerics",
+            "rsfile",
+            "orka_tensors_gpu",
+            "xoshiro"
+        ]
+    },
+    {
+        "name": "statistics",
+        "crates": [
+            "orka_tensors_cpu",
+            "sciada",
+            "orka_numerics",
+            "mathpaqs",
+            "orka_tensors_gpu"
+        ]
+    },
+    {
+        "name": "leastsquares",
+        "crates": [
+            "orka_tensors_cpu",
+            "orka_numerics",
+            "orka_tensors_gpu"
+        ]
+    },
+    {
+        "name": "linearalgebra",
+        "crates": [
+            "orka_tensors_cpu",
+            "orka_numerics",
+            "orka_tensors_gpu"
+        ]
+    },
+    {
+        "name": "linalg",
+        "crates": [
+            "orka_tensors_cpu",
+            "orka_numerics",
+            "orka_tensors_gpu"
+        ]
+    },
+    {
+        "name": "simd",
+        "crates": [
+            "orka_tensors_cpu",
+            "orka_simd"
+        ]
+    },
+    {
+        "name": "servlet",
+        "crates": [
+            "serverfaces_unit",
+            "servletada",
+            "servletada_aws",
+            "matreshka_servlet",
+            "matreshka_spikedog_awsd",
+            "servletada_ews",
+            "matreshka_spikedog_core",
+            "matreshka_spikedog_api",
+            "serverfaces",
+            "servletada_unit"
+        ]
+    },
+    {
+        "name": "http",
+        "crates": [
+            "serverfaces_unit",
+            "gnoga",
+            "aws",
+            "servletada",
+            "servletada_aws",
+            "matreshka_servlet",
+            "servletada_ews",
+            "dummyserver",
+            "utilada_curl",
+            "utilada_aws",
+            "serverfaces",
+            "servletada_unit",
+            "matreshka_fastcgi"
+        ]
+    },
+    {
+        "name": "framework",
+        "crates": [
+            "serverfaces_unit",
+            "awa",
+            "awa_unit"
+        ]
+    },
+    {
+        "name": "facelet",
+        "crates": [
+            "serverfaces_unit"
+        ]
+    },
+    {
+        "name": "jsf",
+        "crates": [
+            "serverfaces_unit"
+        ]
+    },
+    {
+        "name": "testing",
+        "crates": [
+            "serverfaces_unit",
+            "scripted_testing",
+            "servletada_unit",
+            "awa_unit",
+            "matreshka_amf_utp",
+            "utilada_unit"
+        ]
+    },
+    {
+        "name": "egl",
+        "crates": [
+            "orka_egl",
+            "orka",
+            "orka_awt",
+            "wayland_egl_ada",
+            "wayland_ada_scanner",
+            "orka_opengl"
+        ]
+    },
+    {
+        "name": "timer",
+        "crates": [
+            "stopwatch"
+        ]
+    },
+    {
+        "name": "stopwatch",
+        "crates": [
+            "stopwatch"
+        ]
+    },
+    {
+        "name": "chronometer",
+        "crates": [
+            "stopwatch"
+        ]
+    },
+    {
+        "name": "sci",
+        "crates": [
+            "sciada"
+        ]
+    },
+    {
+        "name": "scientific",
+        "crates": [
+            "sciada"
+        ]
+    },
+    {
+        "name": "correlations",
+        "crates": [
+            "sciada"
+        ]
+    },
+    {
+        "name": "occurrences",
+        "crates": [
+            "sciada"
+        ]
+    },
+    {
+        "name": "similarities",
+        "crates": [
+            "sciada"
+        ]
+    },
+    {
+        "name": "meta",
+        "crates": [
+            "matreshka_amf_uml",
+            "matreshka_amf_mofext",
+            "matreshka_amf_dd",
+            "matreshka_amf_ocl",
+            "matreshka_amf",
+            "matreshka_amf_utp"
+        ]
+    },
+    {
+        "name": "diagram",
+        "crates": [
+            "matreshka_amf_uml",
+            "matreshka_amf_mofext",
+            "matreshka_amf_dd",
+            "matreshka_amf_ocl",
+            "matreshka_amf_utp"
+        ]
+    },
+    {
+        "name": "xmpp",
+        "crates": [
+            "axmpp"
+        ]
+    },
+    {
+        "name": "jabber",
+        "crates": [
+            "axmpp"
+        ]
+    },
+    {
+        "name": "messaging",
+        "crates": [
+            "axmpp",
+            "zeromq_ada"
+        ]
+    },
+    {
+        "name": "image",
+        "crates": [
+            "gid",
+            "qoi"
+        ]
+    },
+    {
+        "name": "decoder",
+        "crates": [
+            "gid"
+        ]
+    },
+    {
+        "name": "bmp",
+        "crates": [
+            "gid"
+        ]
+    },
+    {
+        "name": "gif",
+        "crates": [
+            "gid"
+        ]
+    },
+    {
+        "name": "jpeg",
+        "crates": [
+            "gid"
+        ]
+    },
+    {
+        "name": "jpg",
+        "crates": [
+            "gid"
+        ]
+    },
+    {
+        "name": "pbm",
+        "crates": [
+            "gid"
+        ]
+    },
+    {
+        "name": "pgm",
+        "crates": [
+            "gid"
+        ]
+    },
+    {
+        "name": "png",
+        "crates": [
+            "gid"
+        ]
+    },
+    {
+        "name": "pnm",
+        "crates": [
+            "gid"
+        ]
+    },
+    {
+        "name": "ppm",
+        "crates": [
+            "gid"
+        ]
+    },
+    {
+        "name": "qoi",
+        "crates": [
+            "gid",
+            "qoi"
+        ]
+    },
+    {
+        "name": "tga",
+        "crates": [
+            "gid"
+        ]
+    },
+    {
+        "name": "targa",
+        "crates": [
+            "gid"
+        ]
+    },
+    {
+        "name": "avr",
+        "crates": [
+            "avrada_examples",
+            "avrada_lib",
+            "avrada_mcu",
+            "avrada_rts"
+        ]
+    },
+    {
+        "name": "embedded",
+        "crates": [
+            "avrada_examples",
+            "littlefs",
+            "muntsos_beaglebone",
+            "ltp_305",
+            "muntsos_raspberrypi4",
+            "muntsos_raspberrypi1",
+            "midi",
+            "chests",
+            "edc_client",
+            "microbit_examples",
+            "pico_examples",
+            "minisamd51_example",
+            "startup_gen",
+            "tiny_rp2040_bsp",
+            "microbit_bsp",
+            "samd51_hal",
+            "bb_pico_bsp",
+            "stm32f0x2_hal",
+            "slip",
+            "hal",
+            "muntsos_raspberrypi2",
+            "sh1107",
+            "remoteio",
+            "muntsos_raspberrypi5",
+            "pico_bsp",
+            "elogs",
+            "light_arduino_due",
+            "minisamd51_bsp",
+            "esp_idf",
+            "muntsos_raspberrypi3",
+            "light_fk723m1_zgt6",
+            "itsybitsy_rp2040_bsp",
+            "embedded_components",
+            "muntsos_aarch64",
+            "eeprom_i2c",
+            "mcp2221",
+            "lvgl_ada",
+            "itsybitsy_bsp",
+            "basalt",
+            "cobs",
+            "usb_embedded",
+            "avrada_lib",
+            "rp2040_hal",
+            "avrada_mcu",
+            "linux_hal",
+            "adl_middleware",
+            "tresses",
+            "bbqueue",
+            "libsimpleio",
+            "pygamer_bsp",
+            "avrada_rts",
+            "atomic",
+            "nrf5x_hal",
+            "cortex_m"
+        ]
+    },
+    {
+        "name": "florist",
+        "crates": [
+            "florist_blady"
+        ]
+    },
+    {
+        "name": "posix",
+        "crates": [
+            "florist_blady",
+            "spoon"
+        ]
+    },
+    {
+        "name": "quaternion",
+        "crates": [
+            "orka_transforms"
+        ]
+    },
+    {
+        "name": "gltf",
+        "crates": [
+            "orka_tools",
+            "orka_plugin_gltf",
+            "orka"
+        ]
+    },
+    {
+        "name": "ktx",
+        "crates": [
+            "orka_tools",
+            "orka"
+        ]
+    },
+    {
+        "name": "atari",
+        "crates": [
+            "atari_atr_tools",
+            "atari_exe_tools"
+        ]
+    },
+    {
+        "name": "tools",
+        "crates": [
+            "atari_atr_tools",
+            "gnatdoc",
+            "libgnatdoc",
+            "mos6502_create_reset",
+            "mos6502_create_nop",
+            "mos6502_create_led",
+            "atari_exe_tools"
+        ]
+    },
+    {
+        "name": "retrocomputing",
+        "crates": [
+            "atari_atr_tools",
+            "mos6502_create_reset",
+            "mos6502_create_nop",
+            "mos6502_create_led",
+            "atari_exe_tools"
+        ]
+    },
+    {
+        "name": "ada-2022",
+        "crates": [
+            "atari_atr_tools",
+            "atari_exe_tools"
+        ]
+    },
+    {
+        "name": "key-value",
+        "crates": [
+            "lmdb_ada"
+        ]
+    },
+    {
+        "name": "fonts",
+        "crates": [
+            "openglada_text",
+            "freetypeada"
+        ]
+    },
+    {
+        "name": "gui",
+        "crates": [
+            "gnoga",
+            "gwindows",
+            "lvgl_ada_examples",
+            "gtkada",
+            "lvgl_ada_simulator",
+            "lvgl_ada",
+            "openglada_glfw"
+        ]
+    },
+    {
+        "name": "server",
+        "crates": [
+            "gnoga",
+            "aws",
+            "dummyserver",
+            "ews"
+        ]
+    },
+    {
+        "name": "https",
+        "crates": [
+            "gnoga",
+            "aws"
+        ]
+    },
+    {
+        "name": "ssl",
+        "crates": [
+            "gnoga",
+            "aws",
+            "tlsada"
+        ]
+    },
+    {
+        "name": "wayland",
+        "crates": [
+            "wayland_cursor_ada",
+            "orka_awt",
+            "wayland_egl_ada",
+            "wayland_ada_scanner",
+            "wayland_client_ada",
+            "wayland_ada_info",
+            "wayland_protocols_ada"
+        ]
+    },
+    {
+        "name": "unicode",
+        "crates": [
+            "uxstrings",
+            "emojis",
+            "vss",
+            "matreshka_league",
+            "utf8test",
+            "umwi"
+        ]
+    },
+    {
+        "name": "dynamic",
+        "crates": [
+            "uxstrings"
+        ]
+    },
+    {
+        "name": "string",
+        "crates": [
+            "uxstrings",
+            "emojis",
+            "adacl",
+            "basalt"
+        ]
+    },
+    {
+        "name": "json",
+        "crates": [
+            "yeison",
+            "servletada",
+            "servletada_aws",
+            "jwt",
+            "servletada_ews",
+            "vss",
+            "matreshka_league",
+            "utilada",
+            "serverfaces",
+            "servletada_unit",
+            "gnatcoll",
+            "json"
+        ]
+    },
+    {
+        "name": "yaml",
+        "crates": [
+            "yeison"
+        ]
+    },
+    {
+        "name": "toml",
+        "crates": [
+            "yeison",
+            "toml_slicer"
+        ]
+    },
+    {
+        "name": "containers",
+        "crates": [
+            "yeison",
+            "chests",
+            "minimal_containers",
+            "stephes_ada_library"
+        ]
+    },
+    {
+        "name": "cryptography",
+        "crates": [
+            "saatana",
+            "sparknacl",
+            "pbkdf2",
+            "sha2",
+            "system_random",
+            "chacha20",
+            "fastpbkdf2_ada",
+            "libkeccak",
+            "hmac",
+            "sha1"
+        ]
+    },
+    {
+        "name": "spark",
+        "crates": [
+            "saatana",
+            "sparknacl",
+            "slip",
+            "elogs",
+            "libkeccak",
+            "spark_unbound",
+            "basalt",
+            "cobs",
+            "xoshiro",
+            "bbqueue",
+            "blake2s",
+            "endianness",
+            "vaton",
+            "atomic",
+            "program_proofs_in_spark",
+            "spat"
+        ]
+    },
+    {
+        "name": "aws",
+        "crates": [
+            "aws"
+        ]
+    },
+    {
+        "name": "wsdl",
+        "crates": [
+            "aws"
+        ]
+    },
+    {
+        "name": "dotenv",
+        "crates": [
+            "dotenv"
+        ]
+    },
+    {
+        "name": "env",
+        "crates": [
+            "dotenv"
+        ]
+    },
+    {
+        "name": "environment",
+        "crates": [
+            "dotenv"
+        ]
+    },
+    {
+        "name": "variables",
+        "crates": [
+            "dotenv"
+        ]
+    },
+    {
+        "name": "config",
+        "crates": [
+            "dotenv",
+            "ini_files"
+        ]
+    },
+    {
+        "name": "settings",
+        "crates": [
+            "dotenv"
+        ]
+    },
+    {
+        "name": "iterators",
+        "crates": [
+            "iterators"
+        ]
+    },
+    {
+        "name": "geo",
+        "crates": [
+            "geo_coords"
+        ]
+    },
+    {
+        "name": "coordinates",
+        "crates": [
+            "geo_coords"
+        ]
+    },
+    {
+        "name": "latitude",
+        "crates": [
+            "geo_coords"
+        ]
+    },
+    {
+        "name": "longitude",
+        "crates": [
+            "geo_coords"
+        ]
+    },
+    {
+        "name": "distance",
+        "crates": [
+            "geo_coords"
+        ]
+    },
+    {
+        "name": "bearing",
+        "crates": [
+            "geo_coords"
+        ]
+    },
+    {
+        "name": "haversine",
+        "crates": [
+            "geo_coords"
+        ]
+    },
+    {
+        "name": "filesystem",
+        "crates": [
+            "littlefs"
+        ]
+    },
+    {
+        "name": "nostd",
+        "crates": [
+            "littlefs",
+            "midi",
+            "chests",
+            "microbit_examples",
+            "pico_examples",
+            "minisamd51_example",
+            "startup_gen",
+            "tiny_rp2040_bsp",
+            "microbit_bsp",
+            "samd51_hal",
+            "stm32f0x2_hal",
+            "hal",
+            "pico_bsp",
+            "minisamd51_bsp",
+            "esp_idf",
+            "itsybitsy_rp2040_bsp",
+            "virtapu",
+            "embedded_components",
+            "eeprom_i2c",
+            "itsybitsy_bsp",
+            "basalt",
+            "cobs",
+            "usb_embedded",
+            "rp2040_hal",
+            "adl_middleware",
+            "tresses",
+            "bbqueue",
+            "geste",
+            "pygamer_bsp",
+            "atomic",
+            "nrf5x_hal",
+            "cortex_m"
+        ]
+    },
+    {
+        "name": "flash",
+        "crates": [
+            "littlefs"
+        ]
+    },
+    {
+        "name": "rest",
+        "crates": [
+            "servletada",
+            "minirest",
+            "utilada_curl",
+            "openai",
+            "servletada_unit",
+            "openapi_server",
+            "openapi"
+        ]
+    },
+    {
+        "name": "db",
+        "crates": [
+            "matreshka_sql_mysql",
+            "matreshka_sql_oracle",
+            "matreshka_sql",
+            "matreshka_sql_postgresql",
+            "matreshka_sql_firebird",
+            "matreshka_sql_sqlite3"
+        ]
+    },
+    {
+        "name": "mysql",
+        "crates": [
+            "matreshka_sql_mysql",
+            "ado_mysql",
+            "ado_all"
+        ]
+    },
+    {
+        "name": "mariadb",
+        "crates": [
+            "matreshka_sql_mysql",
+            "ado_mysql",
+            "ado_all"
+        ]
+    },
+    {
+        "name": "muntsos",
+        "crates": [
+            "muntsos_beaglebone",
+            "muntsos_raspberrypi4",
+            "muntsos_raspberrypi1",
+            "muntsos_raspberrypi2",
+            "muntsos_raspberrypi5",
+            "muntsos_raspberrypi3",
+            "muntsos_aarch64"
+        ]
+    },
+    {
+        "name": "linux",
+        "crates": [
+            "muntsos_beaglebone",
+            "muntsos_raspberrypi4",
+            "muntsos_raspberrypi1",
+            "inotify",
+            "canberra_ada",
+            "alr2appimage",
+            "keypadder",
+            "muntsos_raspberrypi2",
+            "remoteio",
+            "muntsos_raspberrypi5",
+            "muntsos_raspberrypi3",
+            "powerjoular",
+            "muntsos_aarch64",
+            "mcp2221",
+            "linux_hal",
+            "libsimpleio",
+            "evdev",
+            "epoll"
+        ]
+    },
+    {
+        "name": "arm",
+        "crates": [
+            "muntsos_beaglebone",
+            "muntsos_raspberrypi1",
+            "muntsos_raspberrypi2",
+            "cortex_m"
+        ]
+    },
+    {
+        "name": "beaglebone",
+        "crates": [
+            "muntsos_beaglebone",
+            "libsimpleio"
+        ]
+    },
+    {
+        "name": "password",
+        "crates": [
+            "get_password"
+        ]
+    },
+    {
+        "name": "echo",
+        "crates": [
+            "get_password"
+        ]
+    },
+    {
+        "name": "textio",
+        "crates": [
+            "get_password"
+        ]
+    },
+    {
+        "name": "libadalang",
+        "crates": [
+            "libadalang_tools",
+            "lal_highlight",
+            "libadalang"
+        ]
+    },
+    {
+        "name": "static-analysis",
+        "crates": [
+            "libadalang_tools",
+            "lal_highlight",
+            "libadalang"
+        ]
+    },
+    {
+        "name": "metric",
+        "crates": [
+            "libadalang_tools"
+        ]
+    },
+    {
+        "name": "formatting",
+        "crates": [
+            "libadalang_tools",
+            "si_units"
+        ]
+    },
+    {
+        "name": "generator",
+        "crates": [
+            "libadalang_tools",
+            "ayacc",
+            "ada_pretty",
+            "wisitoken",
+            "automate",
+            "anagram",
+            "task_coroutines",
+            "dynamo",
+            "are",
+            "protobuf",
+            "aflex"
+        ]
+    },
+    {
+        "name": "gnatmetric",
+        "crates": [
+            "libadalang_tools"
+        ]
+    },
+    {
+        "name": "gnatpp",
+        "crates": [
+            "libadalang_tools"
+        ]
+    },
+    {
+        "name": "gnatstub",
+        "crates": [
+            "libadalang_tools"
+        ]
+    },
+    {
+        "name": "gnattest",
+        "crates": [
+            "libadalang_tools"
+        ]
+    },
+    {
+        "name": "sensor",
+        "crates": [
+            "qmc5883",
+            "hmc5883",
+            "remoteio",
+            "bme280",
+            "mcp2221",
+            "libsimpleio"
+        ]
+    },
+    {
+        "name": "magnetometer",
+        "crates": [
+            "qmc5883",
+            "hmc5883"
+        ]
+    },
+    {
+        "name": "driver",
+        "crates": [
+            "qmc5883",
+            "hmc5883",
+            "bme280"
+        ]
+    },
+    {
+        "name": "project-euler",
+        "crates": [
+            "euler_tools"
+        ]
+    },
+    {
+        "name": "mathematics",
+        "crates": [
+            "euler_tools",
+            "mathpaqs"
+        ]
+    },
+    {
+        "name": "pygamer",
+        "crates": [
+            "shoot_n_loot",
+            "pygamer_simulator",
+            "pygamer_bsp"
+        ]
+    },
+    {
+        "name": "simulator",
+        "crates": [
+            "shoot_n_loot",
+            "eagle_lander",
+            "lvgl_ada_simulator",
+            "pygamer_simulator"
+        ]
+    },
+    {
+        "name": "led",
+        "crates": [
+            "ltp_305"
+        ]
+    },
+    {
+        "name": "rp2040",
+        "crates": [
+            "ltp_305",
+            "edc_client",
+            "pico_examples",
+            "tiny_rp2040_bsp",
+            "sh1107",
+            "pico_bsp",
+            "itsybitsy_rp2040_bsp",
+            "eeprom_i2c",
+            "itsybitsy_bsp",
+            "rp2040_hal"
+        ]
+    },
+    {
+        "name": "i2c",
+        "crates": [
+            "ltp_305",
+            "remoteio",
+            "eeprom_i2c",
+            "mcp2221",
+            "linux_hal",
+            "libsimpleio"
+        ]
+    },
+    {
+        "name": "token",
+        "crates": [
+            "jwt"
+        ]
+    },
+    {
+        "name": "jws",
+        "crates": [
+            "jwt"
+        ]
+    },
+    {
+        "name": "jwt",
+        "crates": [
+            "jwt",
+            "security"
+        ]
+    },
+    {
+        "name": "gnatcoll-db",
+        "crates": [
+            "gnatcoll_sqlite",
+            "gnatcoll_sql",
+            "gnatcoll_postgres"
+        ]
+    },
+    {
+        "name": "sqlite",
+        "crates": [
+            "gnatcoll_sqlite",
+            "ado_sqlite",
+            "matreshka_sql_sqlite3",
+            "ado_all"
+        ]
+    },
+    {
+        "name": "base64",
+        "crates": [
+            "base64"
+        ]
+    },
+    {
+        "name": "rtos",
+        "crates": [
+            "hirtos"
+        ]
+    },
+    {
+        "name": "gmp",
+        "crates": [
+            "gnatcoll_gmp"
+        ]
+    },
+    {
+        "name": "arbitrary",
+        "crates": [
+            "gnatcoll_gmp"
+        ]
+    },
+    {
+        "name": "precision",
+        "crates": [
+            "gnatcoll_gmp"
+        ]
+    },
+    {
+        "name": "arithmetic",
+        "crates": [
+            "gnatcoll_gmp"
+        ]
+    },
+    {
+        "name": "expression",
+        "crates": [
+            "elada"
+        ]
+    },
+    {
+        "name": "expander",
+        "crates": [
+            "elada"
+        ]
+    },
+    {
+        "name": "adt",
+        "crates": [
+            "brackelib"
+        ]
+    },
+    {
+        "name": "stack",
+        "crates": [
+            "brackelib",
+            "basalt"
+        ]
+    },
+    {
+        "name": "queue",
+        "crates": [
+            "brackelib",
+            "basalt"
+        ]
+    },
+    {
+        "name": "rpc",
+        "crates": [
+            "matreshka_soap",
+            "protobuf"
+        ]
+    },
+    {
+        "name": "protocol",
+        "crates": [
+            "matreshka_soap",
+            "protobuf"
+        ]
+    },
+    {
+        "name": "arm64",
+        "crates": [
+            "muntsos_raspberrypi4",
+            "muntsos_raspberrypi5",
+            "muntsos_raspberrypi3",
+            "muntsos_aarch64"
+        ]
+    },
+    {
+        "name": "raspberrypi4",
+        "crates": [
+            "muntsos_raspberrypi4"
+        ]
+    },
+    {
+        "name": "wordlist",
+        "crates": [
+            "wordlist"
+        ]
+    },
+    {
+        "name": "english",
+        "crates": [
+            "wordlist"
+        ]
+    },
+    {
+        "name": "raspberrypi1",
+        "crates": [
+            "muntsos_raspberrypi1"
+        ]
+    },
+    {
+        "name": "excel",
+        "crates": [
+            "excel_writer"
+        ]
+    },
+    {
+        "name": "spreadsheet",
+        "crates": [
+            "excel_writer"
+        ]
+    },
+    {
+        "name": "xls",
+        "crates": [
+            "excel_writer"
+        ]
+    },
+    {
+        "name": "csv",
+        "crates": [
+            "excel_writer"
+        ]
+    },
+    {
+        "name": "parallel",
+        "crates": [
+            "parallelize"
+        ]
+    },
+    {
+        "name": "execution",
+        "crates": [
+            "parallelize"
+        ]
+    },
+    {
+        "name": "pdf",
+        "crates": [
+            "apdf"
+        ]
+    },
+    {
+        "name": "adobe",
+        "crates": [
+            "apdf"
+        ]
+    },
+    {
+        "name": "inotify",
+        "crates": [
+            "inotify"
+        ]
+    },
+    {
+        "name": "midi",
+        "crates": [
+            "midi",
+            "usb_embedded",
+            "rtmidi"
+        ]
+    },
+    {
+        "name": "bounded",
+        "crates": [
+            "chests"
+        ]
+    },
+    {
+        "name": "audio",
+        "crates": [
+            "audio_base",
+            "canberra_ada",
+            "audio_wavefiles",
+            "asfml",
+            "virtapu",
+            "linux_hal",
+            "tresses"
+        ]
+    },
+    {
+        "name": "riff",
+        "crates": [
+            "audio_base",
+            "audio_wavefiles"
+        ]
+    },
+    {
+        "name": "training",
+        "crates": [
+            "labs_solar_system",
+            "labs_standalone",
+            "labs_radar"
+        ]
+    },
+    {
+        "name": "labs",
+        "crates": [
+            "labs_solar_system",
+            "labs_standalone",
+            "labs_radar"
+        ]
+    },
+    {
+        "name": "windowed",
+        "crates": [
+            "labs_solar_system"
+        ]
+    },
+    {
+        "name": "ada",
+        "crates": [
+            "libadalang2xml",
+            "adabots"
+        ]
+    },
+    {
+        "name": "xml",
+        "crates": [
+            "libadalang2xml",
+            "vss",
+            "matreshka_league",
+            "xia",
+            "ajunitgen",
+            "matreshka_xml",
+            "utilada_xml"
+        ]
+    },
+    {
+        "name": "uri",
+        "crates": [
+            "uri_mime",
+            "uri_ada"
+        ]
+    },
+    {
+        "name": "url",
+        "crates": [
+            "uri_mime",
+            "uri_ada"
+        ]
+    },
+    {
+        "name": "mime",
+        "crates": [
+            "uri_mime"
+        ]
+    },
+    {
+        "name": "media-type",
+        "crates": [
+            "uri_mime"
+        ]
+    },
+    {
+        "name": "microbit",
+        "crates": [
+            "microbit_examples",
+            "microbit_bsp"
+        ]
+    },
+    {
+        "name": "nrf51",
+        "crates": [
+            "microbit_examples",
+            "microbit_bsp",
+            "nrf5x_hal"
+        ]
+    },
+    {
+        "name": "jupyter",
+        "crates": [
+            "jupyter_kernel"
+        ]
+    },
+    {
+        "name": "notebook",
+        "crates": [
+            "jupyter_kernel"
+        ]
+    },
+    {
+        "name": "kernel",
+        "crates": [
+            "jupyter_kernel"
+        ]
+    },
+    {
+        "name": "pico",
+        "crates": [
+            "pico_examples",
+            "bb_pico_bsp",
+            "pico_bsp"
+        ]
+    },
+    {
+        "name": "scripting",
+        "crates": [
+            "tash",
+            "scripted_testing"
+        ]
+    },
+    {
+        "name": "tcl",
+        "crates": [
+            "tash"
+        ]
+    },
+    {
+        "name": "tk",
+        "crates": [
+            "tash"
+        ]
+    },
+    {
+        "name": "emoji",
+        "crates": [
+            "emojis",
+            "umwi"
+        ]
+    },
+    {
+        "name": "text",
+        "crates": [
+            "emojis",
+            "septum",
+            "vss",
+            "tiny_text",
+            "simple_regex",
+            "cbsg"
+        ]
+    },
+    {
+        "name": "zip",
+        "crates": [
+            "dcf",
+            "zipdcf",
+            "gnatcoll_zlib",
+            "zipada",
+            "orka_plugin_archives"
+        ]
+    },
+    {
+        "name": "document",
+        "crates": [
+            "dcf",
+            "zipdcf"
+        ]
+    },
+    {
+        "name": "container",
+        "crates": [
+            "dcf",
+            "zipdcf",
+            "adacl"
+        ]
+    },
+    {
+        "name": "archive",
+        "crates": [
+            "dcf",
+            "zipdcf",
+            "zipada"
+        ]
+    },
+    {
+        "name": "search",
+        "crates": [
+            "septum"
+        ]
+    },
+    {
+        "name": "code",
+        "crates": [
+            "septum",
+            "bar_codes"
+        ]
+    },
+    {
+        "name": "ada1995",
+        "crates": [
+            "b2ssum",
+            "felix"
+        ]
+    },
+    {
+        "name": "hash",
+        "crates": [
+            "b2ssum",
+            "libkeccak",
+            "blake2s"
+        ]
+    },
+    {
+        "name": "blake2",
+        "crates": [
+            "b2ssum",
+            "blake2s"
+        ]
+    },
+    {
+        "name": "blake2s",
+        "crates": [
+            "b2ssum",
+            "blake2s"
+        ]
+    },
+    {
+        "name": "spawn",
+        "crates": [
+            "ashell",
+            "spoon"
+        ]
+    },
+    {
+        "name": "os",
+        "crates": [
+            "ashell"
+        ]
+    },
+    {
+        "name": "command",
+        "crates": [
+            "ashell"
+        ]
+    },
+    {
+        "name": "directories",
+        "crates": [
+            "ashell"
+        ]
+    },
+    {
+        "name": "python",
+        "crates": [
+            "gnatcoll_python3",
+            "gnatcoll_python"
+        ]
+    },
+    {
+        "name": "python3",
+        "crates": [
+            "gnatcoll_python3"
+        ]
+    },
+    {
+        "name": "samd51",
+        "crates": [
+            "minisamd51_example",
+            "minisamd51_bsp"
+        ]
+    },
+    {
+        "name": "minisam",
+        "crates": [
+            "minisamd51_example",
+            "minisamd51_bsp"
+        ]
+    },
+    {
+        "name": "command-line",
+        "crates": [
+            "progress_indicators",
+            "clic",
+            "rsfile",
+            "adacl",
+            "cmd_ada",
+            "trendy_terminal",
+            "parse_args"
+        ]
+    },
+    {
+        "name": "console",
+        "crates": [
+            "progress_indicators",
+            "wordlelib",
+            "dummyserver",
+            "cbsg",
+            "wordle",
+            "trendy_terminal",
+            "pygamer_simulator",
+            "pygamer_bsp"
+        ]
+    },
+    {
+        "name": "terminal",
+        "crates": [
+            "progress_indicators",
+            "wordlelib",
+            "dummyserver",
+            "wordle",
+            "utf8test",
+            "dashera",
+            "trendy_terminal",
+            "ansiada"
+        ]
+    },
+    {
+        "name": "progress",
+        "crates": [
+            "progress_indicators"
+        ]
+    },
+    {
+        "name": "security",
+        "crates": [
+            "sparknacl",
+            "pbkdf2",
+            "sha2",
+            "system_random",
+            "chacha20",
+            "libkeccak",
+            "security",
+            "akt",
+            "hmac",
+            "keystoreada",
+            "sha1"
+        ]
+    },
+    {
+        "name": "nacl",
+        "crates": [
+            "sparknacl"
+        ]
+    },
+    {
+        "name": "curve25519",
+        "crates": [
+            "sparknacl"
+        ]
+    },
+    {
+        "name": "ed25519",
+        "crates": [
+            "sparknacl"
+        ]
+    },
+    {
+        "name": "tweetnacl",
+        "crates": [
+            "sparknacl"
+        ]
+    },
+    {
+        "name": "lvgl",
+        "crates": [
+            "lvgl_ada_examples",
+            "lvgl_ada_simulator",
+            "lvgl_ada"
+        ]
+    },
+    {
+        "name": "canberra",
+        "crates": [
+            "canberra_ada"
+        ]
+    },
+    {
+        "name": "sound",
+        "crates": [
+            "canberra_ada",
+            "bingada"
+        ]
+    },
+    {
+        "name": "widgets",
+        "crates": [
+            "aicwl"
+        ]
+    },
+    {
+        "name": "gauge",
+        "crates": [
+            "aicwl"
+        ]
+    },
+    {
+        "name": "ui",
+        "crates": [
+            "aicwl",
+            "cmd_ada"
+        ]
+    },
+    {
+        "name": "gtk",
+        "crates": [
+            "aicwl",
+            "eagle_lander",
+            "gtkada",
+            "bingada",
+            "dashera"
+        ]
+    },
+    {
+        "name": "dsa",
+        "crates": [
+            "garlic",
+            "gnatdist_garlic"
+        ]
+    },
+    {
+        "name": "distributed",
+        "crates": [
+            "garlic",
+            "gnatdist_garlic",
+            "zeromq_ada"
+        ]
+    },
+    {
+        "name": "annex",
+        "crates": [
+            "garlic",
+            "gnatdist_garlic"
+        ]
+    },
+    {
+        "name": "network",
+        "crates": [
+            "garlic",
+            "gnatdist_garlic",
+            "zeromq_ada"
+        ]
+    },
+    {
+        "name": "glade",
+        "crates": [
+            "garlic",
+            "gnatdist_garlic"
+        ]
+    },
+    {
+        "name": "documentation",
+        "crates": [
+            "gnatdoc",
+            "libgnatdoc"
+        ]
+    },
+    {
+        "name": "analysis",
+        "crates": [
+            "rejuvenation",
+            "anagram",
+            "gnatcov",
+            "dependency_graph_extractor"
+        ]
+    },
+    {
+        "name": "grammar",
+        "crates": [
+            "ayacc",
+            "anagram",
+            "aflex"
+        ]
+    },
+    {
+        "name": "zfp",
+        "crates": [
+            "startup_gen",
+            "elogs"
+        ]
+    },
+    {
+        "name": "i18n",
+        "crates": [
+            "felix",
+            "gnatcoll_iconv",
+            "intl"
+        ]
+    },
+    {
+        "name": "nls",
+        "crates": [
+            "felix",
+            "intl"
+        ]
+    },
+    {
+        "name": "localization",
+        "crates": [
+            "felix"
+        ]
+    },
+    {
+        "name": "localisation",
+        "crates": [
+            "felix"
+        ]
+    },
+    {
+        "name": "l10n",
+        "crates": [
+            "felix"
+        ]
+    },
+    {
+        "name": "sat",
+        "crates": [
+            "adasat"
+        ]
+    },
+    {
+        "name": "solver",
+        "crates": [
+            "adasat"
+        ]
+    },
+    {
+        "name": "theories",
+        "crates": [
+            "adasat"
+        ]
+    },
+    {
+        "name": "template",
+        "crates": [
+            "vss",
+            "mold_lib",
+            "mold"
+        ]
+    },
+    {
+        "name": "pbkdf2",
+        "crates": [
+            "pbkdf2",
+            "fastpbkdf2_ada"
+        ]
+    },
+    {
+        "name": "tiny",
+        "crates": [
+            "tiny_rp2040_bsp"
+        ]
+    },
+    {
+        "name": "bsp",
+        "crates": [
+            "tiny_rp2040_bsp",
+            "microbit_bsp",
+            "pico_bsp",
+            "light_arduino_due",
+            "light_fk723m1_zgt6",
+            "itsybitsy_rp2040_bsp",
+            "itsybitsy_bsp",
+            "pygamer_bsp"
+        ]
+    },
+    {
+        "name": "powerline",
+        "crates": [
+            "pla_util"
+        ]
+    },
+    {
+        "name": "cli",
+        "crates": [
+            "clic",
+            "gnatcoll_readline",
+            "parse_args"
+        ]
+    },
+    {
+        "name": "user-input",
+        "crates": [
+            "clic"
+        ]
+    },
+    {
+        "name": "tty",
+        "crates": [
+            "clic"
+        ]
+    },
+    {
+        "name": "semver",
+        "crates": [
+            "semantic_versioning"
+        ]
+    },
+    {
+        "name": "semantic",
+        "crates": [
+            "semantic_versioning"
+        ]
+    },
+    {
+        "name": "versioning",
+        "crates": [
+            "semantic_versioning"
+        ]
+    },
+    {
+        "name": "bbc",
+        "crates": [
+            "microbit_bsp"
+        ]
+    },
+    {
+        "name": "sha2",
+        "crates": [
+            "sha2"
+        ]
+    },
+    {
+        "name": "chat",
+        "crates": [
+            "weechat_ada"
+        ]
+    },
+    {
+        "name": "irc",
+        "crates": [
+            "weechat_ada"
+        ]
+    },
+    {
+        "name": "weechat",
+        "crates": [
+            "weechat_ada"
+        ]
+    },
+    {
+        "name": "syslog",
+        "crates": [
+            "gnatcoll_syslog"
+        ]
+    },
+    {
+        "name": "logging",
+        "crates": [
+            "gnatcoll_syslog",
+            "simple_logging",
+            "adacl",
+            "elogs",
+            "utilada",
+            "loga"
+        ]
+    },
+    {
+        "name": "system",
+        "crates": [
+            "system_random",
+            "endianness"
+        ]
+    },
+    {
+        "name": "wordle",
+        "crates": [
+            "wordlelib",
+            "wordle"
+        ]
+    },
+    {
+        "name": "azdo",
+        "crates": [
+            "orka",
+            "orka_opengl"
+        ]
+    },
+    {
+        "name": "engine",
+        "crates": [
+            "orka",
+            "mage"
+        ]
+    },
+    {
+        "name": "wavefiles",
+        "crates": [
+            "audio_wavefiles"
+        ]
+    },
+    {
+        "name": "font",
+        "crates": [
+            "tiny_text"
+        ]
+    },
+    {
+        "name": "hal",
+        "crates": [
+            "tiny_text",
+            "hal",
+            "linux_hal"
+        ]
+    },
+    {
+        "name": "bitmap",
+        "crates": [
+            "tiny_text",
+            "adl_middleware"
+        ]
+    },
+    {
+        "name": "test",
+        "crates": [
+            "dummyserver",
+            "gnatcov",
+            "trendy_test",
+            "aunit"
+        ]
+    },
+    {
+        "name": "oracle",
+        "crates": [
+            "matreshka_sql_oracle"
+        ]
+    },
+    {
+        "name": "compression",
+        "crates": [
+            "lzmada",
+            "gnatcoll_zlib",
+            "gnatcoll_lzma",
+            "zipada"
+        ]
+    },
+    {
+        "name": "lzma",
+        "crates": [
+            "lzmada",
+            "gnatcoll_lzma",
+            "utilada_lzma",
+            "zipada"
+        ]
+    },
+    {
+        "name": "appimage",
+        "crates": [
+            "alr2appimage"
+        ]
+    },
+    {
+        "name": "alire",
+        "crates": [
+            "alr2appimage"
+        ]
+    },
+    {
+        "name": "packaging",
+        "crates": [
+            "alr2appimage"
+        ]
+    },
+    {
+        "name": "input",
+        "crates": [
+            "orka_awt",
+            "evdev"
+        ]
+    },
+    {
+        "name": "gamepad",
+        "crates": [
+            "orka_awt"
+        ]
+    },
+    {
+        "name": "mpfr",
+        "crates": [
+            "admpfr"
+        ]
+    },
+    {
+        "name": "floating-point",
+        "crates": [
+            "admpfr"
+        ]
+    },
+    {
+        "name": "atsamd51",
+        "crates": [
+            "samd51_hal"
+        ]
+    },
+    {
+        "name": "microchip",
+        "crates": [
+            "samd51_hal"
+        ]
+    },
+    {
+        "name": "atmel",
+        "crates": [
+            "samd51_hal"
+        ]
+    },
+    {
+        "name": "drivers",
+        "crates": [
+            "samd51_hal",
+            "stm32f0x2_hal",
+            "avrada_lib",
+            "rp2040_hal",
+            "nrf5x_hal"
+        ]
+    },
+    {
+        "name": "java",
+        "crates": [
+            "j2ada"
+        ]
+    },
+    {
+        "name": "translator",
+        "crates": [
+            "j2ada"
+        ]
+    },
+    {
+        "name": "keyboard",
+        "crates": [
+            "keypadder"
+        ]
+    },
+    {
+        "name": "mobile",
+        "crates": [
+            "keypadder"
+        ]
+    },
+    {
+        "name": "programmable",
+        "crates": [
+            "keypadder"
+        ]
+    },
+    {
+        "name": "tablet",
+        "crates": [
+            "keypadder"
+        ]
+    },
+    {
+        "name": "macro",
+        "crates": [
+            "keypadder"
+        ]
+    },
+    {
+        "name": "keypad",
+        "crates": [
+            "keypadder"
+        ]
+    },
+    {
+        "name": "macropad",
+        "crates": [
+            "keypadder"
+        ]
+    },
+    {
+        "name": "integration",
+        "crates": [
+            "orka_numerics",
+            "scripted_testing"
+        ]
+    },
+    {
+        "name": "rk4",
+        "crates": [
+            "orka_numerics"
+        ]
+    },
+    {
+        "name": "kalman",
+        "crates": [
+            "orka_numerics"
+        ]
+    },
+    {
+        "name": "optimization",
+        "crates": [
+            "orka_numerics"
+        ]
+    },
+    {
+        "name": "handheld",
+        "crates": [
+            "bb_pico_bsp"
+        ]
+    },
+    {
+        "name": "featherwing",
+        "crates": [
+            "bb_pico_bsp"
+        ]
+    },
+    {
+        "name": "xref",
+        "crates": [
+            "emacs_gpr_query",
+            "gnatcoll_xref",
+            "emacs_wisi"
+        ]
+    },
+    {
+        "name": "markdown",
+        "crates": [
+            "markdown",
+            "wikiada"
+        ]
+    },
+    {
+        "name": "gfm",
+        "crates": [
+            "markdown"
+        ]
+    },
+    {
+        "name": "commonmark",
+        "crates": [
+            "markdown"
+        ]
+    },
+    {
+        "name": "zlib",
+        "crates": [
+            "gnatcoll_zlib"
+        ]
+    },
+    {
+        "name": "deflate",
+        "crates": [
+            "gnatcoll_zlib",
+            "zipada"
+        ]
+    },
+    {
+        "name": "regex",
+        "crates": [
+            "simple_regex"
+        ]
+    },
+    {
+        "name": "stm32f0",
+        "crates": [
+            "stm32f0x2_hal"
+        ]
+    },
+    {
+        "name": "chacha20",
+        "crates": [
+            "chacha20"
+        ]
+    },
+    {
+        "name": "protocols",
+        "crates": [
+            "slip",
+            "wayland_protocols_ada"
+        ]
+    },
+    {
+        "name": "sax",
+        "crates": [
+            "matreshka_league"
+        ]
+    },
+    {
+        "name": "encoding",
+        "crates": [
+            "matreshka_league",
+            "qoi"
+        ]
+    },
+    {
+        "name": "regexp",
+        "crates": [
+            "matreshka_league"
+        ]
+    },
+    {
+        "name": "time",
+        "crates": [
+            "matreshka_league"
+        ]
+    },
+    {
+        "name": "rx",
+        "crates": [
+            "rxada"
+        ]
+    },
+    {
+        "name": "reactive",
+        "crates": [
+            "rxada"
+        ]
+    },
+    {
+        "name": "reactivex",
+        "crates": [
+            "rxada"
+        ]
+    },
+    {
+        "name": "observer",
+        "crates": [
+            "rxada"
+        ]
+    },
+    {
+        "name": "pretty",
+        "crates": [
+            "ada_pretty"
+        ]
+    },
+    {
+        "name": "printing",
+        "crates": [
+            "ada_pretty"
+        ]
+    },
+    {
+        "name": "elevator",
+        "crates": [
+            "elevator"
+        ]
+    },
+    {
+        "name": "teaching",
+        "crates": [
+            "elevator"
+        ]
+    },
+    {
+        "name": "raspberry",
+        "crates": [
+            "raspberry_bsp",
+            "libsimpleio"
+        ]
+    },
+    {
+        "name": "pi",
+        "crates": [
+            "raspberry_bsp",
+            "libsimpleio"
+        ]
+    },
+    {
+        "name": "tool",
+        "crates": [
+            "rsfile"
+        ]
+    },
+    {
+        "name": "file-size",
+        "crates": [
+            "rsfile"
+        ]
+    },
+    {
+        "name": "generalized",
+        "crates": [
+            "wisitoken"
+        ]
+    },
+    {
+        "name": "library",
+        "crates": [
+            "adacl",
+            "libhello"
+        ]
+    },
+    {
+        "name": "trace",
+        "crates": [
+            "adacl"
+        ]
+    },
+    {
+        "name": "aunit",
+        "crates": [
+            "adacl"
+        ]
+    },
+    {
+        "name": "assert",
+        "crates": [
+            "adacl"
+        ]
+    },
+    {
+        "name": "smart-pointer",
+        "crates": [
+            "adacl"
+        ]
+    },
+    {
+        "name": "ada2022",
+        "crates": [
+            "adacl",
+            "mos6502_create_reset",
+            "mos6502_create_nop",
+            "mos6502_create_led"
+        ]
+    },
+    {
+        "name": "postgresql",
+        "crates": [
+            "ado_postgresql",
+            "matreshka_sql_postgresql",
+            "gnatcoll_postgres",
+            "ado_all"
+        ]
+    },
+    {
+        "name": "games",
+        "crates": [
+            "asfml",
+            "sdlada"
+        ]
+    },
+    {
+        "name": "cross-platform",
+        "crates": [
+            "asfml",
+            "sdlada",
+            "honki_tonks_zivilisationen",
+            "play_2048"
+        ]
+    },
+    {
+        "name": "multimedia",
+        "crates": [
+            "asfml",
+            "honki_tonks_zivilisationen"
+        ]
+    },
+    {
+        "name": "binding",
+        "crates": [
+            "asfml",
+            "esp_idf",
+            "ncursesada",
+            "openglada",
+            "ada_lua",
+            "openglada_glfw",
+            "zeromq_ada"
+        ]
+    },
+    {
+        "name": "sfml",
+        "crates": [
+            "asfml",
+            "bingada",
+            "honki_tonks_zivilisationen",
+            "play_2048"
+        ]
+    },
+    {
+        "name": "7z",
+        "crates": [
+            "gnatcoll_lzma"
+        ]
+    },
+    {
+        "name": "7zip",
+        "crates": [
+            "gnatcoll_lzma"
+        ]
+    },
+    {
+        "name": "utils",
+        "crates": [
+            "resources",
+            "basalt"
+        ]
+    },
+    {
+        "name": "raspberrypi2",
+        "crates": [
+            "muntsos_raspberrypi2"
+        ]
+    },
+    {
+        "name": "junit",
+        "crates": [
+            "ajunitgen"
+        ]
+    },
+    {
+        "name": "sorting",
+        "crates": [
+            "partord"
+        ]
+    },
+    {
+        "name": "remoteio",
+        "crates": [
+            "remoteio",
+            "libsimpleio"
+        ]
+    },
+    {
+        "name": "adc",
+        "crates": [
+            "remoteio",
+            "mcp2221",
+            "libsimpleio"
+        ]
+    },
+    {
+        "name": "dac",
+        "crates": [
+            "remoteio",
+            "mcp2221",
+            "libsimpleio"
+        ]
+    },
+    {
+        "name": "gpio",
+        "crates": [
+            "remoteio",
+            "mcp2221",
+            "linux_hal",
+            "libsimpleio"
+        ]
+    },
+    {
+        "name": "motor",
+        "crates": [
+            "remoteio",
+            "mcp2221",
+            "libsimpleio"
+        ]
+    },
+    {
+        "name": "pwm",
+        "crates": [
+            "remoteio",
+            "mcp2221",
+            "libsimpleio"
+        ]
+    },
+    {
+        "name": "serial",
+        "crates": [
+            "remoteio",
+            "mcp2221",
+            "libsimpleio"
+        ]
+    },
+    {
+        "name": "servo",
+        "crates": [
+            "remoteio",
+            "mcp2221",
+            "libsimpleio"
+        ]
+    },
+    {
+        "name": "spi",
+        "crates": [
+            "remoteio",
+            "mcp2221",
+            "linux_hal",
+            "libsimpleio"
+        ]
+    },
+    {
+        "name": "stepper",
+        "crates": [
+            "remoteio",
+            "mcp2221",
+            "libsimpleio"
+        ]
+    },
+    {
+        "name": "dom",
+        "crates": [
+            "matreshka_xml"
+        ]
+    },
+    {
+        "name": "catalog",
+        "crates": [
+            "matreshka_xml"
+        ]
+    },
+    {
+        "name": "templates",
+        "crates": [
+            "matreshka_xml"
+        ]
+    },
+    {
+        "name": "html5",
+        "crates": [
+            "matreshka_xml"
+        ]
+    },
+    {
+        "name": "raspberrypi5",
+        "crates": [
+            "muntsos_raspberrypi5"
+        ]
+    },
+    {
+        "name": "ali",
+        "crates": [
+            "gnatcoll_xref"
+        ]
+    },
+    {
+        "name": "streams",
+        "crates": [
+            "utilada_lzma",
+            "utilada"
+        ]
+    },
+    {
+        "name": "raspberrypi",
+        "crates": [
+            "pico_bsp",
+            "rp2040_hal",
+            "libsimpleio"
+        ]
+    },
+    {
+        "name": "automaton",
+        "crates": [
+            "automate"
+        ]
+    },
+    {
+        "name": "hypervisor",
+        "crates": [
+            "hirtos_separation_kernel"
+        ]
+    },
+    {
+        "name": "log",
+        "crates": [
+            "elogs"
+        ]
+    },
+    {
+        "name": "dir",
+        "crates": [
+            "dir_iterators"
+        ]
+    },
+    {
+        "name": "files",
+        "crates": [
+            "dir_iterators"
+        ]
+    },
+    {
+        "name": "walk",
+        "crates": [
+            "dir_iterators"
+        ]
+    },
+    {
+        "name": "light",
+        "crates": [
+            "light_arduino_due",
+            "light_fk723m1_zgt6"
+        ]
+    },
+    {
+        "name": "sam3x8e",
+        "crates": [
+            "light_arduino_due"
+        ]
+    },
+    {
+        "name": "arduino",
+        "crates": [
+            "light_arduino_due"
+        ]
+    },
+    {
+        "name": "due",
+        "crates": [
+            "light_arduino_due"
+        ]
+    },
+    {
+        "name": "syntax",
+        "crates": [
+            "anagram"
+        ]
+    },
+    {
+        "name": "bnf",
+        "crates": [
+            "anagram"
+        ]
+    },
+    {
+        "name": "ebnf",
+        "crates": [
+            "anagram"
+        ]
+    },
+    {
+        "name": "processes",
+        "crates": [
+            "utilada"
+        ]
+    },
+    {
+        "name": "beans",
+        "crates": [
+            "utilada"
+        ]
+    },
+    {
+        "name": "encoders",
+        "crates": [
+            "utilada"
+        ]
+    },
+    {
+        "name": "decoders",
+        "crates": [
+            "utilada"
+        ]
+    },
+    {
+        "name": "template-engine",
+        "crates": [
+            "mold_lib",
+            "mold"
+        ]
+    },
+    {
+        "name": "template-repo",
+        "crates": [
+            "mold_lib",
+            "mold"
+        ]
+    },
+    {
+        "name": "esp",
+        "crates": [
+            "esp_idf"
+        ]
+    },
+    {
+        "name": "riscv",
+        "crates": [
+            "esp_idf"
+        ]
+    },
+    {
+        "name": "xtensa",
+        "crates": [
+            "esp_idf"
+        ]
+    },
+    {
+        "name": "raspberrypi3",
+        "crates": [
+            "muntsos_raspberrypi3"
+        ]
+    },
+    {
+        "name": "coverage",
+        "crates": [
+            "gnatcov"
+        ]
+    },
+    {
+        "name": "sha3",
+        "crates": [
+            "libkeccak"
+        ]
+    },
+    {
+        "name": "keccak",
+        "crates": [
+            "libkeccak"
+        ]
+    },
+    {
+        "name": "gimli",
+        "crates": [
+            "libkeccak"
+        ]
+    },
+    {
+        "name": "ascon",
+        "crates": [
+            "libkeccak"
+        ]
+    },
+    {
+        "name": "shake",
+        "crates": [
+            "libkeccak"
+        ]
+    },
+    {
+        "name": "cshake",
+        "crates": [
+            "libkeccak"
+        ]
+    },
+    {
+        "name": "kmac",
+        "crates": [
+            "libkeccak"
+        ]
+    },
+    {
+        "name": "tuplehash",
+        "crates": [
+            "libkeccak"
+        ]
+    },
+    {
+        "name": "parallelhash",
+        "crates": [
+            "libkeccak"
+        ]
+    },
+    {
+        "name": "kangarootwelve",
+        "crates": [
+            "libkeccak"
+        ]
+    },
+    {
+        "name": "sse",
+        "crates": [
+            "orka_simd"
+        ]
+    },
+    {
+        "name": "avx",
+        "crates": [
+            "orka_simd"
+        ]
+    },
+    {
+        "name": "fma",
+        "crates": [
+            "orka_simd"
+        ]
+    },
+    {
+        "name": "f16c",
+        "crates": [
+            "orka_simd"
+        ]
+    },
+    {
+        "name": "stm32h723",
+        "crates": [
+            "light_fk723m1_zgt6"
+        ]
+    },
+    {
+        "name": "fk723m1",
+        "crates": [
+            "light_fk723m1_zgt6"
+        ]
+    },
+    {
+        "name": "itsybitsy",
+        "crates": [
+            "itsybitsy_rp2040_bsp",
+            "itsybitsy_bsp"
+        ]
+    },
+    {
+        "name": "oauth2",
+        "crates": [
+            "security"
+        ]
+    },
+    {
+        "name": "authentication",
+        "crates": [
+            "security"
+        ]
+    },
+    {
+        "name": "permissions",
+        "crates": [
+            "security"
+        ]
+    },
+    {
+        "name": "magic",
+        "crates": [
+            "mage_hat",
+            "magicada"
+        ]
+    },
+    {
+        "name": "numerics",
+        "crates": [
+            "mathpaqs",
+            "specfun"
+        ]
+    },
+    {
+        "name": "algebra",
+        "crates": [
+            "mathpaqs"
+        ]
+    },
+    {
+        "name": "probability",
+        "crates": [
+            "mathpaqs"
+        ]
+    },
+    {
+        "name": "runge",
+        "crates": [
+            "mathpaqs"
+        ]
+    },
+    {
+        "name": "kutta",
+        "crates": [
+            "mathpaqs"
+        ]
+    },
+    {
+        "name": "runge-kutta",
+        "crates": [
+            "mathpaqs"
+        ]
+    },
+    {
+        "name": "legacy",
+        "crates": [
+            "dg_loada",
+            "simh_tapes"
+        ]
+    },
+    {
+        "name": "recovering-data",
+        "crates": [
+            "dg_loada"
+        ]
+    },
+    {
+        "name": "dg",
+        "crates": [
+            "dg_loada"
+        ]
+    },
+    {
+        "name": "data-general",
+        "crates": [
+            "dg_loada"
+        ]
+    },
+    {
+        "name": "aos-vs",
+        "crates": [
+            "dg_loada"
+        ]
+    },
+    {
+        "name": "humidity",
+        "crates": [
+            "bme280"
+        ]
+    },
+    {
+        "name": "temperature",
+        "crates": [
+            "bme280"
+        ]
+    },
+    {
+        "name": "pressure",
+        "crates": [
+            "bme280"
+        ]
+    },
+    {
+        "name": "bingo",
+        "crates": [
+            "bingada"
+        ]
+    },
+    {
+        "name": "chance",
+        "crates": [
+            "bingada"
+        ]
+    },
+    {
+        "name": "family",
+        "crates": [
+            "bingada"
+        ]
+    },
+    {
+        "name": "client",
+        "crates": [
+            "wayland_client_ada",
+            "rclada",
+            "rclada_examples"
+        ]
+    },
+    {
+        "name": "coroutine",
+        "crates": [
+            "task_coroutines"
+        ]
+    },
+    {
+        "name": "simple",
+        "crates": [
+            "vanilla"
+        ]
+    },
+    {
+        "name": "substitute",
+        "crates": [
+            "vanilla"
+        ]
+    },
+    {
+        "name": "replace",
+        "crates": [
+            "vanilla"
+        ]
+    },
+    {
+        "name": "vanilla",
+        "crates": [
+            "vanilla"
+        ]
+    },
+    {
+        "name": "synth",
+        "crates": [
+            "virtapu"
+        ]
+    },
+    {
+        "name": "education",
+        "crates": [
+            "learnadainy"
+        ]
+    },
+    {
+        "name": "project",
+        "crates": [
+            "emacs_wisi"
+        ]
+    },
+    {
+        "name": "compile",
+        "crates": [
+            "emacs_wisi"
+        ]
+    },
+    {
+        "name": "firebird",
+        "crates": [
+            "matreshka_sql_firebird"
+        ]
+    },
+    {
+        "name": "bzip2",
+        "crates": [
+            "zipada"
+        ]
+    },
+    {
+        "name": "lzw",
+        "crates": [
+            "zipada"
+        ]
+    },
+    {
+        "name": "shrink",
+        "crates": [
+            "zipada"
+        ]
+    },
+    {
+        "name": "portable",
+        "crates": [
+            "sdlada"
+        ]
+    },
+    {
+        "name": "utf-8",
+        "crates": [
+            "utf8test"
+        ]
+    },
+    {
+        "name": "latin-1",
+        "crates": [
+            "utf8test"
+        ]
+    },
+    {
+        "name": "ocl",
+        "crates": [
+            "matreshka_amf_ocl"
+        ]
+    },
+    {
+        "name": "gnoga",
+        "crates": [
+            "ppag"
+        ]
+    },
+    {
+        "name": "tutorial",
+        "crates": [
+            "ppag",
+            "wikibook"
+        ]
+    },
+    {
+        "name": "matrices",
+        "crates": [
+            "gnat_math_extensions"
+        ]
+    },
+    {
+        "name": "blas",
+        "crates": [
+            "gnat_math_extensions"
+        ]
+    },
+    {
+        "name": "lapack",
+        "crates": [
+            "gnat_math_extensions"
+        ]
+    },
+    {
+        "name": "learn",
+        "crates": [
+            "adabots"
+        ]
+    },
+    {
+        "name": "minecraft",
+        "crates": [
+            "adabots"
+        ]
+    },
+    {
+        "name": "computercraft",
+        "crates": [
+            "adabots"
+        ]
+    },
+    {
+        "name": "robots",
+        "crates": [
+            "adabots"
+        ]
+    },
+    {
+        "name": "teach",
+        "crates": [
+            "adabots"
+        ]
+    },
+    {
+        "name": "children",
+        "crates": [
+            "adabots"
+        ]
+    },
+    {
+        "name": "iconv",
+        "crates": [
+            "gnatcoll_iconv"
+        ]
+    },
+    {
+        "name": "power",
+        "crates": [
+            "powerjoular"
+        ]
+    },
+    {
+        "name": "energy",
+        "crates": [
+            "powerjoular"
+        ]
+    },
+    {
+        "name": "unbound",
+        "crates": [
+            "spark_unbound"
+        ]
+    },
+    {
+        "name": "aarch64",
+        "crates": [
+            "muntsos_aarch64"
+        ]
+    },
+    {
+        "name": "eeprom",
+        "crates": [
+            "eeprom_i2c"
+        ]
+    },
+    {
+        "name": "ncurses",
+        "crates": [
+            "ncursesada"
+        ]
+    },
+    {
+        "name": "mcp2221",
+        "crates": [
+            "mcp2221"
+        ]
+    },
+    {
+        "name": "no-std",
+        "crates": [
+            "lvgl_ada"
+        ]
+    },
+    {
+        "name": "atmosphere",
+        "crates": [
+            "orka_plugin_atmosphere"
+        ]
+    },
+    {
+        "name": "earth",
+        "crates": [
+            "orka_plugin_atmosphere"
+        ]
+    },
+    {
+        "name": "openapi",
+        "crates": [
+            "openai",
+            "openapi_server",
+            "openapi"
+        ]
+    },
+    {
+        "name": "openai",
+        "crates": [
+            "openai"
+        ]
+    },
+    {
+        "name": "bar",
+        "crates": [
+            "bar_codes"
+        ]
+    },
+    {
+        "name": "qr",
+        "crates": [
+            "bar_codes"
+        ]
+    },
+    {
+        "name": "code128",
+        "crates": [
+            "bar_codes"
+        ]
+    },
+    {
+        "name": "rts",
+        "crates": [
+            "portable_minimal_ada_rts",
+            "avrada_mcu",
+            "avrada_rts"
+        ]
+    },
+    {
+        "name": "algorithmic",
+        "crates": [
+            "labs_standalone"
+        ]
+    },
+    {
+        "name": "unit-test",
+        "crates": [
+            "trendy_test",
+            "aunit"
+        ]
+    },
+    {
+        "name": "unit",
+        "crates": [
+            "trendy_test",
+            "aunit"
+        ]
+    },
+    {
+        "name": "terrain",
+        "crates": [
+            "orka_plugin_terrain"
+        ]
+    },
+    {
+        "name": "ros",
+        "crates": [
+            "rclada",
+            "rclada_examples"
+        ]
+    },
+    {
+        "name": "robotics",
+        "crates": [
+            "rclada",
+            "rclada_examples"
+        ]
+    },
+    {
+        "name": "file",
+        "crates": [
+            "magicada"
+        ]
+    },
+    {
+        "name": "gpu",
+        "crates": [
+            "orka_tensors_gpu"
+        ]
+    },
+    {
+        "name": "gpgpu",
+        "crates": [
+            "orka_tensors_gpu"
+        ]
+    },
+    {
+        "name": "compute",
+        "crates": [
+            "orka_tensors_gpu"
+        ]
+    },
+    {
+        "name": "shaders",
+        "crates": [
+            "orka_tensors_gpu"
+        ]
+    },
+    {
+        "name": "dasher",
+        "crates": [
+            "dashera"
+        ]
+    },
+    {
+        "name": "emulator",
+        "crates": [
+            "dashera"
+        ]
+    },
+    {
+        "name": "vt100",
+        "crates": [
+            "trendy_terminal"
+        ]
+    },
+    {
+        "name": "cobs",
+        "crates": [
+            "cobs"
+        ]
+    },
+    {
+        "name": "sdl",
+        "crates": [
+            "mage"
+        ]
+    },
+    {
+        "name": "users",
+        "crates": [
+            "awa",
+            "awa_unit"
+        ]
+    },
+    {
+        "name": "jobs",
+        "crates": [
+            "awa",
+            "awa_unit"
+        ]
+    },
+    {
+        "name": "wiki",
+        "crates": [
+            "awa"
+        ]
+    },
+    {
+        "name": "storage",
+        "crates": [
+            "awa",
+            "akt",
+            "keystoreada"
+        ]
+    },
+    {
+        "name": "blog",
+        "crates": [
+            "awa"
+        ]
+    },
+    {
+        "name": "ulid",
+        "crates": [
+            "ulid"
+        ]
+    },
+    {
+        "name": "uuid",
+        "crates": [
+            "ulid"
+        ]
+    },
+    {
+        "name": "guid",
+        "crates": [
+            "ulid"
+        ]
+    },
+    {
+        "name": "identifier",
+        "crates": [
+            "ulid"
+        ]
+    },
+    {
+        "name": "timestamp",
+        "crates": [
+            "ulid"
+        ]
+    },
+    {
+        "name": "ada-mode",
+        "crates": [
+            "emacs_ada_mode"
+        ]
+    },
+    {
+        "name": "nosql",
+        "crates": [
+            "akt",
+            "keystoreada"
+        ]
+    },
+    {
+        "name": "wikibook",
+        "crates": [
+            "wikibook"
+        ]
+    },
+    {
+        "name": "hac",
+        "crates": [
+            "hac"
+        ]
+    },
+    {
+        "name": "compiler",
+        "crates": [
+            "hac"
+        ]
+    },
+    {
+        "name": "usb",
+        "crates": [
+            "usb_embedded"
+        ]
+    },
+    {
+        "name": "hid",
+        "crates": [
+            "usb_embedded",
+            "libsimpleio"
+        ]
+    },
+    {
+        "name": "mof",
+        "crates": [
+            "matreshka_amf"
+        ]
+    },
+    {
+        "name": "magtape",
+        "crates": [
+            "simh_tapes"
+        ]
+    },
+    {
+        "name": "magnetic",
+        "crates": [
+            "simh_tapes"
+        ]
+    },
+    {
+        "name": "tape",
+        "crates": [
+            "simh_tapes"
+        ]
+    },
+    {
+        "name": "emulation",
+        "crates": [
+            "simh_tapes"
+        ]
+    },
+    {
+        "name": "simulation",
+        "crates": [
+            "simh_tapes"
+        ]
+    },
+    {
+        "name": "resource",
+        "crates": [
+            "are"
+        ]
+    },
+    {
+        "name": "embedder",
+        "crates": [
+            "are"
+        ]
+    },
+    {
+        "name": "serialization",
+        "crates": [
+            "utilada_xml"
+        ]
+    },
+    {
+        "name": "trees",
+        "crates": [
+            "stephes_ada_library"
+        ]
+    },
+    {
+        "name": "4x",
+        "crates": [
+            "honki_tonks_zivilisationen"
+        ]
+    },
+    {
+        "name": "roundbased",
+        "crates": [
+            "honki_tonks_zivilisationen"
+        ]
+    },
+    {
+        "name": "strategy",
+        "crates": [
+            "honki_tonks_zivilisationen"
+        ]
+    },
+    {
+        "name": "2d",
+        "crates": [
+            "honki_tonks_zivilisationen"
+        ]
+    },
+    {
+        "name": "email",
+        "crates": [
+            "gnatcoll"
+        ]
+    },
+    {
+        "name": "refcount",
+        "crates": [
+            "gnatcoll"
+        ]
+    },
+    {
+        "name": "projects",
+        "crates": [
+            "gnatcoll"
+        ]
+    },
+    {
+        "name": "vfs",
+        "crates": [
+            "gnatcoll"
+        ]
+    },
+    {
+        "name": "extract",
+        "crates": [
+            "dependency_graph_extractor"
+        ]
+    },
+    {
+        "name": "dependency",
+        "crates": [
+            "dependency_graph_extractor"
+        ]
+    },
+    {
+        "name": "graph",
+        "crates": [
+            "dependency_graph_extractor"
+        ]
+    },
+    {
+        "name": "graphml",
+        "crates": [
+            "dependency_graph_extractor"
+        ]
+    },
+    {
+        "name": "puzzle",
+        "crates": [
+            "play_2048"
+        ]
+    },
+    {
+        "name": "adafruit",
+        "crates": [
+            "pygamer_simulator",
+            "pygamer_bsp"
+        ]
+    },
+    {
+        "name": "smbus",
+        "crates": [
+            "linux_hal"
+        ]
+    },
+    {
+        "name": "ansi",
+        "crates": [
+            "ansiada"
+        ]
+    },
+    {
+        "name": "lsp",
+        "crates": [
+            "ada_language_server"
+        ]
+    },
+    {
+        "name": "vscode",
+        "crates": [
+            "ada_language_server"
+        ]
+    },
+    {
+        "name": "ada1987",
+        "crates": [
+            "avltrees",
+            "blake2s"
+        ]
+    },
+    {
+        "name": "data-structures",
+        "crates": [
+            "avltrees"
+        ]
+    },
+    {
+        "name": "secret",
+        "crates": [
+            "secretada"
+        ]
+    },
+    {
+        "name": "tls",
+        "crates": [
+            "tlsada"
+        ]
+    },
+    {
+        "name": "hmac",
+        "crates": [
+            "hmac"
+        ]
+    },
+    {
+        "name": "fat",
+        "crates": [
+            "adl_middleware"
+        ]
+    },
+    {
+        "name": "utilities",
+        "crates": [
+            "si_units"
+        ]
+    },
+    {
+        "name": "readline",
+        "crates": [
+            "gnatcoll_readline",
+            "linenoise_ada"
+        ]
+    },
+    {
+        "name": "linenoise",
+        "crates": [
+            "linenoise_ada"
+        ]
+    },
+    {
+        "name": "line-editing",
+        "crates": [
+            "linenoise_ada"
+        ]
+    },
+    {
+        "name": "dcf",
+        "crates": [
+            "orka_plugin_archives"
+        ]
+    },
+    {
+        "name": "xdg",
+        "crates": [
+            "xdg_base_dir"
+        ]
+    },
+    {
+        "name": "xoshiro",
+        "crates": [
+            "xoshiro"
+        ]
+    },
+    {
+        "name": "rng",
+        "crates": [
+            "xoshiro"
+        ]
+    },
+    {
+        "name": "synthesis",
+        "crates": [
+            "tresses"
+        ]
+    },
+    {
+        "name": "tasking",
+        "crates": [
+            "workers"
+        ]
+    },
+    {
+        "name": "parallelization",
+        "crates": [
+            "workers"
+        ]
+    },
+    {
+        "name": "pool",
+        "crates": [
+            "workers"
+        ]
+    },
+    {
+        "name": "lockfree",
+        "crates": [
+            "bbqueue"
+        ]
+    },
+    {
+        "name": "dma",
+        "crates": [
+            "bbqueue"
+        ]
+    },
+    {
+        "name": "bipbuffer",
+        "crates": [
+            "bbqueue"
+        ]
+    },
+    {
+        "name": "python2",
+        "crates": [
+            "gnatcoll_python"
+        ]
+    },
+    {
+        "name": "libsimpleio",
+        "crates": [
+            "libsimpleio"
+        ]
+    },
+    {
+        "name": "pocketbeagle",
+        "crates": [
+            "libsimpleio"
+        ]
+    },
+    {
+        "name": "watchdog",
+        "crates": [
+            "libsimpleio"
+        ]
+    },
+    {
+        "name": "endianness",
+        "crates": [
+            "endianness"
+        ]
+    },
+    {
+        "name": "lua",
+        "crates": [
+            "ada_lua"
+        ]
+    },
+    {
+        "name": "script",
+        "crates": [
+            "ada_lua"
+        ]
+    },
+    {
+        "name": "mos-6502",
+        "crates": [
+            "mos6502_create_reset",
+            "mos6502_create_nop",
+            "mos6502_create_led"
+        ]
+    },
+    {
+        "name": "emoticon",
+        "crates": [
+            "umwi"
+        ]
+    },
+    {
+        "name": "monospace",
+        "crates": [
+            "umwi"
+        ]
+    },
+    {
+        "name": "east",
+        "crates": [
+            "umwi"
+        ]
+    },
+    {
+        "name": "asian",
+        "crates": [
+            "umwi"
+        ]
+    },
+    {
+        "name": "width",
+        "crates": [
+            "umwi"
+        ]
+    },
+    {
+        "name": "grapheme",
+        "crates": [
+            "umwi"
+        ]
+    },
+    {
+        "name": "cluster",
+        "crates": [
+            "umwi"
+        ]
+    },
+    {
+        "name": "combining",
+        "crates": [
+            "umwi"
+        ]
+    },
+    {
+        "name": "sprite",
+        "crates": [
+            "geste"
+        ]
+    },
+    {
+        "name": "cgi",
+        "crates": [
+            "matreshka_fastcgi"
+        ]
+    },
+    {
+        "name": "boolean",
+        "crates": [
+            "dirty_booleans"
+        ]
+    },
+    {
+        "name": "dirty",
+        "crates": [
+            "dirty_booleans"
+        ]
+    },
+    {
+        "name": "comparison",
+        "crates": [
+            "dirty_booleans"
+        ]
+    },
+    {
+        "name": "postgres",
+        "crates": [
+            "gnatcoll_postgres"
+        ]
+    },
+    {
+        "name": "countries",
+        "crates": [
+            "iso"
+        ]
+    },
+    {
+        "name": "currencies",
+        "crates": [
+            "iso"
+        ]
+    },
+    {
+        "name": "iso-1366",
+        "crates": [
+            "iso"
+        ]
+    },
+    {
+        "name": "iso-4217",
+        "crates": [
+            "iso"
+        ]
+    },
+    {
+        "name": "glfw",
+        "crates": [
+            "openglada_glfw"
+        ]
+    },
+    {
+        "name": "lea",
+        "crates": [
+            "lea"
+        ]
+    },
+    {
+        "name": "editor",
+        "crates": [
+            "lea"
+        ]
+    },
+    {
+        "name": "ini",
+        "crates": [
+            "ini_files"
+        ]
+    },
+    {
+        "name": "cfg",
+        "crates": [
+            "ini_files"
+        ]
+    },
+    {
+        "name": "wiki-engine",
+        "crates": [
+            "wikiada"
+        ]
+    },
+    {
+        "name": "mediawiki",
+        "crates": [
+            "wikiada"
+        ]
+    },
+    {
+        "name": "dotclear",
+        "crates": [
+            "wikiada"
+        ]
+    },
+    {
+        "name": "html",
+        "crates": [
+            "wikiada"
+        ]
+    },
+    {
+        "name": "renderer",
+        "crates": [
+            "wikiada"
+        ]
+    },
+    {
+        "name": "evdev",
+        "crates": [
+            "evdev"
+        ]
+    },
+    {
+        "name": "force-feedback",
+        "crates": [
+            "evdev"
+        ]
+    },
+    {
+        "name": "currency",
+        "crates": [
+            "cashe"
+        ]
+    },
+    {
+        "name": "money",
+        "crates": [
+            "cashe"
+        ]
+    },
+    {
+        "name": "decimal",
+        "crates": [
+            "cashe"
+        ]
+    },
+    {
+        "name": "finance",
+        "crates": [
+            "cashe"
+        ]
+    },
+    {
+        "name": "control",
+        "crates": [
+            "webdriver"
+        ]
+    },
+    {
+        "name": "selenium",
+        "crates": [
+            "webdriver"
+        ]
+    },
+    {
+        "name": "chrome",
+        "crates": [
+            "webdriver"
+        ]
+    },
+    {
+        "name": "atomic",
+        "crates": [
+            "atomic"
+        ]
+    },
+    {
+        "name": "nrf52",
+        "crates": [
+            "nrf5x_hal"
+        ]
+    },
+    {
+        "name": "nordic",
+        "crates": [
+            "nrf5x_hal"
+        ]
+    },
+    {
+        "name": "ble",
+        "crates": [
+            "nrf5x_hal"
+        ]
+    },
+    {
+        "name": "sha1",
+        "crates": [
+            "sha1"
+        ]
+    },
+    {
+        "name": "rtmidi",
+        "crates": [
+            "rtmidi"
+        ]
+    },
+    {
+        "name": "music",
+        "crates": [
+            "rtmidi"
+        ]
+    },
+    {
+        "name": "special-fun",
+        "crates": [
+            "specfun"
+        ]
+    },
+    {
+        "name": "beta-function",
+        "crates": [
+            "specfun"
+        ]
+    },
+    {
+        "name": "gamma-function",
+        "crates": [
+            "specfun"
+        ]
+    },
+    {
+        "name": "beta-incomplete",
+        "crates": [
+            "specfun"
+        ]
+    },
+    {
+        "name": "epoll",
+        "crates": [
+            "epoll"
+        ]
+    },
+    {
+        "name": "net",
+        "crates": [
+            "epoll"
+        ]
+    }
+]

@@ -1,0 +1,5 @@
+---
+layout: badge
+crate: "gnatcoll_postgres"
+version:  "24.0.0"
+---
