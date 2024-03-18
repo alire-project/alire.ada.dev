@@ -86,7 +86,7 @@ of next to each other */
 
 <br>
 
-{% include_relative configuration.md %}
+{% include_relative settings.md %}
 
 <br>
 
