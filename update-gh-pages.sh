@@ -19,6 +19,11 @@ if [ "x$alr_version" = "x2.0" ]; then
     alire_lib_version="2.0.0"
 fi
 
+# Fix version for alr 2.0.2 includes a build id
+if [ "x$alr_version" = "x2.0.2+9b80158" ]; then
+    alr_version="2.0.2"
+    alire_lib_version="2.0.2"
+fi
 echo "From community branch \`${index_branch}\`."
 echo "Alr \`${alr_version}\`."
 echo "Alire Library \`${alire_lib_version}\`."
