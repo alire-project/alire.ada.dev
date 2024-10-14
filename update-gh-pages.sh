@@ -9,8 +9,11 @@ fi
 # First print the list of crates so that it is visible in the logs
 alr --no-tty search --crates
 
+# NOTE: these versions should match exactly the one used in the download link
+# in the releases page of the alire repository.
 alr_version=$(alr --no-tty version | grep "alr version" | cut -d: -f2 | tr -d '[:blank:]')
 alire_lib_version=$(alr --no-tty version | grep "libalire version" | cut -d: -f2 | tr -d '[:blank:]')
+
 index_branch=$(alr --no-tty version | grep "community index branch" | cut -d: -f2 | tr -d '[:blank:]')
 
 # Fix version for alr 2.0.0 that is not using a full semver format
@@ -24,6 +27,7 @@ if [ "x$alr_version" = "x2.0.2+9b80158" ]; then
     alr_version="2.0.2"
     alire_lib_version="2.0.2"
 fi
+
 echo "From community branch \`${index_branch}\`."
 echo "Alr \`${alr_version}\`."
 echo "Alire Library \`${alire_lib_version}\`."
