@@ -9,11 +9,17 @@ layout: default
 .doc_toc {
   float: left;
   width: 15em;
+  position: sticky;
+  top: 1em;
+  bottom: 1em;
+  overflow-y: scroll;
+  height: 100vh;
 }
 
 .doc_content {
   float: left;
   width: calc(100% - 15em);
+  padding-left: 1em;
 }
 
 /* Clear floats after the columns */
