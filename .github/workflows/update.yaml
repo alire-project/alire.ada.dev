@@ -1,5 +1,6 @@
 name: Update gh-pages branch on alire.ada.dev
 on:
+  workflow_dispatch:
   schedule:
     - cron:  '0 0 * * *'
   push:
@@ -15,7 +16,7 @@ jobs:
 
     - name: Request Github Pages build job
       run: >-
-        curl -L -X POST 
+        curl -L -X POST
         -H "Content-Type: application/json"
         -H "Authorization: token ${{ secrets.GH_PAGES_UPDATE }}"
         "https://api.github.com/repos/${{ github.repository }}/pages/builds"
