@@ -61,7 +61,7 @@ const currentAlireVersion = '{{site.data.update.alr_version}}'
 const alireReleaseDir = 'https://github.com/alire-project/alire/releases/download/v' + currentAlireVersion + '/';
 const installTargets = new Map([
   ['Windows', alireReleaseDir + 'alr-' + currentAlireVersion + '-installer-x86_64-windows.exe'],
-  ['Mac', alireReleaseDir + 'alr-' + currentAlireVersion + '-bin-x86_64-macos.zip'],
+  ['Mac', alireReleaseDir + 'alr-' + currentAlireVersion + '-bin-universal-macos.zip'],
   ['Linux', alireReleaseDir + 'alr-' + currentAlireVersion + '-bin-x86_64-linux.zip'],
   ['AppImage', alireReleaseDir + 'alr-' + currentAlireVersion + '-x86_64.AppImage'],
   ['Unknown', 'https://github.com/alire-project/alire/releases'],
