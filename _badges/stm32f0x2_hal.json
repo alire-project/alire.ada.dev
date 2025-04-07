@@ -1,0 +1,5 @@
+---
+layout: badge
+crate: "stm32f0x2_hal"
+version:  "0.1.0"
+---
