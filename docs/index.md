@@ -40,10 +40,10 @@ of next to each other */
 @media screen and (min-width: 60em) {
   .doc_toc {
     position: sticky;
-    top: 1em;
-    bottom: 1em;
+    top: 0;
     overflow-y: scroll;
     height: 100vh;
+    padding: 1em 0;
   }
   .doc_content {
     padding-left: 1em;
