@@ -1,0 +1,5 @@
+---
+layout: badge
+crate: "gnatcoll_sql"
+version:  "25.0.0"
+---
