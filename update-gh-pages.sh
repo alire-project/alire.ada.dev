@@ -3,7 +3,7 @@
 # This script is made to run in a GitHub action.
 
 if [ "x${DOC_BRANCH:-}" == "x" ]; then
-    DOC_BRANCH="release/2.0"
+    DOC_BRANCH="release/2.1"
 fi
 
 # First print the list of crates so that it is visible in the logs
