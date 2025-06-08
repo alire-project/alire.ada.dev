@@ -81,6 +81,17 @@ cp alire/doc/* docs/
 # Append the built-ins settings doc generated from the tool
 alr --no-tty settings --builtins-doc >> docs/settings.md
 
+# Add the `alr` help page
+alr dev --help-doc-markdown > docs/alr.md
+
+# Warn if there are any unquoted <placeholder> from messages, since they are
+# incorrectly evaluated by Jekyll and the format will be broken.
+# When this happens, the probable solution is to wrap these placeholders with
+# CLIC.Formatter.Terminal
+if grep -Hn '<[a-z_]*>' docs/alr.md | grep -v '`' ; then
+    echo 'Warning: <placeholder> found not quoted as `code` in docs/alr.md' >&2
+fi
+
 # Cleanup alire repo
 rm -rf alire/
 
