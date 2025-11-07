@@ -108,11 +108,11 @@ find "${GITHUB_WORKSPACE}/${PUBLISH_DIR}" -maxdepth 1 | \
         xargs -I % cp -rf % "${local_dir}/"
 
 # push to publishing branch
-git config user.name "${GITHUB_ACTOR}"
-git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
+git config user.name "github-actions"
+git config user.email "noreply@github.com"
 git remote rm origin || true
 git remote add origin "${remote_repo}"
 git add --all
-git commit --allow-empty --amend -m "Automated deployment: $(date -u) ${GITHUB_SHA}"
+git commit --allow-empty --amend --reset-author -m "Automated deployment: $(date -u) ${GITHUB_SHA}"
 git checkout -b to_publish
 git push -f origin "to_publish:${remote_branch}"
