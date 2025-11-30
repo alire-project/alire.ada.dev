@@ -1,0 +1,5 @@
+---
+layout: badge
+crate: "aho_corasick"
+version:  "0.3.0"
+---
