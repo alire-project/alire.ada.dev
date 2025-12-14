@@ -1,0 +1,5 @@
+---
+layout: badge
+crate: "coap_client"
+version:  "0.10.0"
+---

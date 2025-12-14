@@ -1,0 +1,5 @@
+---
+layout: badge
+crate: "orka_tensors_cpu"
+version:  "1.0.0"
+---
