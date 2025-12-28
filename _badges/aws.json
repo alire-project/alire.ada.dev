@@ -1,0 +1,5 @@
+---
+layout: badge
+crate: "aws"
+version:  "25.2.0"
+---

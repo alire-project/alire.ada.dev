@@ -1,0 +1,5 @@
+---
+layout: badge
+crate: "rp2040_hal"
+version:  "2.6.0"
+---

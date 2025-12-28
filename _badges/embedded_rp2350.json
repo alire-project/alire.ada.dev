@@ -1,0 +1,5 @@
+---
+layout: badge
+crate: "embedded_rp2350"
+version:  "15.1.0"
+---

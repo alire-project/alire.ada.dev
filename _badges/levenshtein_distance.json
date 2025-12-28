@@ -1,0 +1,5 @@
+---
+layout: badge
+crate: "levenshtein_distance"
+version:  "1.0.0"
+---

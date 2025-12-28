@@ -1,0 +1,5 @@
+---
+layout: badge
+crate: "hexapod_simulation_telemetry"
+version:  "0.0.1"
+---

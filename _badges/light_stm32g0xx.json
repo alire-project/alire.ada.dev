@@ -1,0 +1,5 @@
+---
+layout: badge
+crate: "light_stm32g0xx"
+version:  "15.0.0"
+---

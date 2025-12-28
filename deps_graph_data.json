@@ -1,0 +1,6576 @@
+{
+    "nodes": [
+        {
+            "id": "light_nrf52833",
+            "color": "darkcyan",
+            "desc": "light runtime for the nRF52833 SoC"
+        },
+        {
+            "id": "startup_gen",
+            "color": "darkcyan",
+            "desc": "Generates startup files (crt0 and linker script)"
+        },
+        {
+            "id": "iso",
+            "color": "#1f77b4",
+            "desc": "ISO Standard references for Ada such as 1366 & 4217 (Country & Currency)"
+        },
+        {
+            "id": "a0b_stm32f2_generic_exti",
+            "color": "darkcyan",
+            "desc": "A0B: STM32F2+ Generic EXTI"
+        },
+        {
+            "id": "progress_indicators",
+            "color": "#1f77b4",
+            "desc": "Ways of displaying progress in command line tools."
+        },
+        {
+            "id": "gnat_native",
+            "color": "#1f77b4",
+            "desc": "The GNAT Ada compiler - Native"
+        },
+        {
+            "id": "light_tasking_nrf52840",
+            "color": "darkcyan",
+            "desc": "light-tasking runtime for the nRF52840 SoC"
+        },
+        {
+            "id": "hirtos",
+            "color": "#1f77b4",
+            "desc": "High-Integrity RTOS"
+        },
+        {
+            "id": "lsystem_editor",
+            "color": "#1f77b4",
+            "desc": "L-Systems editor in Ada"
+        },
+        {
+            "id": "openglada_glfw",
+            "color": "#1f77b4",
+            "desc": "GLFW binding for use with OpenGLAda"
+        },
+        {
+            "id": "uri_mime",
+            "color": "#1f77b4",
+            "desc": "URI & MIME Type Parsing and Manupulation"
+        },
+        {
+            "id": "utilada_lzma",
+            "color": "#1f77b4",
+            "desc": "Utility Library streams with LZMA support"
+        },
+        {
+            "id": "tash",
+            "color": "#1f77b4",
+            "desc": "Binding to Tcl/Tk"
+        },
+        {
+            "id": "gnatdist_garlic",
+            "color": "#1f77b4",
+            "desc": "The configuration tool gnatdist for GARLIC"
+        },
+        {
+            "id": "aor_jsona",
+            "color": "#1f77b4",
+            "desc": "Typed extraction from JSON payloads via path-based, indexed navigation"
+        },
+        {
+            "id": "wayland_protocols_ada",
+            "color": "#1f77b4",
+            "desc": "Ada 2012 bindings for various Wayland protocols"
+        },
+        {
+            "id": "sh1107",
+            "color": "darkcyan",
+            "desc": "Driver for the SH1107/OLED 128x128 monochrome display"
+        },
+        {
+            "id": "matreshka_sql_firebird",
+            "color": "#1f77b4",
+            "desc": "Firebird SQL binding for Ada"
+        },
+        {
+            "id": "emacs_wisitoken_grammar_mode",
+            "color": "#1f77b4",
+            "desc": "parser for Emacs wisitoken-grammar mode"
+        },
+        {
+            "id": "stephes_ada_library",
+            "color": "#1f77b4",
+            "desc": "Stephe's Ada library; miscellaneous useful stuff."
+        },
+        {
+            "id": "lace_gel",
+            "color": "#1f77b4",
+            "desc": "A 2D/3D game engine library (GEL)."
+        },
+        {
+            "id": "mcp9808_i2c",
+            "color": "#1f77b4",
+            "desc": "MCP9808 I2C library"
+        },
+        {
+            "id": "emacs_gpr_mode",
+            "color": "#1f77b4",
+            "desc": "parser for Emacs gpr mode"
+        },
+        {
+            "id": "rxada",
+            "color": "#1f77b4",
+            "desc": "Experimental implementation of ReactiveX in Ada"
+        },
+        {
+            "id": "spark_math",
+            "color": "purple",
+            "desc": "Formally verified mathematical library in SPARK"
+        },
+        {
+            "id": "a0b_stm32f401_i2c",
+            "color": "darkcyan",
+            "desc": "A0B: STM32F401 I2C"
+        },
+        {
+            "id": "libadalang2xml",
+            "color": "#1f77b4",
+            "desc": "Generates XML for Ada source, using libadalang."
+        },
+        {
+            "id": "base32",
+            "color": "#1f77b4",
+            "desc": "Simple base32 codec"
+        },
+        {
+            "id": "edc_client",
+            "color": "darkcyan",
+            "desc": "Client library for: github.com/hgrodriguez/embedded-dashboard-console"
+        },
+        {
+            "id": "wayland_ada_scanner",
+            "color": "#1f77b4",
+            "desc": "A tool to generate thick Ada 2012 bindings for Wayland protocols"
+        },
+        {
+            "id": "gnatcoll_omp",
+            "color": "#1f77b4",
+            "desc": "GNAT Components Collection - OpenMP binding"
+        },
+        {
+            "id": "sciada",
+            "color": "#1f77b4",
+            "desc": "Collection of Scientific Operations"
+        },
+        {
+            "id": "ada_caser",
+            "color": "#1f77b4",
+            "desc": "Applies casing rules to Ada source code."
+        },
+        {
+            "id": "magicada",
+            "color": "#1f77b4",
+            "desc": "Magic Number Recognition Library Ada binding"
+        },
+        {
+            "id": "yeison_12",
+            "color": "#1f77b4",
+            "desc": "A JSON-like data structure (Ada 2012 version)"
+        },
+        {
+            "id": "lea",
+            "color": "#1f77b4",
+            "desc": "LEA is a Lightweight Editor for Ada "
+        },
+        {
+            "id": "matreshka_sql_mysql",
+            "color": "#1f77b4",
+            "desc": "MySQL binding for Ada"
+        },
+        {
+            "id": "langkit_support",
+            "color": "#1f77b4",
+            "desc": "Runtime support library for Langkit-generated libraries"
+        },
+        {
+            "id": "dotenv",
+            "color": "#1f77b4",
+            "desc": "Loads environment variables from .env for Ada projects."
+        },
+        {
+            "id": "simple_logging",
+            "color": "#1f77b4",
+            "desc": "Simple logging to console"
+        },
+        {
+            "id": "bbs_embed_linux",
+            "color": "darkcyan",
+            "desc": "Physical device drivers for Raspberry Pi and BeagleBone Black"
+        },
+        {
+            "id": "st7789",
+            "color": "darkcyan",
+            "desc": "SPI based driver for the ST7789 TFT display"
+        },
+        {
+            "id": "epoll",
+            "color": "#1f77b4",
+            "desc": "Linux epoll binding"
+        },
+        {
+            "id": "emacs_gpr_query",
+            "color": "#1f77b4",
+            "desc": "Emacs xref backend using information output by GNAT compiler."
+        },
+        {
+            "id": "orka_plugin_gltf",
+            "color": "#1f77b4",
+            "desc": "Orka plug-in for loading glTF models"
+        },
+        {
+            "id": "microbit_examples",
+            "color": "darkcyan",
+            "desc": "Examples and tutorials for Ada on the BBC micro:bit"
+        },
+        {
+            "id": "jintp",
+            "color": "#1f77b4",
+            "desc": "Template parser in Ada based on Jinja2"
+        },
+        {
+            "id": "cashe",
+            "color": "#1f77b4",
+            "desc": "A fixed-point decimal money library written in Ada."
+        },
+        {
+            "id": "light_stm32g0xx",
+            "color": "darkcyan",
+            "desc": "light runtime for the STM32G0xx SoC"
+        },
+        {
+            "id": "globe_3d",
+            "color": "#1f77b4",
+            "desc": "GLOBE_3D: GL Object Based Engine for 3D"
+        },
+        {
+            "id": "gnatcoll_readline",
+            "color": "#1f77b4",
+            "desc": "GNAT Components Collection - readline binding"
+        },
+        {
+            "id": "prolog",
+            "color": "#1f77b4",
+            "desc": "Simple Prolog library"
+        },
+        {
+            "id": "gnatdoc",
+            "color": "#1f77b4",
+            "desc": "GNAT Documentation Generation Tool"
+        },
+        {
+            "id": "lvgl_ada",
+            "color": "darkcyan",
+            "desc": "Bindings for the LVGL embedded GUI framework"
+        },
+        {
+            "id": "a0b_armv7m_systick_clock_timer",
+            "color": "darkcyan",
+            "desc": "A0B Monotonic Clock and Timer by ARMv7M SysTick"
+        },
+        {
+            "id": "file_formats_java_class",
+            "color": "#1f77b4",
+            "desc": "File format reader for the Java programming language CLASS file format"
+        },
+        {
+            "id": "endianness",
+            "color": "purple",
+            "desc": "Convenience subprograms to convert between Big- and Little-endianness"
+        },
+        {
+            "id": "ada_pretty",
+            "color": "#1f77b4",
+            "desc": "Ada Pretty Printer Library"
+        },
+        {
+            "id": "light_arduino_due",
+            "color": "darkcyan",
+            "desc": "Arduino Due Board Support Package for `light` GNAT Runtime"
+        },
+        {
+            "id": "gnatcoll_sqlite",
+            "color": "#1f77b4",
+            "desc": "GNAT Components Collection - sqlite"
+        },
+        {
+            "id": "cobs",
+            "color": "purple",
+            "desc": "Consistent Overhead Byte Stuffing (COBS) encoder/decoder"
+        },
+        {
+            "id": "webif_example",
+            "color": "darkcyan",
+            "desc": "Example usage of simple web interface library."
+        },
+        {
+            "id": "rejuvenation",
+            "color": "#1f77b4",
+            "desc": "Analysis and manipulation of Ada code based on concrete patterns"
+        },
+        {
+            "id": "orka_transforms",
+            "color": "#1f77b4",
+            "desc": "Library to transform vectors, matrices, and quaternions using SIMD"
+        },
+        {
+            "id": "intl",
+            "color": "#1f77b4",
+            "desc": "NLS thin Ada binding"
+        },
+        {
+            "id": "blinkenlights",
+            "color": "darkcyan",
+            "desc": "Project to blink LEDs in interesting patterns"
+        },
+        {
+            "id": "mold_lib",
+            "color": "#1f77b4",
+            "desc": "Meta-variable Operations for Lean Development (lib)"
+        },
+        {
+            "id": "aunit",
+            "color": "#1f77b4",
+            "desc": "Ada unit test framework"
+        },
+        {
+            "id": "matreshka_soap_wsse",
+            "color": "#1f77b4",
+            "desc": "WS-Security 1.1 implementation for SOAP 1.2"
+        },
+        {
+            "id": "embedded_nrf52832",
+            "color": "darkcyan",
+            "desc": "embedded runtime for the nRF52832 SoC"
+        },
+        {
+            "id": "ado_all",
+            "color": "#1f77b4",
+            "desc": "Ada Database Objects (All drivers)"
+        },
+        {
+            "id": "simcpucli",
+            "color": "#1f77b4",
+            "desc": "CLI for CPU simulator"
+        },
+        {
+            "id": "portable_minimal_ada_rts",
+            "color": "#1f77b4",
+            "desc": "Portable Minimal Ada Runtime Library"
+        },
+        {
+            "id": "bbs_webif",
+            "color": "darkcyan",
+            "desc": "Simple web server to provide an interface to embedded instruments"
+        },
+        {
+            "id": "bbqueue",
+            "color": "purple",
+            "desc": "DMA friendly lock-free BipBuffer"
+        },
+        {
+            "id": "ada_sqlite3",
+            "color": "darkcyan",
+            "desc": "Sqlite3 bindings for Ada with embedded SQLite engine"
+        },
+        {
+            "id": "adacl_aunit",
+            "color": "#1f77b4",
+            "desc": "Ada 2022 AUnit with readable asserts & paramerised test"
+        },
+        {
+            "id": "light_tasking_stm32g4xx",
+            "color": "darkcyan",
+            "desc": "light-tasking runtime for the STM32G4xx SoC"
+        },
+        {
+            "id": "labs_radar",
+            "color": "#1f77b4",
+            "desc": "Introductory Ada exercises based around a fake radar codebase"
+        },
+        {
+            "id": "clic",
+            "color": "#1f77b4",
+            "desc": "Command Line Interface Components"
+        },
+        {
+            "id": "scripted_testing",
+            "color": "#1f77b4",
+            "desc": "Integration testing"
+        },
+        {
+            "id": "adare_hqc256",
+            "color": "#1f77b4",
+            "desc": "Post Quantum Computer Resistant Cryptograph KEM, HQC 256 Ada bind."
+        },
+        {
+            "id": "adare_dilithium5",
+            "color": "#1f77b4",
+            "desc": "Post Quantum Computer Resistant Cryptograph Sign, Dilithium5 Ada bind."
+        },
+        {
+            "id": "matreshka_soap",
+            "color": "#1f77b4",
+            "desc": "Framework for work with SOAP 1.2"
+        },
+        {
+            "id": "light_tasking_rp2040",
+            "color": "darkcyan",
+            "desc": "light-tasking runtime for the RP2040 SoC"
+        },
+        {
+            "id": "orka_simd",
+            "color": "#1f77b4",
+            "desc": "Bindings for x86 SIMD extensions like SSE, AVX2, FMA, F16C"
+        },
+        {
+            "id": "a0b_atsam3x8e_tc5_timer",
+            "color": "darkcyan",
+            "desc": "A0B ATSAM3X8E High Resulotion Timer on top of TC5"
+        },
+        {
+            "id": "libhello",
+            "color": "#1f77b4",
+            "desc": "Basic library demonstration project"
+        },
+        {
+            "id": "bme280",
+            "color": "#1f77b4",
+            "desc": "Driver for BME280 Humidity sensor"
+        },
+        {
+            "id": "vss_extra",
+            "color": "#1f77b4",
+            "desc": "Extra features for VSS"
+        },
+        {
+            "id": "keypadder",
+            "color": "#1f77b4",
+            "desc": "Programmable virtual keypad for your Linux desktop"
+        },
+        {
+            "id": "mavlink_common",
+            "color": "darkcyan",
+            "desc": "MAVLink -- Micro Air Vehicle Message Marshalling Library."
+        },
+        {
+            "id": "gnatcoll_python3",
+            "color": "#1f77b4",
+            "desc": "GNAT Components Collection - python3 binding"
+        },
+        {
+            "id": "bbs_simcpu",
+            "color": "#1f77b4",
+            "desc": "CPU Simulator for multiple CPUs"
+        },
+        {
+            "id": "ansiada",
+            "color": "#1f77b4",
+            "desc": "ANSI escape sequences"
+        },
+        {
+            "id": "bbs",
+            "color": "#1f77b4",
+            "desc": "Root package for other crates and contains some physical units"
+        },
+        {
+            "id": "lace_collada",
+            "color": "#1f77b4",
+            "desc": "A Collada parser."
+        },
+        {
+            "id": "lml",
+            "color": "#1f77b4",
+            "desc": "Lightweight Markup Language conversions"
+        },
+        {
+            "id": "microbit_bsp",
+            "color": "darkcyan",
+            "desc": "Board Support Package for the BBC micro:bit v1"
+        },
+        {
+            "id": "a0b_atsam3x8e_gpio",
+            "color": "darkcyan",
+            "desc": "A0B ATSAM3X8E GPIO/EXTI"
+        },
+        {
+            "id": "hex_string",
+            "color": "purple",
+            "desc": "Get a string of almost any type as hex with underscores"
+        },
+        {
+            "id": "dcf",
+            "color": "#1f77b4",
+            "desc": "Ada 2012 library for document container files, Zip-based archive files"
+        },
+        {
+            "id": "sha2",
+            "color": "#1f77b4",
+            "desc": "Secure Hash Algorithm 2 implemented in Ada"
+        },
+        {
+            "id": "ado_sqlite",
+            "color": "#1f77b4",
+            "desc": "Ada Database Objects (SQLite)"
+        },
+        {
+            "id": "wikiada",
+            "color": "#1f77b4",
+            "desc": "Parser and renderer for Markdown and other wiki syntaxes"
+        },
+        {
+            "id": "bbt",
+            "color": "#1f77b4",
+            "desc": "Black box test runner"
+        },
+        {
+            "id": "byteflippers",
+            "color": "#1f77b4",
+            "desc": "Signed/modular types for system, big and little endian reading/writing."
+        },
+        {
+            "id": "gnatcoll_lzma",
+            "color": "#1f77b4",
+            "desc": "GNAT Components Collection - lzma binding"
+        },
+        {
+            "id": "a0b_exti",
+            "color": "darkcyan",
+            "desc": "A0B: EXTI API"
+        },
+        {
+            "id": "avrada_examples",
+            "color": "darkcyan",
+            "desc": "Sample applications in Ada for AVR microcontrollers"
+        },
+        {
+            "id": "midi",
+            "color": "darkcyan",
+            "desc": "Library to encode and decode MIDI messages"
+        },
+        {
+            "id": "atomic",
+            "color": "purple",
+            "desc": "Standalone Ada/SPARK bindings to GCC atomic built-ins"
+        },
+        {
+            "id": "mathpaqs",
+            "color": "#1f77b4",
+            "desc": "A collection of mathematical, 100% portable, packages"
+        },
+        {
+            "id": "functional",
+            "color": "purple",
+            "desc": "Functional Programming Library for Ada 2022"
+        },
+        {
+            "id": "ptf",
+            "color": "#1f77b4",
+            "desc": "Portable Text Formatter"
+        },
+        {
+            "id": "matreshka_sql_sqlite3",
+            "color": "#1f77b4",
+            "desc": "SQLite binding for Ada"
+        },
+        {
+            "id": "bbs_lisp",
+            "color": "darkcyan",
+            "desc": "Embedable tiny lisp interpreter"
+        },
+        {
+            "id": "light_nrf52832",
+            "color": "darkcyan",
+            "desc": "light runtime for the nRF52832 SoC"
+        },
+        {
+            "id": "hmc5883",
+            "color": "#1f77b4",
+            "desc": "Driver for HMC5883L magnetic sensor"
+        },
+        {
+            "id": "rpio",
+            "color": "#1f77b4",
+            "desc": "Driver for the BCM2835's GPIO, as seen on the Raspberry Pi"
+        },
+        {
+            "id": "matreshka_fastcgi",
+            "color": "#1f77b4",
+            "desc": "FastCGI implementation (demo)"
+        },
+        {
+            "id": "checksum",
+            "color": "#1f77b4",
+            "desc": "Algorithms for error-checking"
+        },
+        {
+            "id": "mandelbrot_ascii",
+            "color": "#1f77b4",
+            "desc": "Mandelbrot renderer using Unicode glyphs"
+        },
+        {
+            "id": "light_blackpill_stm32f401",
+            "color": "darkcyan",
+            "desc": "BlackPill STM32F401 BSP for `light` GNAT Runtime"
+        },
+        {
+            "id": "mine_detector",
+            "color": "#1f77b4",
+            "desc": "The Gnoga/Ada-GUI version of Mine Detector"
+        },
+        {
+            "id": "gnatcoll_minimal",
+            "color": "#1f77b4",
+            "desc": "GNAT Components Collection - Minimal"
+        },
+        {
+            "id": "crc_32",
+            "color": "#1f77b4",
+            "desc": "Cyclic Redundancy Check to verify data integrity (ISO 3309)"
+        },
+        {
+            "id": "workers",
+            "color": "#1f77b4",
+            "desc": "Simple task pool for parallelization"
+        },
+        {
+            "id": "libsimpleio",
+            "color": "darkcyan",
+            "desc": "Linux Simple I/O Library"
+        },
+        {
+            "id": "image_io",
+            "color": "#1f77b4",
+            "desc": "Output in BMP,PPM,QOI;input in BMP,GIF,JPG,PNG,PNM,QOI,TGA"
+        },
+        {
+            "id": "button_led_arduino_due",
+            "color": "darkcyan",
+            "desc": "Key/LED demo for Arduino Due"
+        },
+        {
+            "id": "gsl",
+            "color": "#1f77b4",
+            "desc": "Ada binding to Gnu Scientific Library 2.7"
+        },
+        {
+            "id": "remoteio",
+            "color": "darkcyan",
+            "desc": "Remote I/O Protocol Client Library for GNAT Ada"
+        },
+        {
+            "id": "apdf",
+            "color": "#1f77b4",
+            "desc": "Portable package for producing dynamically PDF documents"
+        },
+        {
+            "id": "gnatcoll_zlib",
+            "color": "#1f77b4",
+            "desc": "GNAT Components Collection - zlib binding"
+        },
+        {
+            "id": "nrf5x_hal",
+            "color": "darkcyan",
+            "desc": "Drivers and HAL for the Nordic nRF5X micro-controller family"
+        },
+        {
+            "id": "ayacc",
+            "color": "#1f77b4",
+            "desc": "An Ada LARL(1) parser generator"
+        },
+        {
+            "id": "bigints",
+            "color": "purple",
+            "desc": "Experimental SPARK Constant Time Big Integer library"
+        },
+        {
+            "id": "openglada",
+            "color": "#1f77b4",
+            "desc": "Thick Ada binding for OpenGL"
+        },
+        {
+            "id": "coap_spark",
+            "color": "purple",
+            "desc": "CoAP implementation formally verified with SPARK/Ada"
+        },
+        {
+            "id": "a0b_gpio",
+            "color": "darkcyan",
+            "desc": "A0B GIOP API"
+        },
+        {
+            "id": "hal",
+            "color": "darkcyan",
+            "desc": "Hardware Abstraction Layer (HAL)"
+        },
+        {
+            "id": "tlsada",
+            "color": "#1f77b4",
+            "desc": "Bindings for libtls"
+        },
+        {
+            "id": "matreshka_sql",
+            "color": "#1f77b4",
+            "desc": "Common SQL Database API"
+        },
+        {
+            "id": "a0b_armv7m",
+            "color": "darkcyan",
+            "desc": "ARMv7-M support (Cortex-M3, Cortex-M4, Cortex-M7)"
+        },
+        {
+            "id": "linenoise_ada",
+            "color": "#1f77b4",
+            "desc": "Bindings to the Linenoise line editing library"
+        },
+        {
+            "id": "protobuf",
+            "color": "#1f77b4",
+            "desc": "Google Protocol Buffers implementation in Ada"
+        },
+        {
+            "id": "servletada_unit",
+            "color": "#1f77b4",
+            "desc": "Web Servlet Library following JSR 154, JSR 315 (Testing framework)"
+        },
+        {
+            "id": "cgk",
+            "color": "#1f77b4",
+            "desc": "Computational Geometry Kernel"
+        },
+        {
+            "id": "utf8test",
+            "color": "#1f77b4",
+            "desc": "Test the terminal behavior when outputting Latin-1 and UTF-8 strings"
+        },
+        {
+            "id": "wioe5_ham2",
+            "color": "darkcyan",
+            "desc": "Wio-E5 LoRa Transceiver Module Device Driver"
+        },
+        {
+            "id": "zoneinfo",
+            "color": "purple",
+            "desc": "Ada 2022 timezone library for zone calculations and durations"
+        },
+        {
+            "id": "aaa_texts",
+            "color": "#1f77b4",
+            "desc": "Utilities to deal with enriched human texts (ANSI, Unicode)"
+        },
+        {
+            "id": "xoshiro",
+            "color": "purple",
+            "desc": "xoshiro128++ and xoshiro256++ pseudo-random number generators"
+        },
+        {
+            "id": "gnatcov",
+            "color": "#1f77b4",
+            "desc": "Coverage Analysis Tool"
+        },
+        {
+            "id": "flux",
+            "color": "#1f77b4",
+            "desc": "Experimental data stream library for Ada"
+        },
+        {
+            "id": "adabots",
+            "color": "#1f77b4",
+            "desc": "Learn Ada by programming Minecraft robots"
+        },
+        {
+            "id": "embedded_components",
+            "color": "darkcyan",
+            "desc": "Platform agnostic drivers to interface external components"
+        },
+        {
+            "id": "semantic_versioning",
+            "color": "#1f77b4",
+            "desc": "Semantic Versioning in Ada"
+        },
+        {
+            "id": "wayland_client_ada",
+            "color": "#1f77b4",
+            "desc": "Ada 2012 bindings for libwayland-client and the Wayland protocol"
+        },
+        {
+            "id": "xdg_base_dir",
+            "color": "#1f77b4",
+            "desc": "XDG Base Directory Specification"
+        },
+        {
+            "id": "hybrid_lib_ada",
+            "color": "purple",
+            "desc": "Hybrid DDD/Clean/Hexagonal library starter for Ada 2022"
+        },
+        {
+            "id": "weechat_ada",
+            "color": "#1f77b4",
+            "desc": "Ada 2012 library for WeeChat plug-ins"
+        },
+        {
+            "id": "minimal_containers",
+            "color": "#1f77b4",
+            "desc": "Much reduced version of Ada.Containers (bounded Maps, Vectors)"
+        },
+        {
+            "id": "phcpack",
+            "color": "#1f77b4",
+            "desc": "Polynomial Homotopy Continuation"
+        },
+        {
+            "id": "brackelib",
+            "color": "#1f77b4",
+            "desc": "Library which contains various utility packages."
+        },
+        {
+            "id": "dirty_booleans",
+            "color": "#1f77b4",
+            "desc": "Comparisons with 0/1, T/F, Y/N, Yes/No, etc."
+        },
+        {
+            "id": "vanilla",
+            "color": "#1f77b4",
+            "desc": "Simple replace in character stream"
+        },
+        {
+            "id": "hex_format",
+            "color": "darkcyan",
+            "desc": "Hexadecimal string formatting for modular types"
+        },
+        {
+            "id": "ali_parse",
+            "color": "#1f77b4",
+            "desc": "ALI_Parse - parsing and processing GNAT's .ali files"
+        },
+        {
+            "id": "elogs",
+            "color": "purple",
+            "desc": "Embedded logging, proven absent of runtime errors"
+        },
+        {
+            "id": "socketcan",
+            "color": "#1f77b4",
+            "desc": "An Ada language binding to SocketCAN for GNU/Linux systems"
+        },
+        {
+            "id": "wordle",
+            "color": "#1f77b4",
+            "desc": "Wordle for the terminal"
+        },
+        {
+            "id": "si_units",
+            "color": "#1f77b4",
+            "desc": "Pretty print physical values in properly scaled metric (SI) units."
+        },
+        {
+            "id": "levenshtein_distance",
+            "color": "#1f77b4",
+            "desc": "Implementation of levenshtein distance."
+        },
+        {
+            "id": "blink_led_arduino_due",
+            "color": "darkcyan",
+            "desc": "Blink LED demo for Arduino Due"
+        },
+        {
+            "id": "garlic",
+            "color": "#1f77b4",
+            "desc": "GNAT Library for Ada Distributed Environment (garlic)"
+        },
+        {
+            "id": "libgpr2",
+            "color": "#1f77b4",
+            "desc": "Parser for GPR  Project File"
+        },
+        {
+            "id": "a0b_stm32g474_gpio",
+            "color": "darkcyan",
+            "desc": "A0B: STM32G474 GPIO/EXTI"
+        },
+        {
+            "id": "lace_physics",
+            "color": "#1f77b4",
+            "desc": "Provides 2D/3D rigid body dynamics simulation."
+        },
+        {
+            "id": "stopwatch",
+            "color": "#1f77b4",
+            "desc": "Keep track of elapsed time"
+        },
+        {
+            "id": "b2ssum",
+            "color": "#1f77b4",
+            "desc": "BLAKE2s file hash utility"
+        },
+        {
+            "id": "orka_tensors_gpu",
+            "color": "#1f77b4",
+            "desc": "Tensors using compute shaders on the GPU"
+        },
+        {
+            "id": "lace_swig",
+            "color": "#1f77b4",
+            "desc": "Provides packages required by bindings produced by the 'swig4ada' tool."
+        },
+        {
+            "id": "spark_unbound",
+            "color": "purple",
+            "desc": "Unbound data structures in Ada-Spark"
+        },
+        {
+            "id": "aflex",
+            "color": "#1f77b4",
+            "desc": "An Ada Lexical Analyzer Generator"
+        },
+        {
+            "id": "openai",
+            "color": "#1f77b4",
+            "desc": "OpenAI client library"
+        },
+        {
+            "id": "partord",
+            "color": "#1f77b4",
+            "desc": "Small library for sorting with partial orders"
+        },
+        {
+            "id": "a0b_callbacks",
+            "color": "#1f77b4",
+            "desc": "A0B Callbacks"
+        },
+        {
+            "id": "jwt",
+            "color": "#1f77b4",
+            "desc": "JSON Web Token (JWT) implementation in Ada"
+        },
+        {
+            "id": "openapi",
+            "color": "#1f77b4",
+            "desc": "OpenAPI library to build REST client applications"
+        },
+        {
+            "id": "embedded_stm32f0xx",
+            "color": "darkcyan",
+            "desc": "embedded runtime for the STM32F0xx SoC"
+        },
+        {
+            "id": "loadcpm",
+            "color": "#1f77b4",
+            "desc": "Write CP/M (or other similar binary) to floppy disk image"
+        },
+        {
+            "id": "button_led_weact_stm32g474",
+            "color": "darkcyan",
+            "desc": "Key/LED demo for WeAct STM32G474"
+        },
+        {
+            "id": "a0b_stm32h723",
+            "color": "darkcyan",
+            "desc": "STM32H723 base and SVD package"
+        },
+        {
+            "id": "gnatcoll_python",
+            "color": "#1f77b4",
+            "desc": "GNAT Components Collection - python2 binding"
+        },
+        {
+            "id": "gnat_riscv64_elf",
+            "color": "#1f77b4",
+            "desc": "The GNAT Ada compiler - RISC-V cross-compiler"
+        },
+        {
+            "id": "lace_xml",
+            "color": "#1f77b4",
+            "desc": "Provides simple XML read/write support."
+        },
+        {
+            "id": "audio_wavefiles",
+            "color": "#1f77b4",
+            "desc": "Ada Wavefile Library"
+        },
+        {
+            "id": "libgpr",
+            "color": "#1f77b4",
+            "desc": "GNAT Project File Library"
+        },
+        {
+            "id": "mos6502_create_led",
+            "color": "#1f77b4",
+            "desc": "Create ROM with little program"
+        },
+        {
+            "id": "svd2ada",
+            "color": "#1f77b4",
+            "desc": "Ada binding generator from CMSIS-SVD hardware descriptions files"
+        },
+        {
+            "id": "lace_math",
+            "color": "#1f77b4",
+            "desc": "Provides an Ada package family covering pure and applied mathematics."
+        },
+        {
+            "id": "chacha20",
+            "color": "#1f77b4",
+            "desc": "ChaCha20 implementation in Ada."
+        },
+        {
+            "id": "spdx_tool",
+            "color": "#1f77b4",
+            "desc": "SPDX license detection and management tool"
+        },
+        {
+            "id": "blink_led_weact_stm32g474",
+            "color": "darkcyan",
+            "desc": "Blink LED demo for WeAct STM32G474"
+        },
+        {
+            "id": "stm32f0x2_hal",
+            "color": "darkcyan",
+            "desc": "Drivers and HAL for stm32f0x2 mcu family"
+        },
+        {
+            "id": "dir_iterators",
+            "color": "#1f77b4",
+            "desc": "Ways of moving around directory trees"
+        },
+        {
+            "id": "raylib",
+            "color": "#1f77b4",
+            "desc": "Ada bindings for Raylib"
+        },
+        {
+            "id": "hangman",
+            "color": "#1f77b4",
+            "desc": "Hangman game for the console"
+        },
+        {
+            "id": "markdown",
+            "color": "#1f77b4",
+            "desc": "Markdown parser (draft)"
+        },
+        {
+            "id": "zeromq_ada",
+            "color": "#1f77b4",
+            "desc": "An Ada-binding the \u00d8MQ library"
+        },
+        {
+            "id": "format_strings",
+            "color": "#1f77b4",
+            "desc": "Build formatted strings"
+        },
+        {
+            "id": "gnoga",
+            "color": "#1f77b4",
+            "desc": "gnoga - The GNU Omnificent GUI for Ada"
+        },
+        {
+            "id": "a0b_atsam3x8e_twi_i2c",
+            "color": "darkcyan",
+            "desc": "A0B ATSAM3X8E TWI I2C Driver"
+        },
+        {
+            "id": "slip",
+            "color": "purple",
+            "desc": "SLIP Protocol Implementation"
+        },
+        {
+            "id": "learnadainy",
+            "color": "#1f77b4",
+            "desc": "Learn Ada in Y Minutes"
+        },
+        {
+            "id": "minirest",
+            "color": "#1f77b4",
+            "desc": "Minimalist Ada REST client library"
+        },
+        {
+            "id": "aaa",
+            "color": "#1f77b4",
+            "desc": "Alex's Ada Assortment (of miscellaneous utilities)"
+        },
+        {
+            "id": "gfx_core",
+            "color": "#1f77b4",
+            "desc": "Modular Portable Graphics Library, Core Components"
+        },
+        {
+            "id": "tiny_rp2040_bsp",
+            "color": "darkcyan",
+            "desc": "Board support package for Pimoroni Tiny RP2040"
+        },
+        {
+            "id": "light_tasking_nrf52833",
+            "color": "darkcyan",
+            "desc": "light-tasking runtime for the nRF52833 SoC"
+        },
+        {
+            "id": "gfx_rasteriser",
+            "color": "#1f77b4",
+            "desc": "Modular Portable Graphics Library, Primitive's Rasteriser"
+        },
+        {
+            "id": "openglada_images",
+            "color": "#1f77b4",
+            "desc": "Image loading library for OpenGLAda"
+        },
+        {
+            "id": "lmdb_ada",
+            "color": "#1f77b4",
+            "desc": "Bindings to the Lightning Memory-Mapped Database"
+        },
+        {
+            "id": "wayland_cursor_ada",
+            "color": "#1f77b4",
+            "desc": "Ada 2012 bindings for libwayland-cursor"
+        },
+        {
+            "id": "rsfile",
+            "color": "#1f77b4",
+            "desc": "Randomly pick a file with probability proportional to its size"
+        },
+        {
+            "id": "muntsos_raspberrypi4",
+            "color": "darkcyan",
+            "desc": "MuntsOS Embedded Linux support for RaspberryPi4 targets"
+        },
+        {
+            "id": "ada_fuse",
+            "color": "#1f77b4",
+            "desc": "Ada bindings for Fuse (Filesystem in Userspace)"
+        },
+        {
+            "id": "a0b_stm32f401_gpio",
+            "color": "darkcyan",
+            "desc": "A0B: STM32F401 GPIO/EXTI"
+        },
+        {
+            "id": "pygamer_simulator",
+            "color": "#1f77b4",
+            "desc": "SDL simulator of the AdaFruit PyGamer console"
+        },
+        {
+            "id": "samd51_hal",
+            "color": "darkcyan",
+            "desc": "Drivers and HAL for the SAMD51 micro-controller family"
+        },
+        {
+            "id": "button_led_blackpill_stm32f401",
+            "color": "darkcyan",
+            "desc": "Key/LED demo for BlackPill STM32F401"
+        },
+        {
+            "id": "lal_highlight",
+            "color": "#1f77b4",
+            "desc": "Simple code highlighters based on Libadalang"
+        },
+        {
+            "id": "softdev",
+            "color": "darkcyan",
+            "desc": "Serial protocols implemented in software"
+        },
+        {
+            "id": "zlib_ada",
+            "color": "#1f77b4",
+            "desc": "ZLib for Ada thick binding"
+        },
+        {
+            "id": "ini_files",
+            "color": "#1f77b4",
+            "desc": "A standalone, portable Ada package for configuration files"
+        },
+        {
+            "id": "enet",
+            "color": "#1f77b4",
+            "desc": "Ada Embedded Network Stack"
+        },
+        {
+            "id": "nmea_0183",
+            "color": "#1f77b4",
+            "desc": "NMEA 0183 message decoder"
+        },
+        {
+            "id": "light_nrf52840",
+            "color": "darkcyan",
+            "desc": "light runtime for the nRF52840 SoC"
+        },
+        {
+            "id": "adacl_eastrings",
+            "color": "#1f77b4",
+            "desc": "AdaCL: Encoding-Aware String Utilities"
+        },
+        {
+            "id": "yass",
+            "color": "#1f77b4",
+            "desc": "Static website generator"
+        },
+        {
+            "id": "adasat",
+            "color": "#1f77b4",
+            "desc": "Implementation of a DPLL-based SAT solver in Ada."
+        },
+        {
+            "id": "mos6502_create_reset",
+            "color": "#1f77b4",
+            "desc": "Create ROM with reset vector"
+        },
+        {
+            "id": "serverfaces_unit",
+            "color": "#1f77b4",
+            "desc": "Web Server Faces JSR 252, JSR 314 and JSR 344 (Testing framework)"
+        },
+        {
+            "id": "orka_plugin_terrain",
+            "color": "#1f77b4",
+            "desc": "Orka plug-in for adaptive tessellated flattened spheroids"
+        },
+        {
+            "id": "asfml",
+            "color": "#1f77b4",
+            "desc": "Ada binding to SFML, the Simple and Fast Multimedia Library"
+        },
+        {
+            "id": "prettier_ada",
+            "color": "#1f77b4",
+            "desc": "Port of the Prettier formatter to Ada"
+        },
+        {
+            "id": "wordlelib",
+            "color": "#1f77b4",
+            "desc": "Library to track progress in a game of Wordle"
+        },
+        {
+            "id": "wayland_ada_info",
+            "color": "#1f77b4",
+            "desc": "A tool to display information about supported Wayland interfaces"
+        },
+        {
+            "id": "matreshka_servlet",
+            "color": "#1f77b4",
+            "desc": "Servlet API"
+        },
+        {
+            "id": "spdx",
+            "color": "#1f77b4",
+            "desc": "SPDX License Expression Validator"
+        },
+        {
+            "id": "mqttlib",
+            "color": "#1f77b4",
+            "desc": "Ada binding to the mosquitto library for MQTT"
+        },
+        {
+            "id": "gnat_xtensa_esp32_elf",
+            "color": "#1f77b4",
+            "desc": "The GNAT Ada compiler - ESP32 cross-compiler"
+        },
+        {
+            "id": "system_random",
+            "color": "#1f77b4",
+            "desc": "Minimal library to retrieve random data from system sources"
+        },
+        {
+            "id": "are",
+            "color": "#1f77b4",
+            "desc": "Advanced Resource Embedder"
+        },
+        {
+            "id": "esp_idf",
+            "color": "darkcyan",
+            "desc": "Ada binding for the ESP-IDF SDK"
+        },
+        {
+            "id": "light_tasking_stm32g0xx",
+            "color": "darkcyan",
+            "desc": "light-tasking runtime for the STM32G0xx SoC"
+        },
+        {
+            "id": "automate",
+            "color": "#1f77b4",
+            "desc": "Ada finite-state machine generator"
+        },
+        {
+            "id": "qmc5883",
+            "color": "#1f77b4",
+            "desc": "Driver for QMC5883L magnetic sensor"
+        },
+        {
+            "id": "a0b_stm32f2_generic_gpio",
+            "color": "darkcyan",
+            "desc": "A0B: STM32F2+ Generic GPIO"
+        },
+        {
+            "id": "ajunitgen",
+            "color": "#1f77b4",
+            "desc": "Generator of JUnit-compatible XML reports"
+        },
+        {
+            "id": "cmd_ada",
+            "color": "#1f77b4",
+            "desc": "Command based text UI, inspired by Python cmd module"
+        },
+        {
+            "id": "xml_ez_out",
+            "color": "#1f77b4",
+            "desc": "Creation of XML-formatted output from Ada programs"
+        },
+        {
+            "id": "vaton",
+            "color": "purple",
+            "desc": "Verified Ascii To Number conversion written in Ada/SPARK"
+        },
+        {
+            "id": "a0b_stm32f401",
+            "color": "darkcyan",
+            "desc": "STM32F401 base and SVD package"
+        },
+        {
+            "id": "gnatcoll",
+            "color": "#1f77b4",
+            "desc": "GNAT Components Collection - Core packages"
+        },
+        {
+            "id": "encryption_utilities",
+            "color": "#1f77b4",
+            "desc": "Utility programs for the encryption algorithms included in the PragmARC"
+        },
+        {
+            "id": "czmq_ada",
+            "color": "#1f77b4",
+            "desc": "Ada bindings for CZMQ (high-level C API for ZeroMQ)"
+        },
+        {
+            "id": "utilada_aws",
+            "color": "#1f77b4",
+            "desc": "Utility Library REST support on top of AWS"
+        },
+        {
+            "id": "cards",
+            "color": "#1f77b4",
+            "desc": "52-card deck playing card library"
+        },
+        {
+            "id": "tzif",
+            "color": "#1f77b4",
+            "desc": "Parsing and querying of IANA's Timezone Information File Library (tzif)"
+        },
+        {
+            "id": "lace_shared",
+            "color": "#1f77b4",
+            "desc": "Default settings for GPR files in the Lace project."
+        },
+        {
+            "id": "uuids",
+            "color": "#1f77b4",
+            "desc": "Implementation of RFC 9562 Universally Unique IDentifiers (UUIDs)"
+        },
+        {
+            "id": "keystoreada",
+            "color": "#1f77b4",
+            "desc": "Ada Keystore"
+        },
+        {
+            "id": "ews",
+            "color": "#1f77b4",
+            "desc": "Embedded Web Server"
+        },
+        {
+            "id": "vss",
+            "color": "#1f77b4",
+            "desc": "Advanced string and text manipulation with Unicode support"
+        },
+        {
+            "id": "dependency_graph_extractor",
+            "color": "#1f77b4",
+            "desc": "Extract dependency information from Ada projects"
+        },
+        {
+            "id": "dashera",
+            "color": "#1f77b4",
+            "desc": "DASHER Terminal Emulator"
+        },
+        {
+            "id": "eagle_lander",
+            "color": "#1f77b4",
+            "desc": "Apollo 11 lunar lander simulator"
+        },
+        {
+            "id": "hac",
+            "color": "#1f77b4",
+            "desc": "HAC Ada Compiler: a small, quick Ada compiler covering a subset of Ada"
+        },
+        {
+            "id": "xmlada",
+            "color": "#1f77b4",
+            "desc": "The XML/Ada toolkit"
+        },
+        {
+            "id": "password_gen",
+            "color": "#1f77b4",
+            "desc": "A password generator using Ada-GUI/Gnoga"
+        },
+        {
+            "id": "wisitoken",
+            "color": "#1f77b4",
+            "desc": "Generalized error correcting LALR and packrat parser generator"
+        },
+        {
+            "id": "aicwl",
+            "color": "#1f77b4",
+            "desc": "Ada Industrial Control Widgets Library"
+        },
+        {
+            "id": "lal_refactor",
+            "color": "#1f77b4",
+            "desc": "Source code refactoring utilities for the Ada language"
+        },
+        {
+            "id": "spat",
+            "color": "purple",
+            "desc": "SPAT - SPARK Proof Analysis Tool"
+        },
+        {
+            "id": "muntsos_raspberrypi3",
+            "color": "darkcyan",
+            "desc": "MuntsOS Embedded Linux support for RaspberryPi3 targets"
+        },
+        {
+            "id": "raiden",
+            "color": "#1f77b4",
+            "desc": "An Ada implemenetation of a block cipher called Raiden."
+        },
+        {
+            "id": "snow",
+            "color": "#1f77b4",
+            "desc": "Console output utilities"
+        },
+        {
+            "id": "x1804",
+            "color": "#1f77b4",
+            "desc": "Translate MIL-HDBK-1804 PDL into Section 4 of the DoD-STD-2167A SDD"
+        },
+        {
+            "id": "gprbuild",
+            "color": "#1f77b4",
+            "desc": "The GPRBuild Ada/multilanguage build tool"
+        },
+        {
+            "id": "dynamo",
+            "color": "#1f77b4",
+            "desc": "Dynamo Ada Generator"
+        },
+        {
+            "id": "pla_util",
+            "color": "#1f77b4",
+            "desc": "A power line adapter utility"
+        },
+        {
+            "id": "program_proofs_in_spark",
+            "color": "purple",
+            "desc": "Programs from the book Program Proofs in SPARK"
+        },
+        {
+            "id": "orka_opengl",
+            "color": "#1f77b4",
+            "desc": "OpenGL 4.6 backend for the Orka rendering engine"
+        },
+        {
+            "id": "play_2048",
+            "color": "#1f77b4",
+            "desc": "2048 game: merge tiles with the same number until you add up to 2048"
+        },
+        {
+            "id": "j2ada",
+            "color": "#1f77b4",
+            "desc": "Almost Java to Ada translator"
+        },
+        {
+            "id": "geo_coords",
+            "color": "#1f77b4",
+            "desc": "Geo coordinates calculation for determining Location, Distance, Bearing"
+        },
+        {
+            "id": "spawn",
+            "color": "#1f77b4",
+            "desc": "A simple library to spawn processes and communicate with them."
+        },
+        {
+            "id": "admpfr",
+            "color": "#1f77b4",
+            "desc": "Ada bindings for MPFR"
+        },
+        {
+            "id": "embedded_rp2040",
+            "color": "darkcyan",
+            "desc": "embedded runtime for the RP2040 SoC"
+        },
+        {
+            "id": "uxstrings",
+            "color": "#1f77b4",
+            "desc": "Unicode Extended Strings utilities"
+        },
+        {
+            "id": "lace_gel_animation_demo",
+            "color": "#1f77b4",
+            "desc": "A demo of GEL's human animation."
+        },
+        {
+            "id": "orka_numerics",
+            "color": "#1f77b4",
+            "desc": "Tensors (multidimensional arrays) and integrators"
+        },
+        {
+            "id": "embedded_nrf52840",
+            "color": "darkcyan",
+            "desc": "embedded runtime for the nRF52840 SoC"
+        },
+        {
+            "id": "lzmada",
+            "color": "#1f77b4",
+            "desc": "Ada LZMA Library Binding"
+        },
+        {
+            "id": "aho_corasick",
+            "color": "#1f77b4",
+            "desc": "Aho-Corasick Implementation"
+        },
+        {
+            "id": "chests",
+            "color": "darkcyan",
+            "desc": "Chests are bounded containers"
+        },
+        {
+            "id": "spawn_glib",
+            "color": "#1f77b4",
+            "desc": "A simple library to spawn processes and communicate with them."
+        },
+        {
+            "id": "utilada_xml",
+            "color": "#1f77b4",
+            "desc": "Utility Library serialization with XML/Ada"
+        },
+        {
+            "id": "muntsos_aarch64",
+            "color": "darkcyan",
+            "desc": "MuntsOS Embedded Linux support for AArch64 targets"
+        },
+        {
+            "id": "emacs_wisi",
+            "color": "#1f77b4",
+            "desc": "Ada code for Emacs wisi ELPA package"
+        },
+        {
+            "id": "light_tasking_nrf52832",
+            "color": "darkcyan",
+            "desc": "light-tasking runtime for the nRF52832 SoC"
+        },
+        {
+            "id": "bingada",
+            "color": "#1f77b4",
+            "desc": "Bingo application in GTKAda with sound in ASFML"
+        },
+        {
+            "id": "chipmunk2d",
+            "color": "#1f77b4",
+            "desc": "Ada bindings for Chipmunk2D"
+        },
+        {
+            "id": "spoon",
+            "color": "#1f77b4",
+            "desc": "Use posix_spawn() to spawn processes without forking"
+        },
+        {
+            "id": "whitakers_words",
+            "color": "#1f77b4",
+            "desc": "William Whitaker's WORDS, a Latin dictionary"
+        },
+        {
+            "id": "hmac",
+            "color": "#1f77b4",
+            "desc": "HMAC implemented in Ada"
+        },
+        {
+            "id": "webdriver",
+            "color": "#1f77b4",
+            "desc": "Web Browser control API"
+        },
+        {
+            "id": "rewriters",
+            "color": "#1f77b4",
+            "desc": "Easy, yet advanced manipulation of Ada code"
+        },
+        {
+            "id": "cbsg",
+            "color": "#1f77b4",
+            "desc": "Corporate Bullshit Generator"
+        },
+        {
+            "id": "testlog",
+            "color": "#1f77b4",
+            "desc": "Log test activity to support unit testing of Ada packages"
+        },
+        {
+            "id": "agpl",
+            "color": "#1f77b4",
+            "desc": "Ada General Purpose Library with a robotics flavor"
+        },
+        {
+            "id": "adacl_regexp",
+            "color": "#1f77b4",
+            "desc": "AdaCL: Regex and SPITBOL Patterns with Wide Character Support"
+        },
+        {
+            "id": "getada",
+            "color": "#1f77b4",
+            "desc": "The unofficial mac and linux installer for Alire."
+        },
+        {
+            "id": "littlefs",
+            "color": "darkcyan",
+            "desc": "Ada/SPARK binding for the LittleFS flash embedded filesystem"
+        },
+        {
+            "id": "iterators",
+            "color": "#1f77b4",
+            "desc": "Functional iterators a la Rust"
+        },
+        {
+            "id": "emdee",
+            "color": "#1f77b4",
+            "desc": "Performance assistant for Musical Directors"
+        },
+        {
+            "id": "wolfssl",
+            "color": "purple",
+            "desc": "WolfSSL encryption library and its Ada bindings"
+        },
+        {
+            "id": "libgnatformat",
+            "color": "#1f77b4",
+            "desc": "opinionated code format library for the Ada language"
+        },
+        {
+            "id": "braillart",
+            "color": "#1f77b4",
+            "desc": "Use Braille patterns as a dot-matrix printer"
+        },
+        {
+            "id": "asis",
+            "color": "#1f77b4",
+            "desc": "Ada Semantic Interface Specification or ASIS (library part)"
+        },
+        {
+            "id": "saatana",
+            "color": "purple",
+            "desc": "SPARK/Ada Algorithms Targeting Advanced Network Applications"
+        },
+        {
+            "id": "jupyter_kernel",
+            "color": "#1f77b4",
+            "desc": "Jupyter Kernel for Ada"
+        },
+        {
+            "id": "ada_voxel_space_demo",
+            "color": "#1f77b4",
+            "desc": "Voxel Space render engine demo in Ada"
+        },
+        {
+            "id": "ulid",
+            "color": "#1f77b4",
+            "desc": "Universally Unique Lexicographically Sortable Identifier"
+        },
+        {
+            "id": "cre8or_generic_image_handling_example",
+            "color": "#1f77b4",
+            "desc": "Generic image handling example project"
+        },
+        {
+            "id": "qoi",
+            "color": "#1f77b4",
+            "desc": "Ada/SPARK implementation of the Quite Ok Image format"
+        },
+        {
+            "id": "servletada_ews",
+            "color": "#1f77b4",
+            "desc": "Web Servlet Library following JSR 154, JSR 315 (EWS)"
+        },
+        {
+            "id": "adayaml",
+            "color": "#1f77b4",
+            "desc": "Experimental YAML 1.3 implementation in Ada"
+        },
+        {
+            "id": "minisamd51_bsp",
+            "color": "darkcyan",
+            "desc": "Board Support Package for the MiniSAM D51"
+        },
+        {
+            "id": "elevator",
+            "color": "#1f77b4",
+            "desc": "A Simple Elevator System"
+        },
+        {
+            "id": "pager2",
+            "color": "#1f77b4",
+            "desc": "Manipulate \"paged files\" found on the Ada Software Repository"
+        },
+        {
+            "id": "easy_graphics",
+            "color": "#1f77b4",
+            "desc": "Very Simple Graphics Package"
+        },
+        {
+            "id": "ada_lua",
+            "color": "#1f77b4",
+            "desc": "An Ada binding for lua"
+        },
+        {
+            "id": "lvgl_ada_examples",
+            "color": "#1f77b4",
+            "desc": "Examples for the LVGL embedded GUI framework Ada binding"
+        },
+        {
+            "id": "a0b_stm32f401_dma",
+            "color": "darkcyan",
+            "desc": "A0B: STM32F401 DMA"
+        },
+        {
+            "id": "resources",
+            "color": "#1f77b4",
+            "desc": "Utility library to handle project resources at run-time"
+        },
+        {
+            "id": "io_utils",
+            "color": "#1f77b4",
+            "desc": "A terminal IO library"
+        },
+        {
+            "id": "list_image",
+            "color": "#1f77b4",
+            "desc": "helper to dump iterable containers with customizable style"
+        },
+        {
+            "id": "blink_led_blackpill_stm32f401",
+            "color": "darkcyan",
+            "desc": "Blink LED demo for BlackPill STM32F401"
+        },
+        {
+            "id": "wl_lib",
+            "color": "#1f77b4",
+            "desc": "Handy library packages"
+        },
+        {
+            "id": "awa",
+            "color": "#1f77b4",
+            "desc": "Ada Web Application"
+        },
+        {
+            "id": "avltrees",
+            "color": "#1f77b4",
+            "desc": "Threaded AVL trees library for Ada"
+        },
+        {
+            "id": "astro",
+            "color": "#1f77b4",
+            "desc": "Library for astronomical calculations"
+        },
+        {
+            "id": "mold",
+            "color": "#1f77b4",
+            "desc": "Meta-variable Operations for Lean Development (cli)"
+        },
+        {
+            "id": "inotify",
+            "color": "#1f77b4",
+            "desc": "Monitor filesystem events using Linux' inotify API"
+        },
+        {
+            "id": "matreshka_sql_postgresql",
+            "color": "#1f77b4",
+            "desc": "PostgreSQL binding for Ada"
+        },
+        {
+            "id": "gettext",
+            "color": "#1f77b4",
+            "desc": "A wrapper library for gettext"
+        },
+        {
+            "id": "universal_text_file",
+            "color": "#1f77b4",
+            "desc": "Proposed universal format for Unicode text files"
+        },
+        {
+            "id": "lace_opengl",
+            "color": "#1f77b4",
+            "desc": "Provides an openGL engine."
+        },
+        {
+            "id": "atari_exe_tools",
+            "color": "#1f77b4",
+            "desc": "Cross-platform tool for analysing and inspecting Atari 8-bit EXE files"
+        },
+        {
+            "id": "gnatcoll_sql",
+            "color": "#1f77b4",
+            "desc": "GNAT Components Collection - sql"
+        },
+        {
+            "id": "a0b_base",
+            "color": "#1f77b4",
+            "desc": "A0B: Base components"
+        },
+        {
+            "id": "light_stm32g4xx",
+            "color": "darkcyan",
+            "desc": "light runtime for the STM32G4xx SoC"
+        },
+        {
+            "id": "bbs_ansiterm",
+            "color": "#1f77b4",
+            "desc": "Generate Escape Sequences for ANSI terminals"
+        },
+        {
+            "id": "atari_atr_tools",
+            "color": "#1f77b4",
+            "desc": "Cross-platform tool for ATR disk images for Atari 8-bit systems"
+        },
+        {
+            "id": "matreshka_amf_ocl",
+            "color": "#1f77b4",
+            "desc": "The UML OCL for AMF"
+        },
+        {
+            "id": "labs_solar_system",
+            "color": "#1f77b4",
+            "desc": "A set of SDL-based exercises to learn Ada"
+        },
+        {
+            "id": "lwt",
+            "color": "#1f77b4",
+            "desc": "Light-weight Threading Library implementing Ada 2022 parallel features"
+        },
+        {
+            "id": "ashell",
+            "color": "#1f77b4",
+            "desc": "Allows running and interacting with OS programs."
+        },
+        {
+            "id": "matreshka_sql_oracle",
+            "color": "#1f77b4",
+            "desc": "Oracle DB binding for Ada"
+        },
+        {
+            "id": "distance",
+            "color": "purple",
+            "desc": "A formally verified library for calculating numeric, text distances"
+        },
+        {
+            "id": "servletada",
+            "color": "#1f77b4",
+            "desc": "Web Servlet Library following JSR 154, JSR 315 (Core)"
+        },
+        {
+            "id": "emacs_ada_mode",
+            "color": "#1f77b4",
+            "desc": "Parser for Emacs ada-mode"
+        },
+        {
+            "id": "controlled_io",
+            "color": "#1f77b4",
+            "desc": "Files that are open while they exist and closed when they don't "
+        },
+        {
+            "id": "rclada",
+            "color": "#1f77b4",
+            "desc": "ROS2 Ada Client Library"
+        },
+        {
+            "id": "raspberry_bsp",
+            "color": "#1f77b4",
+            "desc": "Board Support package for Raspberry PI v1, v2 and B+"
+        },
+        {
+            "id": "a0b_stm32g4_gpio",
+            "color": "darkcyan",
+            "desc": "A0B: STM32G4 GPIO"
+        },
+        {
+            "id": "tiny_text",
+            "color": "#1f77b4",
+            "desc": "Low resolution bitmap font with a small memory footprint"
+        },
+        {
+            "id": "geste",
+            "color": "#1f77b4",
+            "desc": "GEneric Sprite and Tile Engine"
+        },
+        {
+            "id": "gpr_unit_provider",
+            "color": "#1f77b4",
+            "desc": "GNAT Project File Library"
+        },
+        {
+            "id": "get_password",
+            "color": "#1f77b4",
+            "desc": "Read a string without echo, in password-like style"
+        },
+        {
+            "id": "anagram",
+            "color": "#1f77b4",
+            "desc": "Grammar handling and parser generation Ada library"
+        },
+        {
+            "id": "vss_text",
+            "color": "#1f77b4",
+            "desc": "A high level Unicode text processing library"
+        },
+        {
+            "id": "orka_tensors_cpu",
+            "color": "#1f77b4",
+            "desc": "Tensors using SIMD instructions on the CPU"
+        },
+        {
+            "id": "ocarina_lib",
+            "color": "#1f77b4",
+            "desc": "Ocarina is a stand-alone AADL model processor, written in Ada."
+        },
+        {
+            "id": "conic_fit",
+            "color": "#1f77b4",
+            "desc": "Least squares fitting of quadratic curves and surfaces"
+        },
+        {
+            "id": "wordlist",
+            "color": "#1f77b4",
+            "desc": "An English word list"
+        },
+        {
+            "id": "journada",
+            "color": "#1f77b4",
+            "desc": "Simple and nice configurable logging"
+        },
+        {
+            "id": "embedded_stm32g4xx",
+            "color": "darkcyan",
+            "desc": "embedded runtime for the STM32G4xx SoC"
+        },
+        {
+            "id": "utilada_curl",
+            "color": "#1f77b4",
+            "desc": "Utility Library REST support on top of CURL"
+        },
+        {
+            "id": "noise_nugget_sdk",
+            "color": "darkcyan",
+            "desc": "Ada Software Development Kit for the Noise Nugget"
+        },
+        {
+            "id": "bfdada",
+            "color": "#1f77b4",
+            "desc": "Ada API for the GNU Binutils BFD library"
+        },
+        {
+            "id": "ncursesada",
+            "color": "#1f77b4",
+            "desc": "Ada binding to the ncurses text user interface library"
+        },
+        {
+            "id": "suika_programing",
+            "color": "#1f77b4",
+            "desc": "Suika game clone with programing languages"
+        },
+        {
+            "id": "simple_regex",
+            "color": "#1f77b4",
+            "desc": "Port of Rob Pike's simple regex from the Practice of Programming."
+        },
+        {
+            "id": "embedded_nrf52833",
+            "color": "darkcyan",
+            "desc": "embedded runtime for the nRF52833 SoC"
+        },
+        {
+            "id": "bbs_embed_common",
+            "color": "darkcyan",
+            "desc": "Abstract hardware drivers and drivers for some i2c bus devices."
+        },
+        {
+            "id": "matreshka_amf_uml",
+            "color": "#1f77b4",
+            "desc": "Unified Modeling Language support for AMF"
+        },
+        {
+            "id": "openapi_server",
+            "color": "#1f77b4",
+            "desc": "OpenAPI library to build REST server applications"
+        },
+        {
+            "id": "pico_ultrasonic_ranger",
+            "color": "#1f77b4",
+            "desc": "Driver for the Grove ultrasonic ranger. Depends on the RP Pico HAL."
+        },
+        {
+            "id": "rabbitmq",
+            "color": "#1f77b4",
+            "desc": "Ada bindings for the librabbitmq C client library"
+        },
+        {
+            "id": "a0b_stm32f401_tim11_timer",
+            "color": "darkcyan",
+            "desc": "A0B: Timer based on STM32F401 TIM11"
+        },
+        {
+            "id": "parallelize",
+            "color": "#1f77b4",
+            "desc": "Execute multiple commands in parallel"
+        },
+        {
+            "id": "matreshka_spikedog_awsd",
+            "color": "#1f77b4",
+            "desc": "Web-application server. API library"
+        },
+        {
+            "id": "gnatprove",
+            "color": "#1f77b4",
+            "desc": "Automatic formal verification of SPARK code"
+        },
+        {
+            "id": "uri_ada",
+            "color": "#1f77b4",
+            "desc": "Processing of URI strings"
+        },
+        {
+            "id": "embedded_stm32g0xx",
+            "color": "darkcyan",
+            "desc": "embedded runtime for the STM32G0xx SoC"
+        },
+        {
+            "id": "pragmarc",
+            "color": "#1f77b4",
+            "desc": "The PragmAda Reusable Components"
+        },
+        {
+            "id": "bare_runtime",
+            "color": "darkcyan",
+            "desc": "Minimal Ada/SPARK run-time for embedded or other restricted targets"
+        },
+        {
+            "id": "labs_standalone",
+            "color": "#1f77b4",
+            "desc": "Ada exercices for training"
+        },
+        {
+            "id": "adagl_gtk3",
+            "color": "#1f77b4",
+            "desc": "OpenGL/Gtk3 binding"
+        },
+        {
+            "id": "avrada_rts",
+            "color": "darkcyan",
+            "desc": "Minimal run time system (RTS) for AVR 8bit controllers"
+        },
+        {
+            "id": "xia",
+            "color": "#1f77b4",
+            "desc": "Implements XPath 1.0 in Ada"
+        },
+        {
+            "id": "light_tasking_stm32f0xx",
+            "color": "darkcyan",
+            "desc": "light-tasking runtime for the STM32F0xx SoC"
+        },
+        {
+            "id": "zipada",
+            "color": "#1f77b4",
+            "desc": "Manage Zip Archives and raw BZip2 and LZMA streams"
+        },
+        {
+            "id": "cre8or_generic_image_handling",
+            "color": "#1f77b4",
+            "desc": "Generic image file and data handling using stb_images"
+        },
+        {
+            "id": "mage",
+            "color": "#1f77b4",
+            "desc": "Mini Ada Game Engine - A very simple game engine written in Ada"
+        },
+        {
+            "id": "cheddar",
+            "color": "#1f77b4",
+            "desc": "Cheddar is a real time scheduling analysis tool."
+        },
+        {
+            "id": "matreshka_spikedog_api",
+            "color": "#1f77b4",
+            "desc": "Web-application server. API library"
+        },
+        {
+            "id": "binary_trees",
+            "color": "#1f77b4",
+            "desc": " Ordered binary trees implemented without access types"
+        },
+        {
+            "id": "secretada",
+            "color": "#1f77b4",
+            "desc": "Secret service Ada binding"
+        },
+        {
+            "id": "aoa_23",
+            "color": "#1f77b4",
+            "desc": "Some Advent of Ada 2023 solutions"
+        },
+        {
+            "id": "utilada",
+            "color": "#1f77b4",
+            "desc": "Utility Library with streams, processes, logs, serialization, encoders"
+        },
+        {
+            "id": "ltp_305",
+            "color": "darkcyan",
+            "desc": "Driver for Pimoroni LED"
+        },
+        {
+            "id": "geste_examples",
+            "color": "#1f77b4",
+            "desc": "Example for the GESTE game engine"
+        },
+        {
+            "id": "matreshka_amf",
+            "color": "#1f77b4",
+            "desc": "Implementation of OMG's Meta Object Facility (MOF)"
+        },
+        {
+            "id": "opentoken",
+            "color": "#1f77b4",
+            "desc": "facility for performing token analysis and parsing within Ada"
+        },
+        {
+            "id": "honki_tonks_zivilisationen",
+            "color": "#1f77b4",
+            "desc": "The Code of my 4X turn-based strategy game."
+        },
+        {
+            "id": "bar_codes",
+            "color": "#1f77b4",
+            "desc": "Generate various types of bar codes (1D or 2D) on various media"
+        },
+        {
+            "id": "fastpbkdf2_ada",
+            "color": "#1f77b4",
+            "desc": "Binding and an Ada wrapper to fastpbkdf2"
+        },
+        {
+            "id": "ado_mysql",
+            "color": "#1f77b4",
+            "desc": "Ada Database Objects (Mysql)"
+        },
+        {
+            "id": "rclada_examples",
+            "color": "#1f77b4",
+            "desc": "ROS2 Ada Client Library - Examples"
+        },
+        {
+            "id": "pico_examples",
+            "color": "darkcyan",
+            "desc": "Examples for Ada on the Raspberry Pi Pico"
+        },
+        {
+            "id": "lace",
+            "color": "#1f77b4",
+            "desc": "Contains a set of low level re-usable Ada components."
+        },
+        {
+            "id": "rp2040_hal",
+            "color": "darkcyan",
+            "desc": "Drivers and HAL for the RP2040 micro-controller family"
+        },
+        {
+            "id": "virtapu",
+            "color": "#1f77b4",
+            "desc": "A virtual Audio Processing Unit to simulate 8-bit era game sounds"
+        },
+        {
+            "id": "musicplayer",
+            "color": "#1f77b4",
+            "desc": "A Music Player"
+        },
+        {
+            "id": "image_random",
+            "color": "#1f77b4",
+            "desc": "True random numbers from a digital camera "
+        },
+        {
+            "id": "aws",
+            "color": "#1f77b4",
+            "desc": "Ada Web Server"
+        },
+        {
+            "id": "gnatcoll_iconv",
+            "color": "#1f77b4",
+            "desc": "GNAT Components Collection - iconv binding"
+        },
+        {
+            "id": "euler_tools",
+            "color": "#1f77b4",
+            "desc": "Assortment of mathematical functions to solve Project Euler problems."
+        },
+        {
+            "id": "trendy_test",
+            "color": "#1f77b4",
+            "desc": "Minimal Effort Ada Unit Testing Library"
+        },
+        {
+            "id": "felix",
+            "color": "#1f77b4",
+            "desc": "X/Open Native Language System (NLS) for Ada"
+        },
+        {
+            "id": "serverfaces",
+            "color": "#1f77b4",
+            "desc": "Web Server Faces JSR 252, JSR 314 and JSR 344"
+        },
+        {
+            "id": "c_strings",
+            "color": "#1f77b4",
+            "desc": "Manage Ada <-> C string conversions conveniently"
+        },
+        {
+            "id": "ephemeris",
+            "color": "#1f77b4",
+            "desc": "Library for reading astronomical ephemerides from JPL DE200 files"
+        },
+        {
+            "id": "a0b_armv7m_systick_clock",
+            "color": "darkcyan",
+            "desc": "A0B Monotonic Clock by ARMv7M SysTick"
+        },
+        {
+            "id": "texts",
+            "color": "#1f77b4",
+            "desc": "A no-frills library to deal with Unicode texts in Ada 2012"
+        },
+        {
+            "id": "mcp2221",
+            "color": "darkcyan",
+            "desc": "MCP2221 USB Raw HID I/O Expander Library for GNAT Ada"
+        },
+        {
+            "id": "orka_plugin_atmosphere",
+            "color": "#1f77b4",
+            "desc": "Orka plug-in for precomputed atmospheric scattering"
+        },
+        {
+            "id": "strategy",
+            "color": "#1f77b4",
+            "desc": "Property-based testing framework"
+        },
+        {
+            "id": "ada_gui",
+            "color": "#1f77b4",
+            "desc": "An Ada-oriented GUI"
+        },
+        {
+            "id": "matreshka_league",
+            "color": "#1f77b4",
+            "desc": "League - universal string library. Part of Matreshka framework"
+        },
+        {
+            "id": "orka",
+            "color": "#1f77b4",
+            "desc": "OpenGL 4.6 rendering kernel written in Ada 2012"
+        },
+        {
+            "id": "toml_slicer",
+            "color": "#1f77b4",
+            "desc": "Edit TOML files directly without parsing"
+        },
+        {
+            "id": "ada_toml",
+            "color": "#1f77b4",
+            "desc": "TOML parser for Ada"
+        },
+        {
+            "id": "hungarian",
+            "color": "#1f77b4",
+            "desc": "Ada wrapper for the fast Stachniss' Hungarian solver"
+        },
+        {
+            "id": "optional",
+            "color": "#1f77b4",
+            "desc": "Optional values a la java.lang.Optional"
+        },
+        {
+            "id": "gnatcoll_gmp",
+            "color": "#1f77b4",
+            "desc": "GNAT Components Collection - GNU Multiple Precision Arithmetic binding"
+        },
+        {
+            "id": "gnatformat",
+            "color": "#1f77b4",
+            "desc": "Opinionated code formatter for the Ada language"
+        },
+        {
+            "id": "gnat_arm_elf",
+            "color": "#1f77b4",
+            "desc": "The GNAT Ada compiler - ARM cross-compiler"
+        },
+        {
+            "id": "bar_code_drawing",
+            "color": "#1f77b4",
+            "desc": "Creation of bar codes and qr codes"
+        },
+        {
+            "id": "exsytrawo",
+            "color": "#1f77b4",
+            "desc": "Exception Symbolic Traceback Workaround for macOS"
+        },
+        {
+            "id": "canberra_ada",
+            "color": "#1f77b4",
+            "desc": "Ada 2012 bindings for libcanberra"
+        },
+        {
+            "id": "hp41cx_tools",
+            "color": "#1f77b4",
+            "desc": "Cross-platform tools to supercharge your HP-41CX emulator experience"
+        },
+        {
+            "id": "getopt",
+            "color": "#1f77b4",
+            "desc": "POSIX getopt(3) for Ada"
+        },
+        {
+            "id": "wikibook",
+            "color": "#1f77b4",
+            "desc": "WikiBook Ada Programing"
+        },
+        {
+            "id": "elada",
+            "color": "#1f77b4",
+            "desc": "Expression Language Library (JSR245)"
+        },
+        {
+            "id": "press_utils",
+            "color": "#1f77b4",
+            "desc": "Some utilities and a pretty complete argparse framework"
+        },
+        {
+            "id": "pbkdf2",
+            "color": "#1f77b4",
+            "desc": "PBKDF2 implemented in Ada"
+        },
+        {
+            "id": "hexapod_simulation_telemetry",
+            "color": "#1f77b4",
+            "desc": "Phoenyx Hexapod Simulation/Telemetry GUI"
+        },
+        {
+            "id": "muntsos_beaglebone",
+            "color": "darkcyan",
+            "desc": "MuntsOS Embedded Linux support for BeagleBone targets"
+        },
+        {
+            "id": "win32ada",
+            "color": "#1f77b4",
+            "desc": "Ada API to the Windows library"
+        },
+        {
+            "id": "tresses",
+            "color": "darkcyan",
+            "desc": "Synth library inspired by Mutable Instruments Braids"
+        },
+        {
+            "id": "simh_tapes",
+            "color": "#1f77b4",
+            "desc": "Library to handle SimH Standard magnetic tape image files"
+        },
+        {
+            "id": "libadalang",
+            "color": "#1f77b4",
+            "desc": "Ada semantic analysis library"
+        },
+        {
+            "id": "pico_bsp",
+            "color": "darkcyan",
+            "desc": "Board support package for Raspberry Pi Pico"
+        },
+        {
+            "id": "lace_box2d",
+            "color": "#1f77b4",
+            "desc": "Provides a thin Ada binding to the 'box2d' C++ project."
+        },
+        {
+            "id": "itsybitsy_rp2040_bsp",
+            "color": "darkcyan",
+            "desc": "Board support package for Arduino ItsyBitsy RP2040"
+        },
+        {
+            "id": "json",
+            "color": "#1f77b4",
+            "desc": "An Ada 2012 library for parsing JSON"
+        },
+        {
+            "id": "texcad",
+            "color": "#1f77b4",
+            "desc": "TeXCAD is a program for drawing or retouching {picture}s in LaTeX"
+        },
+        {
+            "id": "axmpp",
+            "color": "#1f77b4",
+            "desc": "XMPP client library in Ada"
+        },
+        {
+            "id": "hnumerics",
+            "color": "#1f77b4",
+            "desc": "Operations for dual numbers"
+        },
+        {
+            "id": "cortex_m",
+            "color": "darkcyan",
+            "desc": "Drivers for Cortex-M micro-controllers (NVIC, SysTick, etc.)"
+        },
+        {
+            "id": "orka_tools",
+            "color": "#1f77b4",
+            "desc": "Tools for the Orka rendering kernel"
+        },
+        {
+            "id": "akt",
+            "color": "#1f77b4",
+            "desc": "Ada Keystore Tool"
+        },
+        {
+            "id": "umwi",
+            "color": "#1f77b4",
+            "desc": "Unicode Monospace Width Information"
+        },
+        {
+            "id": "loga",
+            "color": "#1f77b4",
+            "desc": "Simple library for simple logging. Like npm package \"debug\", but for Ada"
+        },
+        {
+            "id": "avrada_lib",
+            "color": "darkcyan",
+            "desc": "Library of drivers for AVR microcontrollers"
+        },
+        {
+            "id": "mos6502_create_nop",
+            "color": "#1f77b4",
+            "desc": "Create NOP ROM"
+        },
+        {
+            "id": "swan",
+            "color": "#1f77b4",
+            "desc": "Stuff We All Need - utilities collection for ada"
+        },
+        {
+            "id": "wayland_egl_ada",
+            "color": "#1f77b4",
+            "desc": "Ada 2012 bindings for libwayland-egl"
+        },
+        {
+            "id": "gtkada",
+            "color": "#1f77b4",
+            "desc": "An Ada graphical toolkit based on Gtk+"
+        },
+        {
+            "id": "lace_bullet",
+            "color": "#1f77b4",
+            "desc": "Provides a thin Ada binding to the 'bullet' C++ project."
+        },
+        {
+            "id": "a0b_time",
+            "color": "darkcyan",
+            "desc": "A0B Monotonic Time"
+        },
+        {
+            "id": "excel_writer",
+            "color": "#1f77b4",
+            "desc": "Produce Excel spreadsheets"
+        },
+        {
+            "id": "evdev",
+            "color": "#1f77b4",
+            "desc": "Library for input devices and force-feedback using Linux' evdev API"
+        },
+        {
+            "id": "wioe5_p2p",
+            "color": "darkcyan",
+            "desc": "Wio-E5 LoRa Transceiver Module P2P Mode Device Driver"
+        },
+        {
+            "id": "shoot_n_loot",
+            "color": "#1f77b4",
+            "desc": "Platform game for the AdaFruit PyGamer console"
+        },
+        {
+            "id": "a0b_atsam3x8e",
+            "color": "darkcyan",
+            "desc": "ATSAM3X8E base and SVD package"
+        },
+        {
+            "id": "coap_client",
+            "color": "purple",
+            "desc": "Client program for the CoAP-SPARK library."
+        },
+        {
+            "id": "servletada_aws",
+            "color": "#1f77b4",
+            "desc": "Web Servlet Library following JSR 154, JSR 315 (AWS)"
+        },
+        {
+            "id": "gnatcoll_postgres",
+            "color": "#1f77b4",
+            "desc": "GNAT Components Collection - postgres"
+        },
+        {
+            "id": "qplt",
+            "color": "#1f77b4",
+            "desc": "An Ada-GUI program to quickly produce a plot of a data set"
+        },
+        {
+            "id": "ppag",
+            "color": "#1f77b4",
+            "desc": "First steps with Gnoga"
+        },
+        {
+            "id": "hostarm",
+            "color": "#1f77b4",
+            "desc": "Local hosting of Ada Reference Manual (ARM)"
+        },
+        {
+            "id": "emojis",
+            "color": "#1f77b4",
+            "desc": "A library to replace names between colons with emojis"
+        },
+        {
+            "id": "aoa_22",
+            "color": "#1f77b4",
+            "desc": "Advent of Ada 22 Solutions"
+        },
+        {
+            "id": "security",
+            "color": "#1f77b4",
+            "desc": "Security Library for HTTP client and server with OAuth2 support"
+        },
+        {
+            "id": "orka_awt",
+            "color": "#1f77b4",
+            "desc": "Ada Window Toolkit"
+        },
+        {
+            "id": "z_compression",
+            "color": "#1f77b4",
+            "desc": "Standalone version of the Zlib Deflate compression algorithm"
+        },
+        {
+            "id": "adacl_sar",
+            "color": "#1f77b4",
+            "desc": "AdaCL: Search and Replace with Wide/Wide-Wide Support"
+        },
+        {
+            "id": "amqp",
+            "color": "#1f77b4",
+            "desc": "AMQP 0-9-1 client library for Ada"
+        },
+        {
+            "id": "lined",
+            "color": "#1f77b4",
+            "desc": "Ada Implementation of the Line Editor from Software Tools"
+        },
+        {
+            "id": "ppa_gtkada",
+            "color": "#1f77b4",
+            "desc": "Tutorials for GTKAda"
+        },
+        {
+            "id": "powerjoular",
+            "color": "#1f77b4",
+            "desc": "Monitoring the power consumption of multiple platforms and processes"
+        },
+        {
+            "id": "matreshka_amf_dd",
+            "color": "#1f77b4",
+            "desc": "Diagram Definition (DD) specification support for AMF"
+        },
+        {
+            "id": "zipdcf",
+            "color": "#1f77b4",
+            "desc": "Tools that can (un)zip document container files, Zip-based archive files"
+        },
+        {
+            "id": "libgnatdoc",
+            "color": "#1f77b4",
+            "desc": "GNAT Documentation Generation Tool (as a library)"
+        },
+        {
+            "id": "matreshka_amf_mofext",
+            "color": "#1f77b4",
+            "desc": "The UML mofext for AMF"
+        },
+        {
+            "id": "florist_blady",
+            "color": "#1f77b4",
+            "desc": "POSIX Ada Bindings"
+        },
+        {
+            "id": "light_fk723m1_zgt6",
+            "color": "darkcyan",
+            "desc": "FK723M1-ZGT6 BSP for `light` GNAT Runtime"
+        },
+        {
+            "id": "ethernet",
+            "color": "#1f77b4",
+            "desc": "Root crate for ethernet namespace and MDIO/SMI/MIIM interface"
+        },
+        {
+            "id": "aarch64_baremetal_ada",
+            "color": "#1f77b4",
+            "desc": "AArch64 Baremetal Ada"
+        },
+        {
+            "id": "eeprom_i2c",
+            "color": "darkcyan",
+            "desc": "EEPROM I2C drivers library for embedded platforms"
+        },
+        {
+            "id": "liblal_refactor",
+            "color": "#1f77b4",
+            "desc": "Source code refactoring library for the Ada language"
+        },
+        {
+            "id": "blake2s",
+            "color": "purple",
+            "desc": "SPARK83 implementation of the BLAKE2s hash function"
+        },
+        {
+            "id": "sdlada",
+            "color": "#1f77b4",
+            "desc": "Ada 2012 SDL 2.x bindings."
+        },
+        {
+            "id": "muntsos_raspberrypi2",
+            "color": "darkcyan",
+            "desc": "MuntsOS Embedded Linux support for RaspberryPi2 targets"
+        },
+        {
+            "id": "lvgl_ada_simulator",
+            "color": "#1f77b4",
+            "desc": "Native simulator of an LVGL display"
+        },
+        {
+            "id": "light_tasking_rp2350",
+            "color": "darkcyan",
+            "desc": "light-tasking runtime for the RP2350 SoC"
+        },
+        {
+            "id": "adacl",
+            "color": "#1f77b4",
+            "desc": "Ada Class Library: Strings, Tracing, AUnit, Smart Pointers, Getopt"
+        },
+        {
+            "id": "freetypeada",
+            "color": "#1f77b4",
+            "desc": "Thick binding to the FreeType library"
+        },
+        {
+            "id": "bb_pico_bsp",
+            "color": "darkcyan",
+            "desc": "Ada BSP for the Keyboard Featherwing + RPI PICO"
+        },
+        {
+            "id": "orka_plugin_archives",
+            "color": "#1f77b4",
+            "desc": "Orka plug-in to load resources from Zip archives"
+        },
+        {
+            "id": "yeison",
+            "color": "#1f77b4",
+            "desc": "A JSON-like data structure using Ada 2022 features"
+        },
+        {
+            "id": "a0b_i2c",
+            "color": "darkcyan",
+            "desc": "A0B I2C API"
+        },
+        {
+            "id": "muntsos_raspberrypi5",
+            "color": "darkcyan",
+            "desc": "MuntsOS Embedded Linux support for RaspberryPi5 targets"
+        },
+        {
+            "id": "adl_middleware",
+            "color": "darkcyan",
+            "desc": "Middleware layer of the Ada Drivers Library project"
+        },
+        {
+            "id": "sha1",
+            "color": "#1f77b4",
+            "desc": "Secure Hash Algorithm 1 implemented in Ada"
+        },
+        {
+            "id": "septum",
+            "color": "#1f77b4",
+            "desc": "An interactive context-based text search tool for large codebases."
+        },
+        {
+            "id": "parse_args",
+            "color": "#1f77b4",
+            "desc": "An Ada 2012 package to parse command line arguments and options"
+        },
+        {
+            "id": "a0b_timer",
+            "color": "darkcyan",
+            "desc": "A0B Timer"
+        },
+        {
+            "id": "orka_types",
+            "color": "#1f77b4",
+            "desc": "Data types for Orka"
+        },
+        {
+            "id": "ado_postgresql",
+            "color": "#1f77b4",
+            "desc": "Ada Database Objects (PostgreSQL)"
+        },
+        {
+            "id": "pygamer_bsp",
+            "color": "darkcyan",
+            "desc": "Board Support Package for the AdaFruit PyGamer"
+        },
+        {
+            "id": "simple_components",
+            "color": "#1f77b4",
+            "desc": "Simple Components - A collection of support packages"
+        },
+        {
+            "id": "libcrc",
+            "color": "purple",
+            "desc": "Cyclic Redundancy Check (CRC) Library"
+        },
+        {
+            "id": "gid",
+            "color": "#1f77b4",
+            "desc": "Generic Image Decoder - decode a broad variety of image formats"
+        },
+        {
+            "id": "a0b_tools",
+            "color": "#1f77b4",
+            "desc": "A0B Tools: Runtime Generator"
+        },
+        {
+            "id": "specfun",
+            "color": "#1f77b4",
+            "desc": "Native Ada library of special functions (e.g., beta, gamma)"
+        },
+        {
+            "id": "ado",
+            "color": "#1f77b4",
+            "desc": "Ada Database Objects (Core library)"
+        },
+        {
+            "id": "gnatcoll_xref",
+            "color": "#1f77b4",
+            "desc": "GNAT Components Collection - xref"
+        },
+        {
+            "id": "matreshka_spikedog_core",
+            "color": "#1f77b4",
+            "desc": "Web-application server. Implementation library"
+        },
+        {
+            "id": "mdshow",
+            "color": "#1f77b4",
+            "desc": "Markdown show on terminal"
+        },
+        {
+            "id": "libkeccak",
+            "color": "purple",
+            "desc": "SHA-3 and related algorithms"
+        },
+        {
+            "id": "matreshka_amf_utp",
+            "color": "#1f77b4",
+            "desc": "The UML Testing Profile for AMF"
+        },
+        {
+            "id": "wioe5_ham1",
+            "color": "darkcyan",
+            "desc": "Wio-E5 LoRa Transceiver Module Device Driver"
+        },
+        {
+            "id": "hirtos_separation_kernel",
+            "color": "#1f77b4",
+            "desc": "High-Integrity RTOS Separation Kernel"
+        },
+        {
+            "id": "minisamd51_example",
+            "color": "darkcyan",
+            "desc": "Example project for the MiniSAM D51"
+        },
+        {
+            "id": "hello",
+            "color": "#1f77b4",
+            "desc": "'Hello, world!' demonstration project"
+        },
+        {
+            "id": "bit_sets",
+            "color": "#1f77b4",
+            "desc": "A packed boolean array that saves space and is performant"
+        },
+        {
+            "id": "dummyserver",
+            "color": "#1f77b4",
+            "desc": "DummyServer is a terminal program that serves dummy content"
+        },
+        {
+            "id": "dg_loada",
+            "color": "#1f77b4",
+            "desc": "dg_loada loads (restores) legacy DG AOS/VS DUMP_II files"
+        },
+        {
+            "id": "utilada_unit",
+            "color": "#1f77b4",
+            "desc": "Utility Library testing framework with Ahven"
+        },
+        {
+            "id": "itsybitsy_bsp",
+            "color": "darkcyan",
+            "desc": "Board support package for Arduino ItsyBitsy"
+        },
+        {
+            "id": "lace_gel_full_demo",
+            "color": "#1f77b4",
+            "desc": "A demo of most of GEL's features."
+        },
+        {
+            "id": "mage_hat",
+            "color": "#1f77b4",
+            "desc": "A hat that jumps around and behaves magically"
+        },
+        {
+            "id": "gnat_math_extensions",
+            "color": "#1f77b4",
+            "desc": "Eigenvalues, eigenvectors for non-symmetric, non-Hermitian matrices"
+        },
+        {
+            "id": "scatcdsk_lib",
+            "color": "#1f77b4",
+            "desc": "Reusable software components extracted from the SCATC DSK"
+        },
+        {
+            "id": "ada_language_server",
+            "color": "#1f77b4",
+            "desc": "An implementation of the Microsoft's Language Server Protocol for Ada"
+        },
+        {
+            "id": "usb_embedded",
+            "color": "darkcyan",
+            "desc": "An Ada USB stack for embedded devices"
+        },
+        {
+            "id": "azip",
+            "color": "#1f77b4",
+            "desc": "AZip - A portable Zip Archive Manager"
+        },
+        {
+            "id": "lace_c_math",
+            "color": "#1f77b4",
+            "desc": "A binding to the C math code used by box2d & bullet bindings."
+        },
+        {
+            "id": "sparknacl",
+            "color": "purple",
+            "desc": "Verified SPARK 2014 re-implementation of TweetNaCl cryptographic library"
+        },
+        {
+            "id": "a0b_stm32g4",
+            "color": "darkcyan",
+            "desc": "A0B: STM32G4 base support"
+        },
+        {
+            "id": "libadalang_tools",
+            "color": "#1f77b4",
+            "desc": "Ada semantic analysis library extension and tools"
+        },
+        {
+            "id": "alr2appimage",
+            "color": "#1f77b4",
+            "desc": "Tool to create an AppImage executable from an Alire crate"
+        },
+        {
+            "id": "a0b_stm32g474",
+            "color": "darkcyan",
+            "desc": "A0B: STM32G474 base support and SVD files"
+        },
+        {
+            "id": "basalt",
+            "color": "purple",
+            "desc": "Collection of formally verified building blocks"
+        },
+        {
+            "id": "gnatcoll_syslog",
+            "color": "#1f77b4",
+            "desc": "GNAT Components Collection - syslog binding"
+        },
+        {
+            "id": "matreshka_xml",
+            "color": "#1f77b4",
+            "desc": "Library to manipulate with XML streams and documents"
+        },
+        {
+            "id": "gnat_avr_elf",
+            "color": "#1f77b4",
+            "desc": "The GNAT Ada compiler - AVR cross-compiler"
+        },
+        {
+            "id": "light_weact_stm32g474",
+            "color": "darkcyan",
+            "desc": "WeAct STM32G474 BSP for `light` GNAT Runtime"
+        },
+        {
+            "id": "tiled_code_gen",
+            "color": "#1f77b4",
+            "desc": "Generate GESTE data from Tiled maps and tilesets"
+        },
+        {
+            "id": "hybrid_app_ada",
+            "color": "#1f77b4",
+            "desc": "Hybrid DDD/Clean/Hexagonal architecture greeter application in Ada 2022"
+        },
+        {
+            "id": "lispcli",
+            "color": "#1f77b4",
+            "desc": "Simple program for exploring tiny lisp"
+        },
+        {
+            "id": "printer_toolkit",
+            "color": "#1f77b4",
+            "desc": "Printer toolkit to write reports"
+        },
+        {
+            "id": "templates_parser",
+            "color": "#1f77b4",
+            "desc": "Templates Parser: File generation from templates in Ada"
+        },
+        {
+            "id": "splitter",
+            "color": "#1f77b4",
+            "desc": "A function to emulate \"split\" as implemented in Ruby"
+        },
+        {
+            "id": "trendy_terminal",
+            "color": "#1f77b4",
+            "desc": "Terminal options, setup, tab completion and hinting."
+        },
+        {
+            "id": "light_stm32f0xx",
+            "color": "darkcyan",
+            "desc": "light runtime for the STM32F0xx SoC"
+        },
+        {
+            "id": "octet_memory_stream",
+            "color": "#1f77b4",
+            "desc": "Provides a Root_Stream_Type wrapper over an array of octets in memory."
+        },
+        {
+            "id": "task_coroutines",
+            "color": "#1f77b4",
+            "desc": "Coroutines and generators using only standard tasking features"
+        },
+        {
+            "id": "enet_stm32",
+            "color": "#1f77b4",
+            "desc": "ENet driver for STM32"
+        },
+        {
+            "id": "base64",
+            "color": "#1f77b4",
+            "desc": "Base64 encoding/decoding routines"
+        },
+        {
+            "id": "rtmidi",
+            "color": "#1f77b4",
+            "desc": "Ada \"middleweight\" binding for the rtMIDI library"
+        },
+        {
+            "id": "linux_hal",
+            "color": "darkcyan",
+            "desc": "HAL drivers for Linux userspace"
+        },
+        {
+            "id": "gwindows",
+            "color": "#1f77b4",
+            "desc": "GWindows - Ada Framework for Windows Development"
+        },
+        {
+            "id": "avrada_mcu",
+            "color": "darkcyan",
+            "desc": "Device (MCU) specific definitions for AVR microcontrollers"
+        },
+        {
+            "id": "muntsos_raspberrypi1",
+            "color": "darkcyan",
+            "desc": "MuntsOS Embedded Linux support for ARMv6 Raspberry Pi 1 targets"
+        },
+        {
+            "id": "openglada_text",
+            "color": "#1f77b4",
+            "desc": "Text rendering library for OpenGLAda"
+        },
+        {
+            "id": "orka_egl",
+            "color": "#1f77b4",
+            "desc": "Ada 2012 bindings for EGL"
+        },
+        {
+            "id": "audio_base",
+            "color": "#1f77b4",
+            "desc": "Basic Ada packages for audio applications"
+        },
+        {
+            "id": "embedded_rp2350",
+            "color": "darkcyan",
+            "desc": "embedded runtime for the RP2350 SoC"
+        },
+        {
+            "id": "sparkfun_qwiic_motor_driver",
+            "color": "#1f77b4",
+            "desc": "Interface to the SparkFun Qwiic motor driver."
+        },
+        {
+            "id": "awa_unit",
+            "color": "#1f77b4",
+            "desc": "Ada Web Application (Testing framework)"
+        },
+        {
+            "id": "db_maker",
+            "color": "#1f77b4",
+            "desc": "A generic for creating simple DBs (one table in an RDBMS)"
+        }
+    ],
+    "links": [
+        {
+            "source": "light_nrf52833",
+            "target": "gnat_arm_elf",
+            "value": 1
+        },
+        {
+            "source": "startup_gen",
+            "target": "gnatcoll",
+            "value": 1
+        },
+        {
+            "source": "startup_gen",
+            "target": "libgpr",
+            "value": 1
+        },
+        {
+            "source": "startup_gen",
+            "target": "templates_parser",
+            "value": 1
+        },
+        {
+            "source": "a0b_stm32f2_generic_exti",
+            "target": "a0b_exti",
+            "value": 1
+        },
+        {
+            "source": "a0b_stm32f2_generic_exti",
+            "target": "a0b_stm32f2_generic_gpio",
+            "value": 1
+        },
+        {
+            "source": "progress_indicators",
+            "target": "ansiada",
+            "value": 1
+        },
+        {
+            "source": "light_tasking_nrf52840",
+            "target": "gnat_arm_elf",
+            "value": 1
+        },
+        {
+            "source": "lsystem_editor",
+            "target": "gtkada",
+            "value": 1
+        },
+        {
+            "source": "lsystem_editor",
+            "target": "resources",
+            "value": 1
+        },
+        {
+            "source": "openglada_glfw",
+            "target": "openglada",
+            "value": 1
+        },
+        {
+            "source": "utilada_lzma",
+            "target": "lzmada",
+            "value": 1
+        },
+        {
+            "source": "utilada_lzma",
+            "target": "utilada",
+            "value": 1
+        },
+        {
+            "source": "aor_jsona",
+            "target": "aws",
+            "value": 1
+        },
+        {
+            "source": "aor_jsona",
+            "target": "gnatcoll",
+            "value": 1
+        },
+        {
+            "source": "wayland_protocols_ada",
+            "target": "wayland_ada_scanner",
+            "value": 1
+        },
+        {
+            "source": "wayland_protocols_ada",
+            "target": "wayland_client_ada",
+            "value": 1
+        },
+        {
+            "source": "sh1107",
+            "target": "embedded_components",
+            "value": 1
+        },
+        {
+            "source": "matreshka_sql_firebird",
+            "target": "matreshka_league",
+            "value": 1
+        },
+        {
+            "source": "matreshka_sql_firebird",
+            "target": "matreshka_sql",
+            "value": 1
+        },
+        {
+            "source": "emacs_wisitoken_grammar_mode",
+            "target": "emacs_wisi",
+            "value": 1
+        },
+        {
+            "source": "emacs_wisitoken_grammar_mode",
+            "target": "stephes_ada_library",
+            "value": 1
+        },
+        {
+            "source": "emacs_wisitoken_grammar_mode",
+            "target": "wisitoken",
+            "value": 1
+        },
+        {
+            "source": "lace_gel",
+            "target": "lace_opengl",
+            "value": 1
+        },
+        {
+            "source": "lace_gel",
+            "target": "lace_physics",
+            "value": 1
+        },
+        {
+            "source": "lace_gel",
+            "target": "sdlada",
+            "value": 1
+        },
+        {
+            "source": "mcp9808_i2c",
+            "target": "hal",
+            "value": 1
+        },
+        {
+            "source": "emacs_gpr_mode",
+            "target": "emacs_wisi",
+            "value": 1
+        },
+        {
+            "source": "emacs_gpr_mode",
+            "target": "stephes_ada_library",
+            "value": 1
+        },
+        {
+            "source": "emacs_gpr_mode",
+            "target": "wisitoken",
+            "value": 1
+        },
+        {
+            "source": "a0b_stm32f401_i2c",
+            "target": "a0b_i2c",
+            "value": 1
+        },
+        {
+            "source": "a0b_stm32f401_i2c",
+            "target": "a0b_stm32f401_dma",
+            "value": 1
+        },
+        {
+            "source": "a0b_stm32f401_i2c",
+            "target": "a0b_stm32f401_gpio",
+            "value": 1
+        },
+        {
+            "source": "libadalang2xml",
+            "target": "libadalang",
+            "value": 1
+        },
+        {
+            "source": "edc_client",
+            "target": "hal",
+            "value": 1
+        },
+        {
+            "source": "gnatcoll_omp",
+            "target": "gnatcoll_minimal",
+            "value": 1
+        },
+        {
+            "source": "ada_caser",
+            "target": "gnatcoll",
+            "value": 1
+        },
+        {
+            "source": "ada_caser",
+            "target": "langkit_support",
+            "value": 1
+        },
+        {
+            "source": "ada_caser",
+            "target": "libadalang",
+            "value": 1
+        },
+        {
+            "source": "ada_caser",
+            "target": "vss",
+            "value": 1
+        },
+        {
+            "source": "lea",
+            "target": "ini_files",
+            "value": 1
+        },
+        {
+            "source": "lea",
+            "target": "gwindows",
+            "value": 1
+        },
+        {
+            "source": "lea",
+            "target": "zipada",
+            "value": 1
+        },
+        {
+            "source": "lea",
+            "target": "hac",
+            "value": 1
+        },
+        {
+            "source": "matreshka_sql_mysql",
+            "target": "matreshka_league",
+            "value": 1
+        },
+        {
+            "source": "matreshka_sql_mysql",
+            "target": "matreshka_sql",
+            "value": 1
+        },
+        {
+            "source": "langkit_support",
+            "target": "adasat",
+            "value": 1
+        },
+        {
+            "source": "langkit_support",
+            "target": "gnatcoll",
+            "value": 1
+        },
+        {
+            "source": "langkit_support",
+            "target": "gnatcoll_gmp",
+            "value": 1
+        },
+        {
+            "source": "langkit_support",
+            "target": "gnatcoll_iconv",
+            "value": 1
+        },
+        {
+            "source": "langkit_support",
+            "target": "prettier_ada",
+            "value": 1
+        },
+        {
+            "source": "bbs_embed_linux",
+            "target": "bbs",
+            "value": 1
+        },
+        {
+            "source": "bbs_embed_linux",
+            "target": "bbs_embed_common",
+            "value": 1
+        },
+        {
+            "source": "st7789",
+            "target": "adl_middleware",
+            "value": 1
+        },
+        {
+            "source": "st7789",
+            "target": "hal",
+            "value": 1
+        },
+        {
+            "source": "emacs_gpr_query",
+            "target": "gnatcoll",
+            "value": 1
+        },
+        {
+            "source": "emacs_gpr_query",
+            "target": "gnatcoll_sqlite",
+            "value": 1
+        },
+        {
+            "source": "emacs_gpr_query",
+            "target": "gnatcoll_xref",
+            "value": 1
+        },
+        {
+            "source": "orka_plugin_gltf",
+            "target": "json",
+            "value": 1
+        },
+        {
+            "source": "orka_plugin_gltf",
+            "target": "orka",
+            "value": 1
+        },
+        {
+            "source": "orka_plugin_gltf",
+            "target": "orka_transforms",
+            "value": 1
+        },
+        {
+            "source": "microbit_examples",
+            "target": "microbit_bsp",
+            "value": 1
+        },
+        {
+            "source": "cashe",
+            "target": "iso",
+            "value": 1
+        },
+        {
+            "source": "light_stm32g0xx",
+            "target": "gnat_arm_elf",
+            "value": 1
+        },
+        {
+            "source": "globe_3d",
+            "target": "gid",
+            "value": 1
+        },
+        {
+            "source": "globe_3d",
+            "target": "zipada",
+            "value": 1
+        },
+        {
+            "source": "gnatcoll_readline",
+            "target": "gnatcoll_minimal",
+            "value": 1
+        },
+        {
+            "source": "gnatdoc",
+            "target": "libadalang",
+            "value": 1
+        },
+        {
+            "source": "gnatdoc",
+            "target": "libgpr2",
+            "value": 1
+        },
+        {
+            "source": "gnatdoc",
+            "target": "markdown",
+            "value": 1
+        },
+        {
+            "source": "gnatdoc",
+            "target": "vss",
+            "value": 1
+        },
+        {
+            "source": "a0b_armv7m_systick_clock_timer",
+            "target": "a0b_armv7m",
+            "value": 1
+        },
+        {
+            "source": "a0b_armv7m_systick_clock_timer",
+            "target": "a0b_base",
+            "value": 1
+        },
+        {
+            "source": "file_formats_java_class",
+            "target": "byteflippers",
+            "value": 1
+        },
+        {
+            "source": "ada_pretty",
+            "target": "matreshka_league",
+            "value": 1
+        },
+        {
+            "source": "light_arduino_due",
+            "target": "a0b_atsam3x8e",
+            "value": 1
+        },
+        {
+            "source": "gnatcoll_sqlite",
+            "target": "gnatcoll",
+            "value": 1
+        },
+        {
+            "source": "gnatcoll_sqlite",
+            "target": "gnatcoll_sql",
+            "value": 1
+        },
+        {
+            "source": "webif_example",
+            "target": "bbs",
+            "value": 1
+        },
+        {
+            "source": "webif_example",
+            "target": "bbs_webif",
+            "value": 1
+        },
+        {
+            "source": "rejuvenation",
+            "target": "libadalang",
+            "value": 1
+        },
+        {
+            "source": "orka_transforms",
+            "target": "orka_simd",
+            "value": 1
+        },
+        {
+            "source": "orka_transforms",
+            "target": "orka_types",
+            "value": 1
+        },
+        {
+            "source": "blinkenlights",
+            "target": "bbs",
+            "value": 1
+        },
+        {
+            "source": "blinkenlights",
+            "target": "bbs_embed_common",
+            "value": 1
+        },
+        {
+            "source": "blinkenlights",
+            "target": "bbs_embed_linux",
+            "value": 1
+        },
+        {
+            "source": "blinkenlights",
+            "target": "bbs_webif",
+            "value": 1
+        },
+        {
+            "source": "blinkenlights",
+            "target": "bbs_simcpu",
+            "value": 1
+        },
+        {
+            "source": "mold_lib",
+            "target": "ada_toml",
+            "value": 1
+        },
+        {
+            "source": "mold_lib",
+            "target": "simple_logging",
+            "value": 1
+        },
+        {
+            "source": "matreshka_soap_wsse",
+            "target": "matreshka_league",
+            "value": 1
+        },
+        {
+            "source": "matreshka_soap_wsse",
+            "target": "matreshka_soap",
+            "value": 1
+        },
+        {
+            "source": "embedded_nrf52832",
+            "target": "gnat_arm_elf",
+            "value": 1
+        },
+        {
+            "source": "ado_all",
+            "target": "ado",
+            "value": 1
+        },
+        {
+            "source": "simcpucli",
+            "target": "bbs",
+            "value": 1
+        },
+        {
+            "source": "simcpucli",
+            "target": "bbs_lisp",
+            "value": 1
+        },
+        {
+            "source": "simcpucli",
+            "target": "bbs_simcpu",
+            "value": 1
+        },
+        {
+            "source": "bbs_webif",
+            "target": "bbs",
+            "value": 1
+        },
+        {
+            "source": "bbqueue",
+            "target": "atomic",
+            "value": 1
+        },
+        {
+            "source": "adacl_aunit",
+            "target": "adacl",
+            "value": 1
+        },
+        {
+            "source": "adacl_aunit",
+            "target": "aunit",
+            "value": 1
+        },
+        {
+            "source": "light_tasking_stm32g4xx",
+            "target": "gnat_arm_elf",
+            "value": 1
+        },
+        {
+            "source": "clic",
+            "target": "aaa",
+            "value": 1
+        },
+        {
+            "source": "clic",
+            "target": "ada_toml",
+            "value": 1
+        },
+        {
+            "source": "clic",
+            "target": "ansiada",
+            "value": 1
+        },
+        {
+            "source": "clic",
+            "target": "simple_logging",
+            "value": 1
+        },
+        {
+            "source": "scripted_testing",
+            "target": "tash",
+            "value": 1
+        },
+        {
+            "source": "matreshka_soap",
+            "target": "matreshka_league",
+            "value": 1
+        },
+        {
+            "source": "matreshka_soap",
+            "target": "matreshka_xml",
+            "value": 1
+        },
+        {
+            "source": "light_tasking_rp2040",
+            "target": "gnat_arm_elf",
+            "value": 1
+        },
+        {
+            "source": "orka_simd",
+            "target": "orka_types",
+            "value": 1
+        },
+        {
+            "source": "a0b_atsam3x8e_tc5_timer",
+            "target": "a0b_atsam3x8e",
+            "value": 1
+        },
+        {
+            "source": "bme280",
+            "target": "hal",
+            "value": 1
+        },
+        {
+            "source": "vss_extra",
+            "target": "vss_text",
+            "value": 1
+        },
+        {
+            "source": "keypadder",
+            "target": "aws",
+            "value": 1
+        },
+        {
+            "source": "keypadder",
+            "target": "ada_toml",
+            "value": 1
+        },
+        {
+            "source": "gnatcoll_python3",
+            "target": "gnatcoll",
+            "value": 1
+        },
+        {
+            "source": "bbs_simcpu",
+            "target": "bbs",
+            "value": 1
+        },
+        {
+            "source": "lace_collada",
+            "target": "lace_math",
+            "value": 1
+        },
+        {
+            "source": "lace_collada",
+            "target": "lace_xml",
+            "value": 1
+        },
+        {
+            "source": "lml",
+            "target": "ada_toml",
+            "value": 1
+        },
+        {
+            "source": "lml",
+            "target": "json",
+            "value": 1
+        },
+        {
+            "source": "lml",
+            "target": "yeison_12",
+            "value": 1
+        },
+        {
+            "source": "microbit_bsp",
+            "target": "embedded_components",
+            "value": 1
+        },
+        {
+            "source": "microbit_bsp",
+            "target": "hal",
+            "value": 1
+        },
+        {
+            "source": "microbit_bsp",
+            "target": "nrf5x_hal",
+            "value": 1
+        },
+        {
+            "source": "a0b_atsam3x8e_gpio",
+            "target": "a0b_atsam3x8e",
+            "value": 1
+        },
+        {
+            "source": "a0b_atsam3x8e_gpio",
+            "target": "a0b_exti",
+            "value": 1
+        },
+        {
+            "source": "a0b_atsam3x8e_gpio",
+            "target": "a0b_gpio",
+            "value": 1
+        },
+        {
+            "source": "ado_sqlite",
+            "target": "ado",
+            "value": 1
+        },
+        {
+            "source": "wikiada",
+            "target": "utilada",
+            "value": 1
+        },
+        {
+            "source": "bbt",
+            "target": "ansiada",
+            "value": 1
+        },
+        {
+            "source": "gnatcoll_lzma",
+            "target": "gnatcoll_minimal",
+            "value": 1
+        },
+        {
+            "source": "a0b_exti",
+            "target": "a0b_base",
+            "value": 1
+        },
+        {
+            "source": "a0b_exti",
+            "target": "a0b_callbacks",
+            "value": 1
+        },
+        {
+            "source": "midi",
+            "target": "bbqueue",
+            "value": 1
+        },
+        {
+            "source": "midi",
+            "target": "hal",
+            "value": 1
+        },
+        {
+            "source": "ptf",
+            "target": "scatcdsk_lib",
+            "value": 1
+        },
+        {
+            "source": "matreshka_sql_sqlite3",
+            "target": "matreshka_league",
+            "value": 1
+        },
+        {
+            "source": "bbs_lisp",
+            "target": "bbs",
+            "value": 1
+        },
+        {
+            "source": "light_nrf52832",
+            "target": "gnat_arm_elf",
+            "value": 1
+        },
+        {
+            "source": "hmc5883",
+            "target": "hal",
+            "value": 1
+        },
+        {
+            "source": "rpio",
+            "target": "hal",
+            "value": 1
+        },
+        {
+            "source": "matreshka_fastcgi",
+            "target": "matreshka_league",
+            "value": 1
+        },
+        {
+            "source": "light_blackpill_stm32f401",
+            "target": "a0b_stm32f401",
+            "value": 1
+        },
+        {
+            "source": "mine_detector",
+            "target": "ada_gui",
+            "value": 1
+        },
+        {
+            "source": "image_io",
+            "target": "pragmarc",
+            "value": 1
+        },
+        {
+            "source": "image_io",
+            "target": "gid",
+            "value": 1
+        },
+        {
+            "source": "image_io",
+            "target": "crc_32",
+            "value": 1
+        },
+        {
+            "source": "image_io",
+            "target": "z_compression",
+            "value": 1
+        },
+        {
+            "source": "button_led_arduino_due",
+            "target": "a0b_atsam3x8e_gpio",
+            "value": 1
+        },
+        {
+            "source": "button_led_arduino_due",
+            "target": "light_arduino_due",
+            "value": 1
+        },
+        {
+            "source": "apdf",
+            "target": "gid",
+            "value": 1
+        },
+        {
+            "source": "gnatcoll_zlib",
+            "target": "gnatcoll_minimal",
+            "value": 1
+        },
+        {
+            "source": "nrf5x_hal",
+            "target": "cortex_m",
+            "value": 1
+        },
+        {
+            "source": "nrf5x_hal",
+            "target": "gnat_arm_elf",
+            "value": 1
+        },
+        {
+            "source": "nrf5x_hal",
+            "target": "hal",
+            "value": 1
+        },
+        {
+            "source": "coap_spark",
+            "target": "gnatprove",
+            "value": 1
+        },
+        {
+            "source": "coap_spark",
+            "target": "wolfssl",
+            "value": 1
+        },
+        {
+            "source": "coap_spark",
+            "target": "gnat_native",
+            "value": 1
+        },
+        {
+            "source": "a0b_gpio",
+            "target": "a0b_base",
+            "value": 1
+        },
+        {
+            "source": "matreshka_sql",
+            "target": "matreshka_league",
+            "value": 1
+        },
+        {
+            "source": "a0b_armv7m",
+            "target": "a0b_base",
+            "value": 1
+        },
+        {
+            "source": "a0b_armv7m",
+            "target": "gnat_arm_elf",
+            "value": 1
+        },
+        {
+            "source": "protobuf",
+            "target": "ada_pretty",
+            "value": 1
+        },
+        {
+            "source": "protobuf",
+            "target": "matreshka_league",
+            "value": 1
+        },
+        {
+            "source": "servletada_unit",
+            "target": "servletada",
+            "value": 1
+        },
+        {
+            "source": "servletada_unit",
+            "target": "utilada",
+            "value": 1
+        },
+        {
+            "source": "servletada_unit",
+            "target": "utilada_unit",
+            "value": 1
+        },
+        {
+            "source": "zoneinfo",
+            "target": "gnatcoll",
+            "value": 1
+        },
+        {
+            "source": "zoneinfo",
+            "target": "functional",
+            "value": 1
+        },
+        {
+            "source": "zoneinfo",
+            "target": "tzif",
+            "value": 1
+        },
+        {
+            "source": "aaa_texts",
+            "target": "aaa",
+            "value": 1
+        },
+        {
+            "source": "aaa_texts",
+            "target": "ansiada",
+            "value": 1
+        },
+        {
+            "source": "aaa_texts",
+            "target": "lml",
+            "value": 1
+        },
+        {
+            "source": "aaa_texts",
+            "target": "umwi",
+            "value": 1
+        },
+        {
+            "source": "adabots",
+            "target": "utilada_curl",
+            "value": 1
+        },
+        {
+            "source": "adabots",
+            "target": "json",
+            "value": 1
+        },
+        {
+            "source": "embedded_components",
+            "target": "adl_middleware",
+            "value": 1
+        },
+        {
+            "source": "embedded_components",
+            "target": "hal",
+            "value": 1
+        },
+        {
+            "source": "wayland_client_ada",
+            "target": "wayland_ada_scanner",
+            "value": 1
+        },
+        {
+            "source": "hybrid_lib_ada",
+            "target": "functional",
+            "value": 1
+        },
+        {
+            "source": "wordle",
+            "target": "aaa",
+            "value": 1
+        },
+        {
+            "source": "wordle",
+            "target": "ansiada",
+            "value": 1
+        },
+        {
+            "source": "wordle",
+            "target": "wordlelib",
+            "value": 1
+        },
+        {
+            "source": "wordle",
+            "target": "wordlist",
+            "value": 1
+        },
+        {
+            "source": "blink_led_arduino_due",
+            "target": "a0b_armv7m_systick_clock_timer",
+            "value": 1
+        },
+        {
+            "source": "blink_led_arduino_due",
+            "target": "a0b_atsam3x8e_gpio",
+            "value": 1
+        },
+        {
+            "source": "blink_led_arduino_due",
+            "target": "a0b_timer",
+            "value": 1
+        },
+        {
+            "source": "blink_led_arduino_due",
+            "target": "light_arduino_due",
+            "value": 1
+        },
+        {
+            "source": "libgpr2",
+            "target": "gnatcoll",
+            "value": 1
+        },
+        {
+            "source": "libgpr2",
+            "target": "gnatcoll_gmp",
+            "value": 1
+        },
+        {
+            "source": "libgpr2",
+            "target": "gnatcoll_iconv",
+            "value": 1
+        },
+        {
+            "source": "a0b_stm32g474_gpio",
+            "target": "a0b_stm32g474",
+            "value": 1
+        },
+        {
+            "source": "a0b_stm32g474_gpio",
+            "target": "a0b_stm32g4_gpio",
+            "value": 1
+        },
+        {
+            "source": "lace_physics",
+            "target": "lace",
+            "value": 1
+        },
+        {
+            "source": "lace_physics",
+            "target": "lace_box2d",
+            "value": 1
+        },
+        {
+            "source": "lace_physics",
+            "target": "lace_bullet",
+            "value": 1
+        },
+        {
+            "source": "b2ssum",
+            "target": "blake2s",
+            "value": 1
+        },
+        {
+            "source": "orka_tensors_gpu",
+            "target": "orka",
+            "value": 1
+        },
+        {
+            "source": "orka_tensors_gpu",
+            "target": "orka_numerics",
+            "value": 1
+        },
+        {
+            "source": "orka_tensors_gpu",
+            "target": "orka_types",
+            "value": 1
+        },
+        {
+            "source": "openai",
+            "target": "openapi",
+            "value": 1
+        },
+        {
+            "source": "a0b_callbacks",
+            "target": "a0b_base",
+            "value": 1
+        },
+        {
+            "source": "jwt",
+            "target": "matreshka_league",
+            "value": 1
+        },
+        {
+            "source": "openapi",
+            "target": "security",
+            "value": 1
+        },
+        {
+            "source": "openapi",
+            "target": "utilada",
+            "value": 1
+        },
+        {
+            "source": "openapi",
+            "target": "utilada_xml",
+            "value": 1
+        },
+        {
+            "source": "embedded_stm32f0xx",
+            "target": "gnat_arm_elf",
+            "value": 1
+        },
+        {
+            "source": "loadcpm",
+            "target": "bbs",
+            "value": 1
+        },
+        {
+            "source": "button_led_weact_stm32g474",
+            "target": "a0b_stm32g474_gpio",
+            "value": 1
+        },
+        {
+            "source": "button_led_weact_stm32g474",
+            "target": "light_weact_stm32g474",
+            "value": 1
+        },
+        {
+            "source": "a0b_stm32h723",
+            "target": "a0b_armv7m",
+            "value": 1
+        },
+        {
+            "source": "gnatcoll_python",
+            "target": "gnatcoll",
+            "value": 1
+        },
+        {
+            "source": "lace_xml",
+            "target": "lace_shared",
+            "value": 1
+        },
+        {
+            "source": "audio_wavefiles",
+            "target": "audio_base",
+            "value": 1
+        },
+        {
+            "source": "libgpr",
+            "target": "xmlada",
+            "value": 1
+        },
+        {
+            "source": "mos6502_create_led",
+            "target": "adacl",
+            "value": 1
+        },
+        {
+            "source": "svd2ada",
+            "target": "xmlada",
+            "value": 1
+        },
+        {
+            "source": "lace_math",
+            "target": "lace_shared",
+            "value": 1
+        },
+        {
+            "source": "spdx_tool",
+            "target": "ada_toml",
+            "value": 1
+        },
+        {
+            "source": "spdx_tool",
+            "target": "ansiada",
+            "value": 1
+        },
+        {
+            "source": "spdx_tool",
+            "target": "intl",
+            "value": 1
+        },
+        {
+            "source": "spdx_tool",
+            "target": "printer_toolkit",
+            "value": 1
+        },
+        {
+            "source": "spdx_tool",
+            "target": "sciada",
+            "value": 1
+        },
+        {
+            "source": "spdx_tool",
+            "target": "spdx",
+            "value": 1
+        },
+        {
+            "source": "spdx_tool",
+            "target": "utilada",
+            "value": 1
+        },
+        {
+            "source": "spdx_tool",
+            "target": "utilada_xml",
+            "value": 1
+        },
+        {
+            "source": "spdx_tool",
+            "target": "magicada",
+            "value": 1
+        },
+        {
+            "source": "blink_led_weact_stm32g474",
+            "target": "a0b_armv7m_systick_clock_timer",
+            "value": 1
+        },
+        {
+            "source": "blink_led_weact_stm32g474",
+            "target": "a0b_stm32g474_gpio",
+            "value": 1
+        },
+        {
+            "source": "blink_led_weact_stm32g474",
+            "target": "a0b_timer",
+            "value": 1
+        },
+        {
+            "source": "blink_led_weact_stm32g474",
+            "target": "light_weact_stm32g474",
+            "value": 1
+        },
+        {
+            "source": "stm32f0x2_hal",
+            "target": "cortex_m",
+            "value": 1
+        },
+        {
+            "source": "stm32f0x2_hal",
+            "target": "gnat_arm_elf",
+            "value": 1
+        },
+        {
+            "source": "stm32f0x2_hal",
+            "target": "hal",
+            "value": 1
+        },
+        {
+            "source": "stm32f0x2_hal",
+            "target": "usb_embedded",
+            "value": 1
+        },
+        {
+            "source": "markdown",
+            "target": "vss",
+            "value": 1
+        },
+        {
+            "source": "gnoga",
+            "target": "simple_components",
+            "value": 1
+        },
+        {
+            "source": "gnoga",
+            "target": "uxstrings",
+            "value": 1
+        },
+        {
+            "source": "a0b_atsam3x8e_twi_i2c",
+            "target": "a0b_atsam3x8e_gpio",
+            "value": 1
+        },
+        {
+            "source": "a0b_atsam3x8e_twi_i2c",
+            "target": "a0b_i2c",
+            "value": 1
+        },
+        {
+            "source": "minirest",
+            "target": "aaa",
+            "value": 1
+        },
+        {
+            "source": "tiny_rp2040_bsp",
+            "target": "rp2040_hal",
+            "value": 1
+        },
+        {
+            "source": "tiny_rp2040_bsp",
+            "target": "gnat_arm_elf",
+            "value": 1
+        },
+        {
+            "source": "light_tasking_nrf52833",
+            "target": "gnat_arm_elf",
+            "value": 1
+        },
+        {
+            "source": "gfx_rasteriser",
+            "target": "gfx_core",
+            "value": 1
+        },
+        {
+            "source": "openglada_images",
+            "target": "gid",
+            "value": 1
+        },
+        {
+            "source": "openglada_images",
+            "target": "openglada",
+            "value": 1
+        },
+        {
+            "source": "lmdb_ada",
+            "target": "gnatcoll",
+            "value": 1
+        },
+        {
+            "source": "wayland_cursor_ada",
+            "target": "wayland_client_ada",
+            "value": 1
+        },
+        {
+            "source": "a0b_stm32f401_gpio",
+            "target": "a0b_exti",
+            "value": 1
+        },
+        {
+            "source": "a0b_stm32f401_gpio",
+            "target": "a0b_gpio",
+            "value": 1
+        },
+        {
+            "source": "a0b_stm32f401_gpio",
+            "target": "a0b_stm32f401",
+            "value": 1
+        },
+        {
+            "source": "pygamer_simulator",
+            "target": "asfml",
+            "value": 1
+        },
+        {
+            "source": "pygamer_simulator",
+            "target": "hal",
+            "value": 1
+        },
+        {
+            "source": "samd51_hal",
+            "target": "cortex_m",
+            "value": 1
+        },
+        {
+            "source": "samd51_hal",
+            "target": "gnat_arm_elf",
+            "value": 1
+        },
+        {
+            "source": "samd51_hal",
+            "target": "hal",
+            "value": 1
+        },
+        {
+            "source": "samd51_hal",
+            "target": "usb_embedded",
+            "value": 1
+        },
+        {
+            "source": "button_led_blackpill_stm32f401",
+            "target": "a0b_stm32f401_gpio",
+            "value": 1
+        },
+        {
+            "source": "button_led_blackpill_stm32f401",
+            "target": "light_blackpill_stm32f401",
+            "value": 1
+        },
+        {
+            "source": "lal_highlight",
+            "target": "gnatcoll_iconv",
+            "value": 1
+        },
+        {
+            "source": "lal_highlight",
+            "target": "libadalang",
+            "value": 1
+        },
+        {
+            "source": "softdev",
+            "target": "hal",
+            "value": 1
+        },
+        {
+            "source": "light_nrf52840",
+            "target": "gnat_arm_elf",
+            "value": 1
+        },
+        {
+            "source": "adacl_eastrings",
+            "target": "adacl",
+            "value": 1
+        },
+        {
+            "source": "yass",
+            "target": "aws",
+            "value": 1
+        },
+        {
+            "source": "yass",
+            "target": "gnatcoll",
+            "value": 1
+        },
+        {
+            "source": "yass",
+            "target": "xmlada",
+            "value": 1
+        },
+        {
+            "source": "mos6502_create_reset",
+            "target": "adacl",
+            "value": 1
+        },
+        {
+            "source": "serverfaces_unit",
+            "target": "security",
+            "value": 1
+        },
+        {
+            "source": "serverfaces_unit",
+            "target": "serverfaces",
+            "value": 1
+        },
+        {
+            "source": "serverfaces_unit",
+            "target": "servletada",
+            "value": 1
+        },
+        {
+            "source": "serverfaces_unit",
+            "target": "servletada_unit",
+            "value": 1
+        },
+        {
+            "source": "serverfaces_unit",
+            "target": "utilada",
+            "value": 1
+        },
+        {
+            "source": "serverfaces_unit",
+            "target": "utilada_unit",
+            "value": 1
+        },
+        {
+            "source": "orka_plugin_terrain",
+            "target": "orka",
+            "value": 1
+        },
+        {
+            "source": "orka_plugin_terrain",
+            "target": "orka_plugin_atmosphere",
+            "value": 1
+        },
+        {
+            "source": "orka_plugin_terrain",
+            "target": "orka_transforms",
+            "value": 1
+        },
+        {
+            "source": "prettier_ada",
+            "target": "gnatcoll",
+            "value": 1
+        },
+        {
+            "source": "prettier_ada",
+            "target": "vss",
+            "value": 1
+        },
+        {
+            "source": "wordlelib",
+            "target": "aaa",
+            "value": 1
+        },
+        {
+            "source": "wayland_ada_info",
+            "target": "wayland_protocols_ada",
+            "value": 1
+        },
+        {
+            "source": "matreshka_servlet",
+            "target": "matreshka_league",
+            "value": 1
+        },
+        {
+            "source": "are",
+            "target": "elada",
+            "value": 1
+        },
+        {
+            "source": "are",
+            "target": "utilada",
+            "value": 1
+        },
+        {
+            "source": "are",
+            "target": "xmlada",
+            "value": 1
+        },
+        {
+            "source": "esp_idf",
+            "target": "hal",
+            "value": 1
+        },
+        {
+            "source": "light_tasking_stm32g0xx",
+            "target": "gnat_arm_elf",
+            "value": 1
+        },
+        {
+            "source": "automate",
+            "target": "uxstrings",
+            "value": 1
+        },
+        {
+            "source": "qmc5883",
+            "target": "hal",
+            "value": 1
+        },
+        {
+            "source": "a0b_stm32f2_generic_gpio",
+            "target": "a0b_gpio",
+            "value": 1
+        },
+        {
+            "source": "ajunitgen",
+            "target": "xml_ez_out",
+            "value": 1
+        },
+        {
+            "source": "vaton",
+            "target": "spark_unbound",
+            "value": 1
+        },
+        {
+            "source": "a0b_stm32f401",
+            "target": "a0b_armv7m",
+            "value": 1
+        },
+        {
+            "source": "gnatcoll",
+            "target": "gnatcoll_minimal",
+            "value": 1
+        },
+        {
+            "source": "encryption_utilities",
+            "target": "pragmarc",
+            "value": 1
+        },
+        {
+            "source": "utilada_aws",
+            "target": "aws",
+            "value": 1
+        },
+        {
+            "source": "utilada_aws",
+            "target": "utilada",
+            "value": 1
+        },
+        {
+            "source": "tzif",
+            "target": "gnatcoll",
+            "value": 1
+        },
+        {
+            "source": "tzif",
+            "target": "functional",
+            "value": 1
+        },
+        {
+            "source": "uuids",
+            "target": "system_random",
+            "value": 1
+        },
+        {
+            "source": "keystoreada",
+            "target": "utilada",
+            "value": 1
+        },
+        {
+            "source": "ews",
+            "target": "xmlada",
+            "value": 1
+        },
+        {
+            "source": "dependency_graph_extractor",
+            "target": "libadalang",
+            "value": 1
+        },
+        {
+            "source": "dashera",
+            "target": "gtkada",
+            "value": 1
+        },
+        {
+            "source": "eagle_lander",
+            "target": "gtkada",
+            "value": 1
+        },
+        {
+            "source": "password_gen",
+            "target": "ada_gui",
+            "value": 1
+        },
+        {
+            "source": "password_gen",
+            "target": "pragmarc",
+            "value": 1
+        },
+        {
+            "source": "wisitoken",
+            "target": "gnatcoll",
+            "value": 1
+        },
+        {
+            "source": "wisitoken",
+            "target": "stephes_ada_library",
+            "value": 1
+        },
+        {
+            "source": "aicwl",
+            "target": "gtkada",
+            "value": 1
+        },
+        {
+            "source": "lal_refactor",
+            "target": "adasat",
+            "value": 1
+        },
+        {
+            "source": "lal_refactor",
+            "target": "gnatcoll",
+            "value": 1
+        },
+        {
+            "source": "lal_refactor",
+            "target": "libadalang",
+            "value": 1
+        },
+        {
+            "source": "lal_refactor",
+            "target": "libadalang_tools",
+            "value": 1
+        },
+        {
+            "source": "lal_refactor",
+            "target": "prettier_ada",
+            "value": 1
+        },
+        {
+            "source": "spat",
+            "target": "si_units",
+            "value": 1
+        },
+        {
+            "source": "x1804",
+            "target": "scatcdsk_lib",
+            "value": 1
+        },
+        {
+            "source": "dynamo",
+            "target": "ado_all",
+            "value": 1
+        },
+        {
+            "source": "dynamo",
+            "target": "ado_mysql",
+            "value": 1
+        },
+        {
+            "source": "dynamo",
+            "target": "ado_postgresql",
+            "value": 1
+        },
+        {
+            "source": "dynamo",
+            "target": "ado_sqlite",
+            "value": 1
+        },
+        {
+            "source": "dynamo",
+            "target": "elada",
+            "value": 1
+        },
+        {
+            "source": "dynamo",
+            "target": "libgpr",
+            "value": 1
+        },
+        {
+            "source": "dynamo",
+            "target": "security",
+            "value": 1
+        },
+        {
+            "source": "dynamo",
+            "target": "serverfaces",
+            "value": 1
+        },
+        {
+            "source": "dynamo",
+            "target": "servletada",
+            "value": 1
+        },
+        {
+            "source": "dynamo",
+            "target": "utilada",
+            "value": 1
+        },
+        {
+            "source": "dynamo",
+            "target": "utilada_xml",
+            "value": 1
+        },
+        {
+            "source": "dynamo",
+            "target": "xmlada",
+            "value": 1
+        },
+        {
+            "source": "program_proofs_in_spark",
+            "target": "gnatprove",
+            "value": 1
+        },
+        {
+            "source": "orka_opengl",
+            "target": "orka_egl",
+            "value": 1
+        },
+        {
+            "source": "orka_opengl",
+            "target": "orka_types",
+            "value": 1
+        },
+        {
+            "source": "play_2048",
+            "target": "asfml",
+            "value": 1
+        },
+        {
+            "source": "play_2048",
+            "target": "ada_toml",
+            "value": 1
+        },
+        {
+            "source": "embedded_rp2040",
+            "target": "gnat_arm_elf",
+            "value": 1
+        },
+        {
+            "source": "lace_gel_animation_demo",
+            "target": "lace_gel",
+            "value": 1
+        },
+        {
+            "source": "orka_numerics",
+            "target": "orka_types",
+            "value": 1
+        },
+        {
+            "source": "embedded_nrf52840",
+            "target": "gnat_arm_elf",
+            "value": 1
+        },
+        {
+            "source": "aho_corasick",
+            "target": "gnatprove",
+            "value": 1
+        },
+        {
+            "source": "spawn_glib",
+            "target": "gtkada",
+            "value": 1
+        },
+        {
+            "source": "utilada_xml",
+            "target": "utilada",
+            "value": 1
+        },
+        {
+            "source": "utilada_xml",
+            "target": "xmlada",
+            "value": 1
+        },
+        {
+            "source": "emacs_wisi",
+            "target": "stephes_ada_library",
+            "value": 1
+        },
+        {
+            "source": "emacs_wisi",
+            "target": "wisitoken",
+            "value": 1
+        },
+        {
+            "source": "light_tasking_nrf52832",
+            "target": "gnat_arm_elf",
+            "value": 1
+        },
+        {
+            "source": "bingada",
+            "target": "gtkada",
+            "value": 1
+        },
+        {
+            "source": "bingada",
+            "target": "asfml",
+            "value": 1
+        },
+        {
+            "source": "hmac",
+            "target": "sha1",
+            "value": 1
+        },
+        {
+            "source": "hmac",
+            "target": "sha2",
+            "value": 1
+        },
+        {
+            "source": "webdriver",
+            "target": "aws",
+            "value": 1
+        },
+        {
+            "source": "webdriver",
+            "target": "matreshka_league",
+            "value": 1
+        },
+        {
+            "source": "rewriters",
+            "target": "libadalang",
+            "value": 1
+        },
+        {
+            "source": "rewriters",
+            "target": "rejuvenation",
+            "value": 1
+        },
+        {
+            "source": "adacl_regexp",
+            "target": "adacl",
+            "value": 1
+        },
+        {
+            "source": "getada",
+            "target": "gnatcoll",
+            "value": 1
+        },
+        {
+            "source": "getada",
+            "target": "zipada",
+            "value": 1
+        },
+        {
+            "source": "iterators",
+            "target": "aaa",
+            "value": 1
+        },
+        {
+            "source": "emdee",
+            "target": "gtkada",
+            "value": 1
+        },
+        {
+            "source": "emdee",
+            "target": "ada_toml",
+            "value": 1
+        },
+        {
+            "source": "libgnatformat",
+            "target": "adasat",
+            "value": 1
+        },
+        {
+            "source": "libgnatformat",
+            "target": "gnatcoll",
+            "value": 1
+        },
+        {
+            "source": "libgnatformat",
+            "target": "libadalang",
+            "value": 1
+        },
+        {
+            "source": "libgnatformat",
+            "target": "prettier_ada",
+            "value": 1
+        },
+        {
+            "source": "jupyter_kernel",
+            "target": "matreshka_league",
+            "value": 1
+        },
+        {
+            "source": "jupyter_kernel",
+            "target": "spawn",
+            "value": 1
+        },
+        {
+            "source": "jupyter_kernel",
+            "target": "zeromq_ada",
+            "value": 1
+        },
+        {
+            "source": "ada_voxel_space_demo",
+            "target": "sdlada",
+            "value": 1
+        },
+        {
+            "source": "cre8or_generic_image_handling_example",
+            "target": "cre8or_generic_image_handling",
+            "value": 1
+        },
+        {
+            "source": "servletada_ews",
+            "target": "ews",
+            "value": 1
+        },
+        {
+            "source": "servletada_ews",
+            "target": "servletada",
+            "value": 1
+        },
+        {
+            "source": "adayaml",
+            "target": "simple_components",
+            "value": 1
+        },
+        {
+            "source": "minisamd51_bsp",
+            "target": "hal",
+            "value": 1
+        },
+        {
+            "source": "minisamd51_bsp",
+            "target": "samd51_hal",
+            "value": 1
+        },
+        {
+            "source": "elevator",
+            "target": "gnatprove",
+            "value": 1
+        },
+        {
+            "source": "lvgl_ada_examples",
+            "target": "lvgl_ada",
+            "value": 1
+        },
+        {
+            "source": "lvgl_ada_examples",
+            "target": "lvgl_ada_simulator",
+            "value": 1
+        },
+        {
+            "source": "a0b_stm32f401_dma",
+            "target": "a0b_base",
+            "value": 1
+        },
+        {
+            "source": "a0b_stm32f401_dma",
+            "target": "a0b_callbacks",
+            "value": 1
+        },
+        {
+            "source": "a0b_stm32f401_dma",
+            "target": "a0b_stm32f401",
+            "value": 1
+        },
+        {
+            "source": "blink_led_blackpill_stm32f401",
+            "target": "a0b_armv7m_systick_clock_timer",
+            "value": 1
+        },
+        {
+            "source": "blink_led_blackpill_stm32f401",
+            "target": "a0b_stm32f401_gpio",
+            "value": 1
+        },
+        {
+            "source": "blink_led_blackpill_stm32f401",
+            "target": "a0b_timer",
+            "value": 1
+        },
+        {
+            "source": "blink_led_blackpill_stm32f401",
+            "target": "light_blackpill_stm32f401",
+            "value": 1
+        },
+        {
+            "source": "awa",
+            "target": "ado",
+            "value": 1
+        },
+        {
+            "source": "awa",
+            "target": "aws",
+            "value": 1
+        },
+        {
+            "source": "awa",
+            "target": "elada",
+            "value": 1
+        },
+        {
+            "source": "awa",
+            "target": "keystoreada",
+            "value": 1
+        },
+        {
+            "source": "awa",
+            "target": "security",
+            "value": 1
+        },
+        {
+            "source": "awa",
+            "target": "serverfaces",
+            "value": 1
+        },
+        {
+            "source": "awa",
+            "target": "servletada",
+            "value": 1
+        },
+        {
+            "source": "awa",
+            "target": "utilada",
+            "value": 1
+        },
+        {
+            "source": "awa",
+            "target": "utilada_xml",
+            "value": 1
+        },
+        {
+            "source": "awa",
+            "target": "wikiada",
+            "value": 1
+        },
+        {
+            "source": "astro",
+            "target": "ephemeris",
+            "value": 1
+        },
+        {
+            "source": "mold",
+            "target": "clic",
+            "value": 1
+        },
+        {
+            "source": "mold",
+            "target": "mold_lib",
+            "value": 1
+        },
+        {
+            "source": "mold",
+            "target": "simple_logging",
+            "value": 1
+        },
+        {
+            "source": "matreshka_sql_postgresql",
+            "target": "matreshka_league",
+            "value": 1
+        },
+        {
+            "source": "lace_opengl",
+            "target": "lace_collada",
+            "value": 1
+        },
+        {
+            "source": "atari_exe_tools",
+            "target": "adacl",
+            "value": 1
+        },
+        {
+            "source": "gnatcoll_sql",
+            "target": "gnatcoll",
+            "value": 1
+        },
+        {
+            "source": "light_stm32g4xx",
+            "target": "gnat_arm_elf",
+            "value": 1
+        },
+        {
+            "source": "bbs_ansiterm",
+            "target": "bbs",
+            "value": 1
+        },
+        {
+            "source": "atari_atr_tools",
+            "target": "adacl",
+            "value": 1
+        },
+        {
+            "source": "matreshka_amf_ocl",
+            "target": "matreshka_amf_uml",
+            "value": 1
+        },
+        {
+            "source": "matreshka_amf_ocl",
+            "target": "matreshka_league",
+            "value": 1
+        },
+        {
+            "source": "labs_solar_system",
+            "target": "mage",
+            "value": 1
+        },
+        {
+            "source": "ashell",
+            "target": "florist_blady",
+            "value": 1
+        },
+        {
+            "source": "matreshka_sql_oracle",
+            "target": "matreshka_league",
+            "value": 1
+        },
+        {
+            "source": "matreshka_sql_oracle",
+            "target": "matreshka_sql",
+            "value": 1
+        },
+        {
+            "source": "servletada",
+            "target": "elada",
+            "value": 1
+        },
+        {
+            "source": "servletada",
+            "target": "security",
+            "value": 1
+        },
+        {
+            "source": "servletada",
+            "target": "utilada",
+            "value": 1
+        },
+        {
+            "source": "servletada",
+            "target": "xmlada",
+            "value": 1
+        },
+        {
+            "source": "emacs_ada_mode",
+            "target": "emacs_wisi",
+            "value": 1
+        },
+        {
+            "source": "emacs_ada_mode",
+            "target": "stephes_ada_library",
+            "value": 1
+        },
+        {
+            "source": "emacs_ada_mode",
+            "target": "wisitoken",
+            "value": 1
+        },
+        {
+            "source": "a0b_stm32g4_gpio",
+            "target": "a0b_stm32f2_generic_exti",
+            "value": 1
+        },
+        {
+            "source": "a0b_stm32g4_gpio",
+            "target": "a0b_stm32g4",
+            "value": 1
+        },
+        {
+            "source": "tiny_text",
+            "target": "hal",
+            "value": 1
+        },
+        {
+            "source": "gpr_unit_provider",
+            "target": "libadalang",
+            "value": 1
+        },
+        {
+            "source": "gpr_unit_provider",
+            "target": "libgpr2",
+            "value": 1
+        },
+        {
+            "source": "anagram",
+            "target": "matreshka_league",
+            "value": 1
+        },
+        {
+            "source": "orka_tensors_cpu",
+            "target": "orka_numerics",
+            "value": 1
+        },
+        {
+            "source": "orka_tensors_cpu",
+            "target": "orka_simd",
+            "value": 1
+        },
+        {
+            "source": "orka_tensors_cpu",
+            "target": "orka_types",
+            "value": 1
+        },
+        {
+            "source": "wordlist",
+            "target": "aaa",
+            "value": 1
+        },
+        {
+            "source": "wordlist",
+            "target": "ada_toml",
+            "value": 1
+        },
+        {
+            "source": "wordlist",
+            "target": "resources",
+            "value": 1
+        },
+        {
+            "source": "embedded_stm32g4xx",
+            "target": "gnat_arm_elf",
+            "value": 1
+        },
+        {
+            "source": "utilada_curl",
+            "target": "utilada",
+            "value": 1
+        },
+        {
+            "source": "noise_nugget_sdk",
+            "target": "midi",
+            "value": 1
+        },
+        {
+            "source": "noise_nugget_sdk",
+            "target": "rp2040_hal",
+            "value": 1
+        },
+        {
+            "source": "suika_programing",
+            "target": "chipmunk2d",
+            "value": 1
+        },
+        {
+            "source": "suika_programing",
+            "target": "raylib",
+            "value": 1
+        },
+        {
+            "source": "suika_programing",
+            "target": "resources",
+            "value": 1
+        },
+        {
+            "source": "embedded_nrf52833",
+            "target": "gnat_arm_elf",
+            "value": 1
+        },
+        {
+            "source": "bbs_embed_common",
+            "target": "bbs",
+            "value": 1
+        },
+        {
+            "source": "matreshka_amf_uml",
+            "target": "matreshka_amf_dd",
+            "value": 1
+        },
+        {
+            "source": "matreshka_amf_uml",
+            "target": "matreshka_league",
+            "value": 1
+        },
+        {
+            "source": "openapi_server",
+            "target": "openapi",
+            "value": 1
+        },
+        {
+            "source": "openapi_server",
+            "target": "security",
+            "value": 1
+        },
+        {
+            "source": "openapi_server",
+            "target": "servletada",
+            "value": 1
+        },
+        {
+            "source": "openapi_server",
+            "target": "utilada",
+            "value": 1
+        },
+        {
+            "source": "openapi_server",
+            "target": "utilada_xml",
+            "value": 1
+        },
+        {
+            "source": "pico_ultrasonic_ranger",
+            "target": "pico_bsp",
+            "value": 1
+        },
+        {
+            "source": "a0b_stm32f401_tim11_timer",
+            "target": "a0b_base",
+            "value": 1
+        },
+        {
+            "source": "a0b_stm32f401_tim11_timer",
+            "target": "a0b_stm32f401",
+            "value": 1
+        },
+        {
+            "source": "matreshka_spikedog_awsd",
+            "target": "aws",
+            "value": 1
+        },
+        {
+            "source": "matreshka_spikedog_awsd",
+            "target": "matreshka_league",
+            "value": 1
+        },
+        {
+            "source": "matreshka_spikedog_awsd",
+            "target": "matreshka_spikedog_core",
+            "value": 1
+        },
+        {
+            "source": "embedded_stm32g0xx",
+            "target": "gnat_arm_elf",
+            "value": 1
+        },
+        {
+            "source": "adagl_gtk3",
+            "target": "gtkada",
+            "value": 1
+        },
+        {
+            "source": "adagl_gtk3",
+            "target": "vss",
+            "value": 1
+        },
+        {
+            "source": "avrada_rts",
+            "target": "gnat_avr_elf",
+            "value": 1
+        },
+        {
+            "source": "xia",
+            "target": "xmlada",
+            "value": 1
+        },
+        {
+            "source": "light_tasking_stm32f0xx",
+            "target": "gnat_arm_elf",
+            "value": 1
+        },
+        {
+            "source": "mage",
+            "target": "sdlada",
+            "value": 1
+        },
+        {
+            "source": "cheddar",
+            "target": "gtkada",
+            "value": 1
+        },
+        {
+            "source": "cheddar",
+            "target": "ocarina_lib",
+            "value": 1
+        },
+        {
+            "source": "cheddar",
+            "target": "xmlada",
+            "value": 1
+        },
+        {
+            "source": "matreshka_spikedog_api",
+            "target": "matreshka_league",
+            "value": 1
+        },
+        {
+            "source": "matreshka_spikedog_api",
+            "target": "matreshka_servlet",
+            "value": 1
+        },
+        {
+            "source": "aoa_23",
+            "target": "pragmarc",
+            "value": 1
+        },
+        {
+            "source": "ltp_305",
+            "target": "hal",
+            "value": 1
+        },
+        {
+            "source": "geste_examples",
+            "target": "geste",
+            "value": 1
+        },
+        {
+            "source": "geste_examples",
+            "target": "sdlada",
+            "value": 1
+        },
+        {
+            "source": "matreshka_amf",
+            "target": "matreshka_league",
+            "value": 1
+        },
+        {
+            "source": "matreshka_amf",
+            "target": "matreshka_xml",
+            "value": 1
+        },
+        {
+            "source": "honki_tonks_zivilisationen",
+            "target": "asfml",
+            "value": 1
+        },
+        {
+            "source": "ado_mysql",
+            "target": "ado",
+            "value": 1
+        },
+        {
+            "source": "rclada_examples",
+            "target": "rclada",
+            "value": 1
+        },
+        {
+            "source": "pico_examples",
+            "target": "chests",
+            "value": 1
+        },
+        {
+            "source": "pico_examples",
+            "target": "pico_bsp",
+            "value": 1
+        },
+        {
+            "source": "lace",
+            "target": "lace_shared",
+            "value": 1
+        },
+        {
+            "source": "rp2040_hal",
+            "target": "atomic",
+            "value": 1
+        },
+        {
+            "source": "rp2040_hal",
+            "target": "cortex_m",
+            "value": 1
+        },
+        {
+            "source": "rp2040_hal",
+            "target": "gnat_arm_elf",
+            "value": 1
+        },
+        {
+            "source": "rp2040_hal",
+            "target": "hal",
+            "value": 1
+        },
+        {
+            "source": "rp2040_hal",
+            "target": "usb_embedded",
+            "value": 1
+        },
+        {
+            "source": "musicplayer",
+            "target": "ada_gui",
+            "value": 1
+        },
+        {
+            "source": "musicplayer",
+            "target": "pragmarc",
+            "value": 1
+        },
+        {
+            "source": "aws",
+            "target": "gnatcoll",
+            "value": 1
+        },
+        {
+            "source": "aws",
+            "target": "xmlada",
+            "value": 1
+        },
+        {
+            "source": "gnatcoll_iconv",
+            "target": "gnatcoll",
+            "value": 1
+        },
+        {
+            "source": "serverfaces",
+            "target": "security",
+            "value": 1
+        },
+        {
+            "source": "serverfaces",
+            "target": "servletada",
+            "value": 1
+        },
+        {
+            "source": "serverfaces",
+            "target": "utilada",
+            "value": 1
+        },
+        {
+            "source": "ephemeris",
+            "target": "resources",
+            "value": 1
+        },
+        {
+            "source": "a0b_armv7m_systick_clock",
+            "target": "a0b_armv7m",
+            "value": 1
+        },
+        {
+            "source": "a0b_armv7m_systick_clock",
+            "target": "a0b_base",
+            "value": 1
+        },
+        {
+            "source": "texts",
+            "target": "aaa",
+            "value": 1
+        },
+        {
+            "source": "texts",
+            "target": "umwi",
+            "value": 1
+        },
+        {
+            "source": "orka_plugin_atmosphere",
+            "target": "orka",
+            "value": 1
+        },
+        {
+            "source": "orka_plugin_atmosphere",
+            "target": "orka_transforms",
+            "value": 1
+        },
+        {
+            "source": "ada_gui",
+            "target": "simple_components",
+            "value": 1
+        },
+        {
+            "source": "orka",
+            "target": "orka_egl",
+            "value": 1
+        },
+        {
+            "source": "orka",
+            "target": "orka_opengl",
+            "value": 1
+        },
+        {
+            "source": "orka",
+            "target": "orka_simd",
+            "value": 1
+        },
+        {
+            "source": "orka",
+            "target": "orka_transforms",
+            "value": 1
+        },
+        {
+            "source": "orka",
+            "target": "orka_types",
+            "value": 1
+        },
+        {
+            "source": "toml_slicer",
+            "target": "aaa",
+            "value": 1
+        },
+        {
+            "source": "gnatcoll_gmp",
+            "target": "gnatcoll_minimal",
+            "value": 1
+        },
+        {
+            "source": "gnatformat",
+            "target": "adasat",
+            "value": 1
+        },
+        {
+            "source": "gnatformat",
+            "target": "gnatcoll",
+            "value": 1
+        },
+        {
+            "source": "gnatformat",
+            "target": "libadalang",
+            "value": 1
+        },
+        {
+            "source": "gnatformat",
+            "target": "prettier_ada",
+            "value": 1
+        },
+        {
+            "source": "bar_code_drawing",
+            "target": "pragmarc",
+            "value": 1
+        },
+        {
+            "source": "bar_code_drawing",
+            "target": "ada_gui",
+            "value": 1
+        },
+        {
+            "source": "bar_code_drawing",
+            "target": "image_io",
+            "value": 1
+        },
+        {
+            "source": "hp41cx_tools",
+            "target": "adacl",
+            "value": 1
+        },
+        {
+            "source": "hp41cx_tools",
+            "target": "adacl_regexp",
+            "value": 1
+        },
+        {
+            "source": "hp41cx_tools",
+            "target": "adacl_sar",
+            "value": 1
+        },
+        {
+            "source": "elada",
+            "target": "utilada",
+            "value": 1
+        },
+        {
+            "source": "pbkdf2",
+            "target": "hmac",
+            "value": 1
+        },
+        {
+            "source": "pbkdf2",
+            "target": "sha1",
+            "value": 1
+        },
+        {
+            "source": "pbkdf2",
+            "target": "sha2",
+            "value": 1
+        },
+        {
+            "source": "hexapod_simulation_telemetry",
+            "target": "adagl_gtk3",
+            "value": 1
+        },
+        {
+            "source": "hexapod_simulation_telemetry",
+            "target": "cgk",
+            "value": 1
+        },
+        {
+            "source": "hexapod_simulation_telemetry",
+            "target": "gtkada",
+            "value": 1
+        },
+        {
+            "source": "tresses",
+            "target": "midi",
+            "value": 1
+        },
+        {
+            "source": "libadalang",
+            "target": "gnatcoll",
+            "value": 1
+        },
+        {
+            "source": "libadalang",
+            "target": "gnatcoll_gmp",
+            "value": 1
+        },
+        {
+            "source": "libadalang",
+            "target": "gnatcoll_iconv",
+            "value": 1
+        },
+        {
+            "source": "libadalang",
+            "target": "langkit_support",
+            "value": 1
+        },
+        {
+            "source": "libadalang",
+            "target": "libgpr2",
+            "value": 1
+        },
+        {
+            "source": "pico_bsp",
+            "target": "rp2040_hal",
+            "value": 1
+        },
+        {
+            "source": "lace_box2d",
+            "target": "lace_c_math",
+            "value": 1
+        },
+        {
+            "source": "itsybitsy_rp2040_bsp",
+            "target": "rp2040_hal",
+            "value": 1
+        },
+        {
+            "source": "itsybitsy_rp2040_bsp",
+            "target": "gnat_arm_elf",
+            "value": 1
+        },
+        {
+            "source": "texcad",
+            "target": "gwindows",
+            "value": 1
+        },
+        {
+            "source": "texcad",
+            "target": "mathpaqs",
+            "value": 1
+        },
+        {
+            "source": "axmpp",
+            "target": "matreshka_league",
+            "value": 1
+        },
+        {
+            "source": "cortex_m",
+            "target": "gnat_arm_elf",
+            "value": 1
+        },
+        {
+            "source": "cortex_m",
+            "target": "hal",
+            "value": 1
+        },
+        {
+            "source": "orka_tools",
+            "target": "orka",
+            "value": 1
+        },
+        {
+            "source": "orka_tools",
+            "target": "orka_awt",
+            "value": 1
+        },
+        {
+            "source": "orka_tools",
+            "target": "orka_plugin_gltf",
+            "value": 1
+        },
+        {
+            "source": "akt",
+            "target": "intl",
+            "value": 1
+        },
+        {
+            "source": "akt",
+            "target": "keystoreada",
+            "value": 1
+        },
+        {
+            "source": "akt",
+            "target": "utilada",
+            "value": 1
+        },
+        {
+            "source": "akt",
+            "target": "ada_fuse",
+            "value": 1
+        },
+        {
+            "source": "avrada_lib",
+            "target": "avrada_mcu",
+            "value": 1
+        },
+        {
+            "source": "avrada_lib",
+            "target": "avrada_rts",
+            "value": 1
+        },
+        {
+            "source": "avrada_lib",
+            "target": "gnat_avr_elf",
+            "value": 1
+        },
+        {
+            "source": "mos6502_create_nop",
+            "target": "adacl",
+            "value": 1
+        },
+        {
+            "source": "wayland_egl_ada",
+            "target": "wayland_client_ada",
+            "value": 1
+        },
+        {
+            "source": "lace_bullet",
+            "target": "lace_c_math",
+            "value": 1
+        },
+        {
+            "source": "a0b_time",
+            "target": "a0b_base",
+            "value": 1
+        },
+        {
+            "source": "shoot_n_loot",
+            "target": "geste",
+            "value": 1
+        },
+        {
+            "source": "shoot_n_loot",
+            "target": "pygamer_bsp",
+            "value": 1
+        },
+        {
+            "source": "shoot_n_loot",
+            "target": "pygamer_simulator",
+            "value": 1
+        },
+        {
+            "source": "shoot_n_loot",
+            "target": "virtapu",
+            "value": 1
+        },
+        {
+            "source": "a0b_atsam3x8e",
+            "target": "a0b_armv7m",
+            "value": 1
+        },
+        {
+            "source": "coap_client",
+            "target": "coap_spark",
+            "value": 1
+        },
+        {
+            "source": "servletada_aws",
+            "target": "aws",
+            "value": 1
+        },
+        {
+            "source": "servletada_aws",
+            "target": "servletada",
+            "value": 1
+        },
+        {
+            "source": "servletada_aws",
+            "target": "utilada_aws",
+            "value": 1
+        },
+        {
+            "source": "gnatcoll_postgres",
+            "target": "gnatcoll",
+            "value": 1
+        },
+        {
+            "source": "gnatcoll_postgres",
+            "target": "gnatcoll_sql",
+            "value": 1
+        },
+        {
+            "source": "qplt",
+            "target": "pragmarc",
+            "value": 1
+        },
+        {
+            "source": "qplt",
+            "target": "ada_gui",
+            "value": 1
+        },
+        {
+            "source": "ppag",
+            "target": "gnoga",
+            "value": 1
+        },
+        {
+            "source": "hostarm",
+            "target": "aws",
+            "value": 1
+        },
+        {
+            "source": "hostarm",
+            "target": "gnatcoll",
+            "value": 1
+        },
+        {
+            "source": "hostarm",
+            "target": "xmlada",
+            "value": 1
+        },
+        {
+            "source": "aoa_22",
+            "target": "pragmarc",
+            "value": 1
+        },
+        {
+            "source": "security",
+            "target": "utilada",
+            "value": 1
+        },
+        {
+            "source": "security",
+            "target": "utilada_xml",
+            "value": 1
+        },
+        {
+            "source": "orka_awt",
+            "target": "evdev",
+            "value": 1
+        },
+        {
+            "source": "orka_awt",
+            "target": "inotify",
+            "value": 1
+        },
+        {
+            "source": "orka_awt",
+            "target": "orka_egl",
+            "value": 1
+        },
+        {
+            "source": "orka_awt",
+            "target": "wayland_client_ada",
+            "value": 1
+        },
+        {
+            "source": "orka_awt",
+            "target": "wayland_cursor_ada",
+            "value": 1
+        },
+        {
+            "source": "orka_awt",
+            "target": "wayland_egl_ada",
+            "value": 1
+        },
+        {
+            "source": "orka_awt",
+            "target": "wayland_protocols_ada",
+            "value": 1
+        },
+        {
+            "source": "orka_awt",
+            "target": "orka",
+            "value": 1
+        },
+        {
+            "source": "orka_awt",
+            "target": "orka_numerics",
+            "value": 1
+        },
+        {
+            "source": "orka_awt",
+            "target": "orka_tensors_cpu",
+            "value": 1
+        },
+        {
+            "source": "orka_awt",
+            "target": "orka_transforms",
+            "value": 1
+        },
+        {
+            "source": "adacl_sar",
+            "target": "adacl",
+            "value": 1
+        },
+        {
+            "source": "lined",
+            "target": "pragmarc",
+            "value": 1
+        },
+        {
+            "source": "ppa_gtkada",
+            "target": "gtkada",
+            "value": 1
+        },
+        {
+            "source": "matreshka_amf_dd",
+            "target": "matreshka_amf",
+            "value": 1
+        },
+        {
+            "source": "matreshka_amf_dd",
+            "target": "matreshka_league",
+            "value": 1
+        },
+        {
+            "source": "zipdcf",
+            "target": "dcf",
+            "value": 1
+        },
+        {
+            "source": "libgnatdoc",
+            "target": "libadalang",
+            "value": 1
+        },
+        {
+            "source": "libgnatdoc",
+            "target": "libgpr2",
+            "value": 1
+        },
+        {
+            "source": "libgnatdoc",
+            "target": "markdown",
+            "value": 1
+        },
+        {
+            "source": "libgnatdoc",
+            "target": "vss",
+            "value": 1
+        },
+        {
+            "source": "matreshka_amf_mofext",
+            "target": "matreshka_amf_uml",
+            "value": 1
+        },
+        {
+            "source": "matreshka_amf_mofext",
+            "target": "matreshka_league",
+            "value": 1
+        },
+        {
+            "source": "light_fk723m1_zgt6",
+            "target": "a0b_stm32h723",
+            "value": 1
+        },
+        {
+            "source": "aarch64_baremetal_ada",
+            "target": "gprbuild",
+            "value": 1
+        },
+        {
+            "source": "eeprom_i2c",
+            "target": "hal",
+            "value": 1
+        },
+        {
+            "source": "liblal_refactor",
+            "target": "libadalang_tools",
+            "value": 1
+        },
+        {
+            "source": "liblal_refactor",
+            "target": "vss",
+            "value": 1
+        },
+        {
+            "source": "lvgl_ada_simulator",
+            "target": "asfml",
+            "value": 1
+        },
+        {
+            "source": "lvgl_ada_simulator",
+            "target": "lvgl_ada",
+            "value": 1
+        },
+        {
+            "source": "light_tasking_rp2350",
+            "target": "gnat_arm_elf",
+            "value": 1
+        },
+        {
+            "source": "bb_pico_bsp",
+            "target": "embedded_components",
+            "value": 1
+        },
+        {
+            "source": "bb_pico_bsp",
+            "target": "lvgl_ada",
+            "value": 1
+        },
+        {
+            "source": "bb_pico_bsp",
+            "target": "pico_bsp",
+            "value": 1
+        },
+        {
+            "source": "orka_plugin_archives",
+            "target": "dcf",
+            "value": 1
+        },
+        {
+            "source": "orka_plugin_archives",
+            "target": "orka",
+            "value": 1
+        },
+        {
+            "source": "a0b_i2c",
+            "target": "a0b_base",
+            "value": 1
+        },
+        {
+            "source": "a0b_i2c",
+            "target": "a0b_callbacks",
+            "value": 1
+        },
+        {
+            "source": "adl_middleware",
+            "target": "hal",
+            "value": 1
+        },
+        {
+            "source": "septum",
+            "target": "dir_iterators",
+            "value": 1
+        },
+        {
+            "source": "septum",
+            "target": "progress_indicators",
+            "value": 1
+        },
+        {
+            "source": "septum",
+            "target": "trendy_terminal",
+            "value": 1
+        },
+        {
+            "source": "septum",
+            "target": "atomic",
+            "value": 1
+        },
+        {
+            "source": "a0b_timer",
+            "target": "a0b_base",
+            "value": 1
+        },
+        {
+            "source": "a0b_timer",
+            "target": "a0b_callbacks",
+            "value": 1
+        },
+        {
+            "source": "a0b_timer",
+            "target": "a0b_time",
+            "value": 1
+        },
+        {
+            "source": "ado_postgresql",
+            "target": "ado",
+            "value": 1
+        },
+        {
+            "source": "pygamer_bsp",
+            "target": "cortex_m",
+            "value": 1
+        },
+        {
+            "source": "pygamer_bsp",
+            "target": "samd51_hal",
+            "value": 1
+        },
+        {
+            "source": "a0b_tools",
+            "target": "a0b_base",
+            "value": 1
+        },
+        {
+            "source": "a0b_tools",
+            "target": "gnatcoll",
+            "value": 1
+        },
+        {
+            "source": "a0b_tools",
+            "target": "vss",
+            "value": 1
+        },
+        {
+            "source": "ado",
+            "target": "utilada",
+            "value": 1
+        },
+        {
+            "source": "ado",
+            "target": "utilada_xml",
+            "value": 1
+        },
+        {
+            "source": "gnatcoll_xref",
+            "target": "gnatcoll",
+            "value": 1
+        },
+        {
+            "source": "gnatcoll_xref",
+            "target": "gnatcoll_iconv",
+            "value": 1
+        },
+        {
+            "source": "gnatcoll_xref",
+            "target": "gnatcoll_sql",
+            "value": 1
+        },
+        {
+            "source": "gnatcoll_xref",
+            "target": "gnatcoll_sqlite",
+            "value": 1
+        },
+        {
+            "source": "matreshka_spikedog_core",
+            "target": "matreshka_league",
+            "value": 1
+        },
+        {
+            "source": "matreshka_spikedog_core",
+            "target": "matreshka_spikedog_api",
+            "value": 1
+        },
+        {
+            "source": "mdshow",
+            "target": "ansiada",
+            "value": 1
+        },
+        {
+            "source": "mdshow",
+            "target": "gid",
+            "value": 1
+        },
+        {
+            "source": "mdshow",
+            "target": "intl",
+            "value": 1
+        },
+        {
+            "source": "mdshow",
+            "target": "printer_toolkit",
+            "value": 1
+        },
+        {
+            "source": "mdshow",
+            "target": "uri_ada",
+            "value": 1
+        },
+        {
+            "source": "mdshow",
+            "target": "utilada",
+            "value": 1
+        },
+        {
+            "source": "mdshow",
+            "target": "utilada_aws",
+            "value": 1
+        },
+        {
+            "source": "mdshow",
+            "target": "wikiada",
+            "value": 1
+        },
+        {
+            "source": "matreshka_amf_utp",
+            "target": "matreshka_amf_uml",
+            "value": 1
+        },
+        {
+            "source": "matreshka_amf_utp",
+            "target": "matreshka_league",
+            "value": 1
+        },
+        {
+            "source": "minisamd51_example",
+            "target": "minisamd51_bsp",
+            "value": 1
+        },
+        {
+            "source": "hello",
+            "target": "libhello",
+            "value": 1
+        },
+        {
+            "source": "dummyserver",
+            "target": "json",
+            "value": 1
+        },
+        {
+            "source": "utilada_unit",
+            "target": "utilada",
+            "value": 1
+        },
+        {
+            "source": "itsybitsy_bsp",
+            "target": "hal",
+            "value": 1
+        },
+        {
+            "source": "itsybitsy_bsp",
+            "target": "rp2040_hal",
+            "value": 1
+        },
+        {
+            "source": "lace_gel_full_demo",
+            "target": "lace_gel",
+            "value": 1
+        },
+        {
+            "source": "mage_hat",
+            "target": "mage",
+            "value": 1
+        },
+        {
+            "source": "ada_language_server",
+            "target": "gnatcoll",
+            "value": 1
+        },
+        {
+            "source": "ada_language_server",
+            "target": "libadalang",
+            "value": 1
+        },
+        {
+            "source": "ada_language_server",
+            "target": "libadalang_tools",
+            "value": 1
+        },
+        {
+            "source": "ada_language_server",
+            "target": "libgnatdoc",
+            "value": 1
+        },
+        {
+            "source": "ada_language_server",
+            "target": "libgnatformat",
+            "value": 1
+        },
+        {
+            "source": "ada_language_server",
+            "target": "liblal_refactor",
+            "value": 1
+        },
+        {
+            "source": "ada_language_server",
+            "target": "prettier_ada",
+            "value": 1
+        },
+        {
+            "source": "ada_language_server",
+            "target": "spawn",
+            "value": 1
+        },
+        {
+            "source": "ada_language_server",
+            "target": "vss",
+            "value": 1
+        },
+        {
+            "source": "usb_embedded",
+            "target": "bbqueue",
+            "value": 1
+        },
+        {
+            "source": "usb_embedded",
+            "target": "hal",
+            "value": 1
+        },
+        {
+            "source": "azip",
+            "target": "ini_files",
+            "value": 1
+        },
+        {
+            "source": "azip",
+            "target": "gwindows",
+            "value": 1
+        },
+        {
+            "source": "azip",
+            "target": "zipada",
+            "value": 1
+        },
+        {
+            "source": "lace_c_math",
+            "target": "lace_math",
+            "value": 1
+        },
+        {
+            "source": "lace_c_math",
+            "target": "lace_swig",
+            "value": 1
+        },
+        {
+            "source": "a0b_stm32g4",
+            "target": "a0b_armv7m",
+            "value": 1
+        },
+        {
+            "source": "libadalang_tools",
+            "target": "libadalang",
+            "value": 1
+        },
+        {
+            "source": "libadalang_tools",
+            "target": "templates_parser",
+            "value": 1
+        },
+        {
+            "source": "libadalang_tools",
+            "target": "vss",
+            "value": 1
+        },
+        {
+            "source": "alr2appimage",
+            "target": "ada_toml",
+            "value": 1
+        },
+        {
+            "source": "alr2appimage",
+            "target": "spoon",
+            "value": 1
+        },
+        {
+            "source": "alr2appimage",
+            "target": "parse_args",
+            "value": 1
+        },
+        {
+            "source": "alr2appimage",
+            "target": "resources",
+            "value": 1
+        },
+        {
+            "source": "a0b_stm32g474",
+            "target": "a0b_stm32g4",
+            "value": 1
+        },
+        {
+            "source": "gnatcoll_syslog",
+            "target": "gnatcoll",
+            "value": 1
+        },
+        {
+            "source": "matreshka_xml",
+            "target": "matreshka_league",
+            "value": 1
+        },
+        {
+            "source": "light_weact_stm32g474",
+            "target": "a0b_stm32g474",
+            "value": 1
+        },
+        {
+            "source": "tiled_code_gen",
+            "target": "apdf",
+            "value": 1
+        },
+        {
+            "source": "tiled_code_gen",
+            "target": "gnatcoll",
+            "value": 1
+        },
+        {
+            "source": "tiled_code_gen",
+            "target": "xmlada",
+            "value": 1
+        },
+        {
+            "source": "hybrid_app_ada",
+            "target": "functional",
+            "value": 1
+        },
+        {
+            "source": "lispcli",
+            "target": "bbs",
+            "value": 1
+        },
+        {
+            "source": "lispcli",
+            "target": "bbs_lisp",
+            "value": 1
+        },
+        {
+            "source": "printer_toolkit",
+            "target": "ansiada",
+            "value": 1
+        },
+        {
+            "source": "templates_parser",
+            "target": "xmlada",
+            "value": 1
+        },
+        {
+            "source": "light_stm32f0xx",
+            "target": "gnat_arm_elf",
+            "value": 1
+        },
+        {
+            "source": "enet_stm32",
+            "target": "cortex_m",
+            "value": 1
+        },
+        {
+            "source": "enet_stm32",
+            "target": "enet",
+            "value": 1
+        },
+        {
+            "source": "enet_stm32",
+            "target": "ethernet",
+            "value": 1
+        },
+        {
+            "source": "linux_hal",
+            "target": "hal",
+            "value": 1
+        },
+        {
+            "source": "avrada_mcu",
+            "target": "avrada_rts",
+            "value": 1
+        },
+        {
+            "source": "avrada_mcu",
+            "target": "gnat_avr_elf",
+            "value": 1
+        },
+        {
+            "source": "openglada_text",
+            "target": "freetypeada",
+            "value": 1
+        },
+        {
+            "source": "openglada_text",
+            "target": "openglada",
+            "value": 1
+        },
+        {
+            "source": "embedded_rp2350",
+            "target": "gnat_arm_elf",
+            "value": 1
+        },
+        {
+            "source": "sparkfun_qwiic_motor_driver",
+            "target": "hal",
+            "value": 1
+        },
+        {
+            "source": "awa_unit",
+            "target": "awa",
+            "value": 1
+        },
+        {
+            "source": "awa_unit",
+            "target": "serverfaces_unit",
+            "value": 1
+        },
+        {
+            "source": "awa_unit",
+            "target": "servletada_unit",
+            "value": 1
+        },
+        {
+            "source": "db_maker",
+            "target": "pragmarc",
+            "value": 1
+        },
+        {
+            "source": "db_maker",
+            "target": "ada_gui",
+            "value": 1
+        }
+    ],
+    "colors": {
+        "default": "#1f77b4",
+        "SPARK": "purple",
+        "Embedded": "darkcyan"
+    }
+}

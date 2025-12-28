@@ -1,0 +1,24 @@
+name: Update gh-pages branch on alire.ada.dev
+on:
+  workflow_dispatch:
+  schedule:
+    - cron:  '0 0 * * *'
+  push:
+    branches:
+      - master
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - uses: alire-project/setup-alire@v5
+    - run: bash -v update-gh-pages.sh
+      env:
+        GITHUB_TOKEN: ${{ secrets.GH_PAGES_UPDATE }}
+
+    - name: Request Github Pages build job
+      run: >-
+        curl -L -X POST
+        -H "Content-Type: application/json"
+        -H "Authorization: token ${{ secrets.GH_PAGES_UPDATE }}"
+        "https://api.github.com/repos/${{ github.repository }}/pages/builds"

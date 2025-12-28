@@ -1,0 +1,5 @@
+---
+layout: badge
+crate: "light_tasking_nrf52833"
+version:  "15.0.0"
+---

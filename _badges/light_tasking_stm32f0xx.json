@@ -1,0 +1,5 @@
+---
+layout: badge
+crate: "light_tasking_stm32f0xx"
+version:  "15.0.0"
+---

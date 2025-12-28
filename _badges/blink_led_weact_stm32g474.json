@@ -1,0 +1,5 @@
+---
+layout: badge
+crate: "blink_led_weact_stm32g474"
+version:  "0.1.0"
+---
