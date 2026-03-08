@@ -35,6 +35,21 @@ of next to each other */
   }
 }
 
+/* Responsive layout - makes the TOC column sticky when read on a large screen */
+
+@media screen and (min-width: 60em) {
+  .doc_toc {
+    position: sticky;
+    top: 0;
+    overflow-y: scroll;
+    height: 100vh;
+    padding: 1em 0;
+  }
+  .doc_content {
+    padding-left: 1em;
+  }
+}
+
 /* Table-of-content style */
 #markdown-toc {
   padding-left: 1em;
@@ -86,7 +101,7 @@ of next to each other */
 
 <br>
 
-{% include_relative configuration.md %}
+{% include_relative settings.md %}
 
 <br>
 
