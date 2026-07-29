@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@master
-    - uses: alire-project/setup-alire@v5
+    - uses: alire-project/setup-alire@v6
     - run: bash -v update-gh-pages.sh
       env:
         GITHUB_TOKEN: ${{ secrets.GH_PAGES_UPDATE }}
