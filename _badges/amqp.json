@@ -1,0 +1,5 @@
+---
+layout: badge
+crate: "amqp"
+version:  "0.3.1"
+---

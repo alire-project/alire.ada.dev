@@ -1,0 +1,5 @@
+---
+layout: badge
+crate: "dependency_graph_extractor"
+version:  "22.0.0"
+---

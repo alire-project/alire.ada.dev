@@ -1,0 +1,5 @@
+---
+layout: badge
+crate: "embedded_stm32g0xx"
+version:  "16.0.0"
+---

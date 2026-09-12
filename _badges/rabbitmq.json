@@ -1,0 +1,5 @@
+---
+layout: badge
+crate: "rabbitmq"
+version:  "0.1.0"
+---
