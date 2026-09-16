@@ -1,0 +1,5 @@
+---
+layout: badge
+crate: "bare_runtime"
+version:  "14.0.0"
+---

@@ -1,0 +1,5 @@
+---
+layout: badge
+crate: "inotify"
+version:  "2.0.1"
+---

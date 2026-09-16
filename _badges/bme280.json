@@ -1,0 +1,5 @@
+---
+layout: badge
+crate: "bme280"
+version:  "1.0.0"
+---

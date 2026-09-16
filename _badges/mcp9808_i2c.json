@@ -1,0 +1,5 @@
+---
+layout: badge
+crate: "mcp9808_i2c"
+version:  "1.0.0"
+---

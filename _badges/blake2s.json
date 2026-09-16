@@ -1,0 +1,5 @@
+---
+layout: badge
+crate: "blake2s"
+version:  "0.1.3"
+---
