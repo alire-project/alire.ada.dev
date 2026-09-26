@@ -1,0 +1,5 @@
+---
+layout: badge
+crate: "zeromq_ada"
+version:  "4.1.5"
+---

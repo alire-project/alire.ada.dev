@@ -1,0 +1,5 @@
+---
+layout: badge
+crate: "rand_sys"
+version:  "0.1.0"
+---
