@@ -1,0 +1,75 @@
+---
+layout: crate
+crate: "distance"
+authors: ["Heziode"]
+maintainers: ["Heziode <heziode@protonmail.com>"]
+licenses: ["Apache-2.0 WITH LLVM-exception"]
+websites: [""]
+tags: ["ada",
+"spark",
+"distance",
+"metrics",
+"algorithms",
+"mathematics",
+"string",
+"similarity",
+"levenshtein",
+"geospatial",
+"high-integrity",
+"alire",
+"data-science"]
+version: "0.1.0"
+short_description: "A formally verified library for calculating numeric, text distances"
+dependencies: []
+configuration_variables: []
+configuration_values: []
+
+---
+# Distance
+
+A formally verified Ada/SPARK library for computing distance and similarity metrics.
+
+## Features
+
+- **Numeric Distances**: Euclidean, Manhattan, Minkowski, Chebyshev, Canberra
+- **Statistical Measures**: Cosine Similarity
+- **Text Distances**: Levenshtein, Damerau-Levenshtein, Hamming, Jaro-Winkler, Sørensen-Dice
+
+## Highlights
+
+- Pure Ada 2012 with SPARK annotations
+- Generic implementations for flexible type support
+- No external dependencies (test suite uses AUnit)
+- Comprehensive preconditions and postconditions
+
+## Usage
+
+```ada
+with Ada.Numerics.Elementary_Functions;
+with Distance.Numeric.Signatures;
+with Distance.Numeric.Euclidean_Generic;
+
+procedure Example is
+   type Float_Vector is array (Positive range <>) of Float;
+
+   package Float_Math is new Ada.Numerics.Elementary_Functions (Float);
+   package Float_Sig is new Distance.Numeric.Signatures
+     (Element_Type => Float,
+      Zero         => 0.0,
+      One          => 1.0,
+      Sqrt         => Float_Math.Sqrt,
+      "**"         => Float_Math."**",
+      Max_Element  => Float'Last);
+
+   function Euclidean is new Distance.Numeric.Euclidean_Generic
+     (Numeric_Ops => Float_Sig, Index_Type => Positive, Vector => Float_Vector);
+
+   D : Float := Euclidean ((0.0, 0.0), (3.0, 4.0));  --  D = 5.0
+begin
+   null;
+end Example;
+```
+
+For fixed-point and integer types, you can use [Spark_Math](https://github.com/adarium-labs/spark_math) to provide the required operations.
+
+
