@@ -1,0 +1,5 @@
+---
+layout: badge
+crate: "nrf5x_hal"
+version:  "0.1.0"
+---

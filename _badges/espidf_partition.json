@@ -1,0 +1,5 @@
+---
+layout: badge
+crate: "espidf_partition"
+version:  "0.1.0"
+---

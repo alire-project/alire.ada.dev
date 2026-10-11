@@ -1,0 +1,5 @@
+---
+layout: badge
+crate: "ado_mysql"
+version:  "2.5.0"
+---

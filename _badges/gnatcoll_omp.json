@@ -1,0 +1,5 @@
+---
+layout: badge
+crate: "gnatcoll_omp"
+version:  "26.0.0"
+---
