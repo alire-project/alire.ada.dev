@@ -1,0 +1,5 @@
+---
+layout: badge
+crate: "hmac_ada"
+version:  "0.2.0"
+---

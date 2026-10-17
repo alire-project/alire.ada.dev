@@ -1,0 +1,5 @@
+---
+layout: badge
+crate: "a0b_stm32g474_gpio"
+version:  "0.1.0"
+---
