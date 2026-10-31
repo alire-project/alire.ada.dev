@@ -1,0 +1,5 @@
+---
+layout: badge
+crate: "cbor_ada"
+version:  "0.3.0"
+---

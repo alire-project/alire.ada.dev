@@ -1,0 +1,5 @@
+<ul>
+  {% for elt in include.list %}
+    <li>{{ elt | xml_escape }}</li>
+  {% endfor %}
+</ul>
