@@ -1,0 +1,5 @@
+---
+layout: badge
+crate: "samd51_hal"
+version:  "0.3.0"
+---

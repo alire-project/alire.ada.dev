@@ -1,0 +1,5 @@
+---
+layout: badge
+crate: "ado_sqlite"
+version:  "2.5.0"
+---

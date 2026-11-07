@@ -1,0 +1,5 @@
+---
+layout: badge
+crate: "crdt"
+version:  "1.12.0"
+---

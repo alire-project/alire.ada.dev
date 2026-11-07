@@ -1,0 +1,26 @@
+---
+layout: compress
+---
+
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+{%- include head.html -%}
+
+<body>
+    <div class="container-fluid">
+
+        {%- include header.html -%}
+
+        <div class="col-lg-12">
+
+            {{ content }}
+
+        </div>
+
+        {%- include footer.html -%}
+
+    </div>
+</body>
+
+</html>
