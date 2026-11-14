@@ -1,0 +1,5 @@
+---
+layout: badge
+crate: "openai"
+version:  "1.0.0"
+---
