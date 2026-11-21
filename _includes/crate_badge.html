@@ -1,0 +1,5 @@
+{% assign crate_link = '/crates/' | append: include.name | downcase | absolute_url %}
+<div class="crate-badge">
+  <span>{{ site.data.badge.logoSvg }}<a href="{{ crate_link }}">{{ include.name | downcase}}</a></span>
+  <span>{{ include.version }}</span>
+</div>

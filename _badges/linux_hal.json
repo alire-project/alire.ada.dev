@@ -1,0 +1,5 @@
+---
+layout: badge
+crate: "linux_hal"
+version:  "1.2.0"
+---

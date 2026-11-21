@@ -1,0 +1,5 @@
+---
+layout: badge
+crate: "rand_xoshiro256"
+version:  "0.1.0"
+---

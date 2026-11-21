@@ -1,0 +1,5 @@
+---
+layout: badge
+crate: "gnatcov_bin"
+version:  "26.2.1"
+---
