@@ -1,0 +1,5 @@
+---
+layout: badge
+crate: "rand_bigints"
+version:  "0.2.0"
+---

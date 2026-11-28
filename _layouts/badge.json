@@ -1,0 +1,7 @@
+{
+    "schemaVersion": 1,
+    "label": "{{ page.crate }}",
+    "message": "{{ page.version }}",
+    "logoSvg": {{ site.data.badge.logoSvg | jsonify }},
+    "color": "9cf"
+}
